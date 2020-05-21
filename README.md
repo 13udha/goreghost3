@@ -1,3 +1,2 @@
-# goreghost3
-Maybe this time 
-with Unity and Github ♥
+# goreghost3-maybethistime
+This time with unity and Github ♥
