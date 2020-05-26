@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -57,6 +58,11 @@ namespace Com.UCI307.GOREGHOST3
         public void Back()
         {
             SetMenuByID(lastMenu);
+        }
+
+        public void LoadScene(string s)
+        {
+            SceneManager.LoadScene(s);
         }
         #endregion
     }
