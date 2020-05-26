@@ -395,7 +395,7 @@ PrefabInstance:
     - target: {fileID: 4648351510661994342, guid: ecf8d11cc3e68f74cb3a6b97afe1a852,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4648351510661994342, guid: ecf8d11cc3e68f74cb3a6b97afe1a852,
         type: 3}
@@ -410,7 +410,7 @@ PrefabInstance:
     - target: {fileID: 4648351510661994342, guid: ecf8d11cc3e68f74cb3a6b97afe1a852,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetMenuByID
+      value: Back
       objectReference: {fileID: 0}
     - target: {fileID: 4648351510661994342, guid: ecf8d11cc3e68f74cb3a6b97afe1a852,
         type: 3}
@@ -1358,7 +1358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1979187884
 RectTransform:
   m_ObjectHideFlags: 0

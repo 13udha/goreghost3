@@ -13,11 +13,20 @@ namespace Com.UCI307.GOREGHOST3
 
         #endregion
 
+        #region PrivateFields
+
+        private int lastMenu;
+        private int currentMenu;
+
+        #endregion
+
         #region Monobehaviour Callbacks
         // Start is called before the first frame update
         void Start()
         {
             SetMenuByID(startingMenu);
+            currentMenu = 0;
+            lastMenu = 0;
         }
 
         // Update is called once per frame
@@ -31,16 +40,23 @@ namespace Com.UCI307.GOREGHOST3
 
         public void SetMenuByID(int i)
         {
+            lastMenu = currentMenu;
             foreach (GameObject g in menus)
             {
                 g.SetActive(false);
             }
+            currentMenu = i;
             menus[i].SetActive(true);
         }
 
         public void ExitApplication()
         {
             Application.Quit();
+        }
+
+        public void Back()
+        {
+            SetMenuByID(lastMenu);
         }
         #endregion
     }
