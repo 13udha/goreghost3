@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aa6ca7d166d2c5488a9f8f40ccb920e, type: 3}
-  m_Name: PlayerData
+  m_Script: {fileID: 11500000, guid: 2909634819e489643887a299643f0703, type: 3}
+  m_Name: SaveSystem
   m_EditorClassIdentifier: 
-  playerName: Steeeeve
+  player: {fileID: 11400000, guid: 09e318ec44a5135488aebfbdfb7b5162, type: 2}
+  filePath: /
+  fileName: savefile
+  fileEnding: save
