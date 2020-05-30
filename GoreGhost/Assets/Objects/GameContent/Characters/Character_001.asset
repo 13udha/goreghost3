@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 298546b7a33a00348bcb76016f2b8262, type: 3}
   m_Name: Character_001
   m_EditorClassIdentifier: 
+  characterName: Bob the Blob
+  health: 75
+  energy: 100
+  description: hes bob the mob. was once in the mob
+  isUnlocked: 1
+  prefab: {fileID: 0}

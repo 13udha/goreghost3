@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 298546b7a33a00348bcb76016f2b8262, type: 3}
   m_Name: Character_000
   m_EditorClassIdentifier: 
+  characterName: Steve the Slime
+  health: 100
+  energy: 75
+  description: he ssteve the slime. was once a mime
+  isUnlocked: 1
+  prefab: {fileID: 0}

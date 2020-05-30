@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c869a972d0911439a1f0e9ad8f984f, type: 3}
   m_Name: Player4
   m_EditorClassIdentifier: 
+  isPlaying: 1
+  playerID: 4
+  playerColo: {r: 0, g: 1, b: 0, a: 0}
