@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aa6ca7d166d2c5488a9f8f40ccb920e, type: 3}
-  m_Name: PlayerData
+  m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
+  m_Name: Level001Data
   m_EditorClassIdentifier: 
-  playerName: fredi
-  startDate: 16:24:12
-  lastSave: 16:24:45
-  gameState: 0
+  levelName: The Seconduru
+  sceneName: Level_001
+  isUnlocked: 0
