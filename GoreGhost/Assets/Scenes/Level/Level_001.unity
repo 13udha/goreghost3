@@ -437,7 +437,7 @@ PrefabInstance:
     - target: {fileID: 5538988561179912481, guid: 817104aaf07a7fd458109be81b250066,
         type: 3}
       propertyPath: m_Name
-      value: HUDPanel
+      value: PlayerStatusDisplay
       objectReference: {fileID: 0}
     - target: {fileID: 5538988561179912482, guid: 817104aaf07a7fd458109be81b250066,
         type: 3}
