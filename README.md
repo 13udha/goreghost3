@@ -2,4 +2,4 @@
 This time with unity and Github ♥
 
 # Wiki
-[Player](../MDWiki/Player.md) Spieler Eigenschaften
+[Player](../MDWiki/Player) Spieler Eigenschaften
