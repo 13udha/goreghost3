@@ -15,4 +15,4 @@ MonoBehaviour:
   player: {fileID: 11400000, guid: 09e318ec44a5135488aebfbdfb7b5162, type: 2}
   filePath: /
   fileName: savefile
-  fileEnding: save
+  fileEnding: uci

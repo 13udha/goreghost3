@@ -28,7 +28,9 @@ namespace Com.UCI307.GOREGHOST3
 
         public void SaveGameState()
         {
+
             SaveFile save = PlayerToSave();
+            player.lastSave = DateTime.Now.ToLongTimeString();
             BinaryFormatter formatter = new BinaryFormatter();
             string path = Application.persistentDataPath + filePath + fileName + "." + fileEnding;
             FileStream stream = new FileStream(path, FileMode.Create);
@@ -38,7 +40,7 @@ namespace Com.UCI307.GOREGHOST3
 
         public void LoadGameState()
         {
-            string path = Application.persistentDataPath + filePath + fileName + fileEnding;
+            string path = Application.persistentDataPath + filePath + fileName + "." +fileEnding;
             
             if (File.Exists(path))
             {
@@ -78,7 +80,7 @@ namespace Com.UCI307.GOREGHOST3
             //Straight Variable Transfers
             save.playerName = player.playerName;
             save.startDate = player.startDate;
-            save.lastSave = DateTime.Now.ToLongDateString();
+            save.lastSave = DateTime.Now.ToLongTimeString();
             save.newGame = player.newGame;
 
             //return
