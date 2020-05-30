@@ -70,7 +70,7 @@ namespace Com.UCI307.GOREGHOST3
             player.playerName = save.playerName;
             player.startDate = save.startDate;
             player.lastSave = save.lastSave;
-            player.newGame = save.newGame;
+            player.gameState = save.gameState;
         }
 
         private SaveFile PlayerToSave()
@@ -81,7 +81,7 @@ namespace Com.UCI307.GOREGHOST3
             save.playerName = player.playerName;
             save.startDate = player.startDate;
             save.lastSave = DateTime.Now.ToLongTimeString();
-            save.newGame = player.newGame;
+            save.gameState = player.gameState;
 
             //return
             return save;

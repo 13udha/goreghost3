@@ -7,6 +7,6 @@ namespace Com.UCI307.GOREGHOST3
         public string playerName;
         public string startDate;
         public string lastSave;
-        public bool newGame;
+        public int gameState;
     }
 }
