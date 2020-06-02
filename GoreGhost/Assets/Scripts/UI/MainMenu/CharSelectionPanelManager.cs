@@ -19,6 +19,7 @@ namespace Com.UCI307.GOREGHOST3
         public Image characterIconDispay;
         public Image characterImageDisplay;
         public Image backgroundPanel;
+        public Text iAmReady;
 
         [Header("Config")]
         public Color readyColor;
@@ -42,6 +43,7 @@ namespace Com.UCI307.GOREGHOST3
         // Start is called before the first frame update
         public void Awake()
         {
+            iAmReady.enabled = false;
             baseColor = backgroundPanel.color;
             manager = FindObjectOfType<MultiplayerSetupMenuManager>();
             manager.RegisterPanel(this);
@@ -79,6 +81,7 @@ namespace Com.UCI307.GOREGHOST3
             player.playingCharacter = chars.chars[currentCharIndex];
             player.isReady = true;
             backgroundPanel.color = readyColor;
+            iAmReady.enabled = true;
             playerReady.Raise();
         }
 
@@ -128,6 +131,7 @@ namespace Com.UCI307.GOREGHOST3
 
         private void SetPlayerNotReady()
         {
+            iAmReady.enabled = false;
             player.isReady = false;
             backgroundPanel.color = baseColor;
             playerNotReady.Raise();
