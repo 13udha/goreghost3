@@ -39,7 +39,7 @@ namespace Com.UCI307.GOREGHOST3
 
         private void OnEnable()
         {
-            Debug.Log("Manager enabled");
+            //Debug.Log("Manager enabled");
             pim.EnableJoining();
         }
         #endregion
@@ -49,15 +49,13 @@ namespace Com.UCI307.GOREGHOST3
         public void RegisterPanel(CharSelectionPanelManager panel)
         {
             this.panels.Add(panel);
-            panel.player = (players.players[panel.GetComponent<PlayerInput>().playerIndex]);
+            //panel.player = (players.players[panel.GetComponent<PlayerInput>().playerIndex]);
         }
 
         public void SetUpPlayer()
         {
             GameObject csm = GameObject.Instantiate<GameObject>(charSelectionMenuPrefab);
             csm.transform.SetParent(this.transform);
-
-            Debug.Log("Player Set UP!");
         }
 
         #endregion

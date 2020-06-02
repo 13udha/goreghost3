@@ -2450,6 +2450,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: {fileID: 0}
+--- !u!1 &1336782652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1336782653}
+  - component: {fileID: 1336782655}
+  - component: {fileID: 1336782654}
+  m_Layer: 5
+  m_Name: MPSM_EventListeners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1336782653
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336782652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1992478552}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 700, y: -405}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1336782654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336782652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f0124ed2968e64e86313b5b187a7f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 8a7a28c91c7ba0b47a67208bd9e7ee58, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1992478555}
+        m_MethodName: SetUpPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1336782655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336782652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1001 &1501091591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3575,6 +3659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77828015697163d4999bd10d57698e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerJoined: {fileID: 11400000, guid: 8a7a28c91c7ba0b47a67208bd9e7ee58, type: 2}
 --- !u!1 &1992478551 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 991644834769880976, guid: 4ac3f272d156ce545a6738477a9006a0,
@@ -3587,6 +3672,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 991644835461826759}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1992478555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1992478554, guid: 4ac3f272d156ce545a6738477a9006a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 991644835461826759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992478551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c6069c55031c4428c3253b71bf31ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2017486161 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6861768792596578206, guid: d71390c6f99c6b54cb41776f65b3fc44,
@@ -3939,7 +4036,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1335586074}
     m_Modifications:
     - target: {fileID: 1992478553, guid: 4ac3f272d156ce545a6738477a9006a0, type: 3}
-      propertyPath: m_PlayerJoinedEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: m_PlayerJoinedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1979763669}
     - target: {fileID: 954023973927779886, guid: 4ac3f272d156ce545a6738477a9006a0,
@@ -3951,6 +4048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MultiplayersSetUpMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 991644834769880976, guid: 4ac3f272d156ce545a6738477a9006a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 991644834769880991, guid: 4ac3f272d156ce545a6738477a9006a0,
         type: 3}

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -20,7 +21,13 @@ namespace Com.UCI307.GOREGHOST3
         // Update is called once per frame
         void Update()
         {
-
+           
         }
+
+        public void OnMove(CallbackContext cc)
+        {
+            Debug.Log(cc.ToString());
+        }
+
     }
 }
