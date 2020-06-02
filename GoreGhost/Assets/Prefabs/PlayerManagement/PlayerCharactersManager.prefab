@@ -232,3 +232,4 @@ MonoBehaviour:
   - {fileID: 2000409962}
   - {fileID: 806919349}
   - {fileID: 235101778}
+  playerSpawned: {fileID: 11400000, guid: 489d38ab453507845878e7883d1fb841, type: 2}

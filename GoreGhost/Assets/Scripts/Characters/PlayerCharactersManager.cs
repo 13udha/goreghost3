@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Com.UCI307.UCINGEN;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,10 +8,14 @@ namespace Com.UCI307.GOREGHOST3
     public class PlayerCharactersManager : MonoBehaviour
     {
         #region Public Fields
+
         [Header("Dependencies")]
         public MultiplayerCollection players;
 
         public List<Transform> playerSpawnpoints;
+
+        [Header("Events")]
+        public GameEvent playerSpawned;
 
         #endregion
 
@@ -51,6 +56,7 @@ namespace Com.UCI307.GOREGHOST3
                 {
                     GameObject g = GameObject.Instantiate<GameObject>(players.players[i].playingCharacter.prefab, playerSpawnpoints[i]);
                     MultiplayerConfigurationManager.Instance.SetCharacterManager(i, g.GetComponent<CharacterManager>());
+                    playerSpawned.Raise();
                 }
             }
         }
