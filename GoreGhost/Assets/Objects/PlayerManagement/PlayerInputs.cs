@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Scripts/PlayerInputs.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Objects/PlayerManagement/PlayerInputs.inputactions'
 
 using System;
 using System.Collections;
@@ -60,6 +60,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Stick"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Options"",
+                    ""type"": ""Button"",
+                    ""id"": ""b4f3d21b-6126-4685-896a-22488a78cfbe"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -84,6 +92,17 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""action"": ""move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9ac34056-0c69-49ed-8b38-5928a9580724"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Options"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -97,6 +116,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Select = m_Menu.FindAction("Select", throwIfNotFound: true);
         m_Menu_move = m_Menu.FindAction("move", throwIfNotFound: true);
+        m_Menu_Options = m_Menu.FindAction("Options", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -181,12 +201,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     private IMenuActions m_MenuActionsCallbackInterface;
     private readonly InputAction m_Menu_Select;
     private readonly InputAction m_Menu_move;
+    private readonly InputAction m_Menu_Options;
     public struct MenuActions
     {
         private @PlayerInputs m_Wrapper;
         public MenuActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Select => m_Wrapper.m_Menu_Select;
         public InputAction @move => m_Wrapper.m_Menu_move;
+        public InputAction @Options => m_Wrapper.m_Menu_Options;
         public InputActionMap Get() { return m_Wrapper.m_Menu; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -202,6 +224,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @move.started -= m_Wrapper.m_MenuActionsCallbackInterface.OnMove;
                 @move.performed -= m_Wrapper.m_MenuActionsCallbackInterface.OnMove;
                 @move.canceled -= m_Wrapper.m_MenuActionsCallbackInterface.OnMove;
+                @Options.started -= m_Wrapper.m_MenuActionsCallbackInterface.OnOptions;
+                @Options.performed -= m_Wrapper.m_MenuActionsCallbackInterface.OnOptions;
+                @Options.canceled -= m_Wrapper.m_MenuActionsCallbackInterface.OnOptions;
             }
             m_Wrapper.m_MenuActionsCallbackInterface = instance;
             if (instance != null)
@@ -212,6 +237,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @move.started += instance.OnMove;
                 @move.performed += instance.OnMove;
                 @move.canceled += instance.OnMove;
+                @Options.started += instance.OnOptions;
+                @Options.performed += instance.OnOptions;
+                @Options.canceled += instance.OnOptions;
             }
         }
     }
@@ -224,5 +252,6 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     {
         void OnSelect(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
+        void OnOptions(InputAction.CallbackContext context);
     }
 }
