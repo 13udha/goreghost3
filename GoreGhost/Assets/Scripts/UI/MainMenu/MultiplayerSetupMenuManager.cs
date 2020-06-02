@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -14,6 +15,7 @@ namespace Com.UCI307.GOREGHOST3
         public MultiplayerCollection players;
         public PlayerInputManager pim;
         public GameObject charSelectionMenuPrefab;
+        public Button startLevelButton;
 
         #endregion
 
@@ -41,6 +43,7 @@ namespace Com.UCI307.GOREGHOST3
         {
             //Debug.Log("Manager enabled");
             pim.EnableJoining();
+            startLevelButton.interactable = false;
         }
         #endregion
 
@@ -60,6 +63,20 @@ namespace Com.UCI307.GOREGHOST3
             cspm.SetPlayerIndex(index);
             cspm.player = players.players[index];
             csm.transform.SetParent(this.transform);
+            players.players[index].isPlaying = true;
+        }
+
+        public void CheckIfAllPlayersReady()
+        {
+            bool b = true;
+            foreach(MultiplayerData player in players.players)
+            {
+                if((player.isPlaying && !player.isReady))
+                {
+                    b = false;
+                }
+            }
+            startLevelButton.interactable = b;
         }
 
         #endregion

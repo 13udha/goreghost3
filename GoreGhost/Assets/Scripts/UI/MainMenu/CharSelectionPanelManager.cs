@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Com.UCI307.UCINGEN;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,22 +18,31 @@ namespace Com.UCI307.GOREGHOST3
         public Text characterNameDisplay;
         public Image characterIconDispay;
         public Image characterImageDisplay;
-        public Button readyButton;
+        public Image backgroundPanel;
 
         [Header("Config")]
         public Color readyColor;
+        public int playerIndex;
+        
+
+        [Header("Events")]
+        public GameEvent playerReady;
+        public GameEvent playerNotReady;
+
         #endregion
 
         #region PrivateFields
-        public int playerIndex;
         private int currentCharIndex = 0;
         private MultiplayerSetupMenuManager manager;
+
+        private Color baseColor;
         #endregion
 
         #region Monobehaviour Callbacks
         // Start is called before the first frame update
         public void Awake()
         {
+            baseColor = backgroundPanel.color;
             manager = FindObjectOfType<MultiplayerSetupMenuManager>();
             manager.RegisterPanel(this);
             SetUpDisplay(currentCharIndex);
@@ -68,13 +78,15 @@ namespace Com.UCI307.GOREGHOST3
         {
             player.playingCharacter = chars.chars[currentCharIndex];
             player.isReady = true;
+            backgroundPanel.color = readyColor;
+            playerReady.Raise();
         }
 
         public void SetUpDisplay(int charIndex)
         {
             CharacterObject co = chars.chars[charIndex];
             characterNameDisplay.text = co.characterName;
-            characterImageDisplay.sprite = co.profileImage;
+            characterImageDisplay.sprite = co.prefab.GetComponentInChildren<SpriteRenderer>().sprite;
             Sprite tmpImage = co.profileImage;
             characterIconDispay.sprite = tmpImage;
             playerNameDisplay.color = player.playerColo;
@@ -93,7 +105,7 @@ namespace Com.UCI307.GOREGHOST3
                 currentCharIndex += 1;
                 SetUpDisplay(currentCharIndex);
             }
-            player.isReady = false;
+            SetPlayerNotReady();
         }
 
         public void PreviousCharacter()
@@ -108,9 +120,19 @@ namespace Com.UCI307.GOREGHOST3
                 currentCharIndex -= 1;
                 SetUpDisplay(currentCharIndex);
             }
-            player.isReady = false;
-
+            SetPlayerNotReady();
         }
+        #endregion
+
+        #region Private Methods
+
+        private void SetPlayerNotReady()
+        {
+            player.isReady = false;
+            backgroundPanel.color = baseColor;
+            playerNotReady.Raise();
+        }
+
         #endregion
     }
 }
