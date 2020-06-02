@@ -55,6 +55,7 @@ namespace Com.UCI307.GOREGHOST3
         public void SetUpPlayer()
         {
             GameObject csm = GameObject.Instantiate<GameObject>(charSelectionMenuPrefab);
+            csm.GetComponent<CharSelectionPanelManager>().SetPlayerIndex((MultiplayerConfigurationManager.Instance.GetPlayerInputs().Count - 1));
             csm.transform.SetParent(this.transform);
         }
 

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
 namespace Com.UCI307.GOREGHOST3
@@ -21,7 +23,9 @@ namespace Com.UCI307.GOREGHOST3
         public Color readyColor;
         #endregion
 
+
         #region PrivateFields
+        public int playerIndex;
         private int currentCharIndex = 0;
         private MultiplayerSetupMenuManager manager;
         #endregion
@@ -48,6 +52,18 @@ namespace Com.UCI307.GOREGHOST3
         #endregion
 
         #region PublicMethods
+        public int GetPlayerIndex()
+        {
+            return playerIndex;
+        }
+
+        public void SetPlayerIndex(int i)
+        {
+            this.playerIndex = i;
+            PlayerInput pi =  MultiplayerConfigurationManager.Instance.GetPlayerInputs()[i].PlayerInput;
+            pi.uiInputModule = GetComponent<InputSystemUIInputModule>();
+        }
+
         public void SetUpPanel(MultiplayerData mpd)
         {
             player = mpd;
