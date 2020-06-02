@@ -15,6 +15,7 @@ MonoBehaviour:
   characterName: Steve the Slime
   health: 100
   energy: 75
+  profileImage: {fileID: 21300000, guid: baf38b3b413b05e4fac9a2983f6a1651, type: 3}
   description: he ssteve the slime. was once a mime
   isUnlocked: 1
   prefab: {fileID: 0}

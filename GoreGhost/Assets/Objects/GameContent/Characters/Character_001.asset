@@ -15,6 +15,7 @@ MonoBehaviour:
   characterName: Bob the Blob
   health: 75
   energy: 100
+  profileImage: {fileID: 21300000, guid: 2bc346070b64e1349a6a2892a9087c8f, type: 3}
   description: hes bob the mob. was once in the mob
   isUnlocked: 1
   prefab: {fileID: 0}

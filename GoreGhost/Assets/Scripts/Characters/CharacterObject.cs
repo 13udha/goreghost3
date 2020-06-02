@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -14,6 +15,7 @@ namespace Com.UCI307.GOREGHOST3
         public float energy;
 
         [Header("Additional Attributes")]
+        public Sprite profileImage;
         [TextArea]
         public string description;
 

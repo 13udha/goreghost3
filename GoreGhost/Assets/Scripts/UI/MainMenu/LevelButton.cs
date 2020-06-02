@@ -10,6 +10,7 @@ namespace Com.UCI307.GOREGHOST3 {
         #region Public Fields
         [Header("Dependencys")]
         public GameLevelData data;
+        public GameSetupMenuManager manager;
         [Header("UI Components")]
         public Text levelNameDisplay;
         #endregion
@@ -37,9 +38,9 @@ namespace Com.UCI307.GOREGHOST3 {
 
         #region Public Methods
 
-        public void StartLevel()
+        public void SetLevel()
         {
-            SceneManager.LoadScene(data.sceneName);
+            manager.nextLevel = data;
         }
 
         #endregion
