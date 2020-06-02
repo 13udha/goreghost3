@@ -23,7 +23,6 @@ namespace Com.UCI307.GOREGHOST3
         public Color readyColor;
         #endregion
 
-
         #region PrivateFields
         public int playerIndex;
         private int currentCharIndex = 0;
@@ -34,11 +33,8 @@ namespace Com.UCI307.GOREGHOST3
         // Start is called before the first frame update
         public void Awake()
         {
-            Debug.Log("AWAKE!!");
             manager = FindObjectOfType<MultiplayerSetupMenuManager>();
             manager.RegisterPanel(this);
-            playerNameDisplay.text = "Player " + (player.PlayerIndex+1);
-            playerNameDisplay.color = player.playerColo;
             SetUpDisplay(currentCharIndex);
             var root = FindObjectOfType<MultiplayerSetupMenuManager>();
             this.transform.SetParent(root.transform);
@@ -63,12 +59,10 @@ namespace Com.UCI307.GOREGHOST3
             
             PlayerInput pi =  MultiplayerConfigurationManager.Instance.GetPlayerInputs()[i].PlayerInput;
             pi.uiInputModule = GetComponent<InputSystemUIInputModule>();
+            //pass through type?
         }
 
-        public void SetUpPanel(MultiplayerData mpd)
-        {
-            player = mpd;
-        }
+        
 
         public void SetPlayerReady()
         {
@@ -83,7 +77,8 @@ namespace Com.UCI307.GOREGHOST3
             characterImageDisplay.sprite = co.profileImage;
             Sprite tmpImage = co.profileImage;
             characterIconDispay.sprite = tmpImage;
-            
+            playerNameDisplay.color = player.playerColo;
+            playerNameDisplay.text = "Player " + (player.PlayerIndex + 1);
         }
 
         public void NextCharacter()

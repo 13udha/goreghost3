@@ -28,6 +28,19 @@ namespace Com.UCI307.GOREGHOST3
         }
         #endregion
 
+        #region PublicMethods
+
+        public void ResetPlayers()
+        {
+            foreach (MultiplayerData m in players.players)
+            {
+                m.isPlaying = false;
+                m.isReady = false;
+            }
+        }
+
+        #endregion
+
         #region Private Methods
 
         private void SpawnPlayers()
@@ -42,6 +55,7 @@ namespace Com.UCI307.GOREGHOST3
             }
         }
 
+        
         #endregion
     }
 }

@@ -35,6 +35,13 @@ namespace Com.UCI307.GOREGHOST3
         {
 
         }
+
+        private void OnEnable()
+        {
+            SetMenuByID(startingMenu);
+            currentMenu = 0;
+            lastMenu = 0;
+        }
         #endregion
 
         #region PublicMethods

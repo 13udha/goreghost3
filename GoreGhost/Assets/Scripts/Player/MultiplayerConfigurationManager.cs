@@ -7,6 +7,9 @@ using System.Linq;
 
 namespace Com.UCI307.GOREGHOST3
 {
+    /// <summary>
+    /// Singleton der Über die Level persisted und dafür sorgt das der Zugriff auf die Input Manager der Spieler verfügbar ist.
+    /// </summary>
     public class MultiplayerConfigurationManager : MonoBehaviour
     {
         #region Public Fields
@@ -23,6 +26,9 @@ namespace Com.UCI307.GOREGHOST3
         #region Singleton Setup
         public static MultiplayerConfigurationManager Instance { get; private set; }
 
+        /// <summary>
+        /// Baut den Singelton auf
+        /// </summary>
         private void Awake()
         {
             if(Instance != null)
@@ -40,9 +46,13 @@ namespace Com.UCI307.GOREGHOST3
 
         #region Public Methods
 
+        /// <summary>
+        /// Fügt den Controller eines einzigen Spielers hinzu. 
+        /// Erstellt eine Multiplayer Configuration. Diese ist ein reiner Datencontainer.
+        /// </summary>
+        /// <param name="pi">Der Playerinput des Gewünschten Spielers</param>
         public void AddPlayer(PlayerInput pi) 
         {
-            Debug.Log("calllllleeeddd" + pi.playerIndex);
             pi.transform.SetParent(this.transform);
             MultiPlayerConfiguration tmp = new MultiPlayerConfiguration(pi);
             //tmp.se
@@ -56,6 +66,11 @@ namespace Com.UCI307.GOREGHOST3
             return this.playerConfigs;
         }
 
+        /// <summary>
+        /// Weist einem MultiplayerControlManager in der eigenen Liste einen Character Manager zu. Dies muss getan werden damit der Character in einem Level angesteuert werden kann.
+        /// </summary>
+        /// <param name="i">Index des gewünschten Spielers</param>
+        /// <param name="c">Character Manager des Gewählten Spielers</param>
         public void SetCharacterManager(int i, CharacterManager c)
         {
             foreach (MultiplayerControlManager pc in playerControls)
@@ -66,6 +81,11 @@ namespace Com.UCI307.GOREGHOST3
                     return;
                 }
             }
+        }
+
+        public void DestroyThis()
+        {
+            GameObject.Destroy(this.gameObject);
         }
         #endregion
     }

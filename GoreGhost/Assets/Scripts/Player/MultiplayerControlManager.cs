@@ -6,6 +6,9 @@ using static UnityEngine.InputSystem.InputAction;
 
 namespace Com.UCI307.GOREGHOST3
 {
+    /// <summary>
+    /// Monobehaviour für das Steuerobjekt eines Spieler. Übeträgt die Eingaben des InputManagers an die gewünschte Spielfigur.
+    /// </summary>
     public class MultiplayerControlManager : MonoBehaviour
     {
         #region Public Fields
