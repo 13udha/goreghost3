@@ -58,11 +58,7 @@ namespace Com.UCI307.GOREGHOST3
             ignoreInputTime = Time.time + ignoreInputTime;
         }
 
-        public void OnPlayerJoined(PlayerInput pi)
-        {
-            mpSys.parent = this.gameObject;
-            mpSys.HandlePlayerJoin(pi);
-        }
+        
 
         public void SetPlayerColor(int color)
         {

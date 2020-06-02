@@ -60,6 +60,7 @@ namespace Com.UCI307.GOREGHOST3
         public void SetPlayerIndex(int i)
         {
             this.playerIndex = i;
+            
             PlayerInput pi =  MultiplayerConfigurationManager.Instance.GetPlayerInputs()[i].PlayerInput;
             pi.uiInputModule = GetComponent<InputSystemUIInputModule>();
         }

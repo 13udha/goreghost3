@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Player1
   m_EditorClassIdentifier: 
   PlayerIndex: 1
-  Input: {fileID: 0}
   isReady: 0
+  isPlaying: 0
   playerColo: {r: 0, g: 0, b: 1, a: 1}
   playingCharacter: {fileID: 0}

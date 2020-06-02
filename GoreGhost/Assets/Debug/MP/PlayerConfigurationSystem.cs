@@ -20,12 +20,7 @@ namespace Com.UCI307.GOREGHOST3
 
         #region Public Methods
 
-        public void HandlePlayerJoin(PlayerInput pi)
-        {
-            Debug.Log("Player Joined: " + pi.playerIndex);
-            pi.transform.SetParent(parent.transform);
-            playerConfigs[pi.playerIndex].SetPlayerInput(pi);
-        }
+        
 
         public void SetPlayerColor(int index, Color color)
         {

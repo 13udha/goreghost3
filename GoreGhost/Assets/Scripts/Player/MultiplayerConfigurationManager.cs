@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Linq;
 
 namespace Com.UCI307.GOREGHOST3
 {
     public class MultiplayerConfigurationManager : MonoBehaviour
     {
         #region Public Fields
+        public List<MultiplayerControlManager> playerControls;
 
         [Header("Events")]
         public GameEvent playerJoined;
@@ -18,6 +20,7 @@ namespace Com.UCI307.GOREGHOST3
         private List<MultiPlayerConfiguration> playerConfigs;
         #endregion
 
+        #region Singleton Setup
         public static MultiplayerConfigurationManager Instance { get; private set; }
 
         private void Awake()
@@ -33,6 +36,9 @@ namespace Com.UCI307.GOREGHOST3
                 playerConfigs = new List<MultiPlayerConfiguration>();
             }
         }
+        #endregion
+
+        #region Public Methods
 
         public void AddPlayer(PlayerInput pi) 
         {
@@ -49,6 +55,19 @@ namespace Com.UCI307.GOREGHOST3
         {
             return this.playerConfigs;
         }
+
+        public void SetCharacterManager(int i, CharacterManager c)
+        {
+            foreach (MultiplayerControlManager pc in playerControls)
+            {
+              if(pc.playerInput.playerIndex == i)
+                {
+                    pc.characterManager = c;
+                    return;
+                }
+            }
+        }
+        #endregion
     }
 
     public class MultiPlayerConfiguration
