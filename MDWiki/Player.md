@@ -1,17 +1,17 @@
 # Player
 
 ## Controls
-Anhand PlayStation Controller
+Action Buttons benannt nach den Himmelsrichtungen. i.E. auf dem Playstation Controller wäre Dreieck Norden, Kreis Osten etc. etc.
 ### Basic
 4 Richtungs Knöpfe, dreidimensionales Movement
 
-X-Button = Springen
+South Button = Springen
 
-Quadrat = Schnelle Angriff
+West Button = Schnelle Angriff
 
-Dreieck = Starker Angriff
+Nort Button = Starker Angriff
 
-Kreis = Block
+East = Block
 
 R1 = Schnelle Magie
 

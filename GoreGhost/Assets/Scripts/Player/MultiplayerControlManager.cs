@@ -28,6 +28,7 @@ namespace Com.UCI307.GOREGHOST3
            
         }
 
+        #region Button Events
         public void OnMove(CallbackContext cc)
         {
             if(characterManager != null)
@@ -35,6 +36,42 @@ namespace Com.UCI307.GOREGHOST3
                 characterManager.OnMove(cc.ReadValue<Vector2>());
             }
         }
+
+        public void NorthAction()
+        {
+            Debug.Log(this.ToString());
+        }
+
+        public void EastAction()
+        {
+            Debug.Log(this.ToString());
+        }
+
+        public void SouthAction()
+        {
+            Debug.Log(this.ToString());
+        }
+
+        public void WestAction()
+        {
+            Debug.Log(this.ToString());
+        }
+
+        public void R1Action()
+        {
+            Debug.Log(this.ToString());
+        }
+
+        public void L1Action()
+        {
+            Debug.Log(this.ToString());
+        }
+
+        public void StartButtonAction()
+        {
+            Debug.Log(this.ToString());
+        }
+        #endregion
 
     }
 }
