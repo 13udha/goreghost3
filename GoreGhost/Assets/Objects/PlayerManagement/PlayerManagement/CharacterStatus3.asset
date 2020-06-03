@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2c869a972d0911439a1f0e9ad8f984f, type: 3}
-  m_Name: Player2
+  m_Script: {fileID: 11500000, guid: 062e106da2b716347a6470147ef0bb45, type: 3}
+  m_Name: CharacterStatus3
   m_EditorClassIdentifier: 
-  PlayerIndex: 2
-  isReady: 0
-  isPlaying: 0
-  playerColo: {r: 1, g: 1, b: 0, a: 1}
-  playingCharacter: {fileID: 0}
+  index: 3
+  MaxHP: 0
+  CurrentHP: 0
+  MaxEnergy: 0
+  CurrentEnergy: 0
+  character: {fileID: 0}

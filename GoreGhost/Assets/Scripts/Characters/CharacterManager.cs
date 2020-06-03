@@ -7,9 +7,12 @@ namespace Com.UCI307.GOREGHOST3
     public class CharacterManager : MonoBehaviour
     {
         #region Public Fields
+
         [Header("Dependencies")]
         public CharacterObject character;
         public Rigidbody2D rb;
+        public PlayerCharacterStatus status;
+        
         #endregion
 
         #region Private Fields

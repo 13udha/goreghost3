@@ -78,7 +78,7 @@ namespace Com.UCI307.GOREGHOST3
 
         public void SetPlayerReady()
         {
-            player.playingCharacter = chars.chars[currentCharIndex];
+            player.SetCharacter(chars.chars[currentCharIndex]);
             player.isReady = true;
             backgroundPanel.color = readyColor;
             iAmReady.enabled = true;

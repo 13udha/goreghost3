@@ -54,7 +54,8 @@ namespace Com.UCI307.GOREGHOST3
             {
                 if (players.players[i].isReady)
                 {
-                    GameObject g = GameObject.Instantiate<GameObject>(players.players[i].playingCharacter.prefab, playerSpawnpoints[i]);
+                    GameObject g = GameObject.Instantiate<GameObject>(players.players[i].GetCharacter().prefab, playerSpawnpoints[i]);
+                    g.GetComponent<CharacterManager>().status = players.players[i].status;
                     MultiplayerConfigurationManager.Instance.SetCharacterManager(i, g.GetComponent<CharacterManager>());
                     playerSpawned.Raise();
                 }

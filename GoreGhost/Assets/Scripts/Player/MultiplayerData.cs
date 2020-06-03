@@ -14,15 +14,21 @@ namespace Com.UCI307.GOREGHOST3
         [Header("Configuration")]
         public int PlayerIndex;
         public Color playerColo;
-        public CharacterObject playingCharacter;
         public bool initialIsReady;
         public bool initialIsPlaying;
+
+        [Header("Dependencies")]
+        public PlayerCharacterStatus status;
 
         [NonSerialized]
         public bool isReady;
         [NonSerialized]
         public bool isPlaying;
-        
+
+        #endregion
+
+        #region Private Fields
+        private CharacterObject playingCharacter;
         #endregion
 
         #region ISerializationCallbackReceiver Implementation
@@ -37,6 +43,16 @@ namespace Com.UCI307.GOREGHOST3
         {
         }
         
+        public void SetCharacter(CharacterObject co)
+        {
+            this.playingCharacter = co;
+            status.SetCharacter(co);
+        }
+
+        public CharacterObject GetCharacter()
+        {
+            return playingCharacter;
+        }
         #endregion
 
         #region Private Fields

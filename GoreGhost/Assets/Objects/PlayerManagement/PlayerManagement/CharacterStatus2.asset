@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
-  m_Name: Level001Data
+  m_Script: {fileID: 11500000, guid: 062e106da2b716347a6470147ef0bb45, type: 3}
+  m_Name: CharacterStatus2
   m_EditorClassIdentifier: 
-  levelName: Player HUD Test Scene
-  sceneName: Level_001
-  isUnlocked: 0
+  index: 2
+  MaxHP: 0
+  CurrentHP: 0
+  MaxEnergy: 0
+  CurrentEnergy: 0
+  character: {fileID: 0}
