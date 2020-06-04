@@ -33,9 +33,10 @@ This time with unity and Github ♥
 - Interaktion
 - Magie ??
 
-## Menüs
+## UI
 - Character Upgrade Screen
 - Shop
+- HUD
 
 ## Extra
 - Musik
