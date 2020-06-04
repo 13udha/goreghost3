@@ -7,7 +7,7 @@ This time with unity and Github ♥
 # TODO
 
 ## Spieler (Falko)
-- Grafik
+- Sprites/Aniamtion
 - Equip
 - Upgrade System
 - Movement
@@ -23,7 +23,7 @@ This time with unity and Github ♥
     - PickUps
 
 ## Gegner
-- Grafik
+- GrafikSprites/Aniamtion
 - Pathfinding
 - Boss Gegner
 
