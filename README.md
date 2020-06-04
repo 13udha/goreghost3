@@ -9,7 +9,7 @@ This time with unity and Github ♥
 ## Spieler
 - Grafik
 - Equip
-- Level System
+- Upgrade System
 - Movement
 
 ## Level
@@ -34,7 +34,7 @@ This time with unity and Github ♥
 - Magie ??
 
 ## Menüs
-- Level Screen
+- Character Upgrade Screen
 - Shop
 
 ## Extra
