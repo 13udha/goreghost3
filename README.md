@@ -18,9 +18,9 @@ This time with unity and Github ♥
 - Kamera
 - Gegner Platzierung
 - Umgebungsobjekte
- * Fallen
- * Hindernisse
- * PickUps
+    - Fallen
+    - Hindernisse
+    - PickUps
 
 ## Gegner
 - Grafik
