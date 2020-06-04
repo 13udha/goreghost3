@@ -5,7 +5,6 @@ This time with unity and Github ♥
 
 ## Spieler
 - Grafik
-- Attacken
 - Equip
 - Level
 - Jump
@@ -19,8 +18,10 @@ This time with unity and Github ♥
 - Grafik
 - Pathfinding
 
-
-
+## Combat System
+- Gegner
+- Spieler
+- Interaktion
 
 # Wiki
 [Player](MDWiki/Player.md) Spieler Eigenschaften
