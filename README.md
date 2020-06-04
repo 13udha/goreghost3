@@ -6,13 +6,13 @@ This time with unity and Github ♥
 
 # TODO
 
-## Spieler
+## Spieler (Falko)
 - Grafik
 - Equip
 - Upgrade System
 - Movement
 
-## Level
+## Level (Pablo)
 - Level Flow
 - Border
 - Kamera
