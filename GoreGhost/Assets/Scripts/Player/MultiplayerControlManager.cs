@@ -32,39 +32,49 @@ namespace Com.UCI307.GOREGHOST3
         public void OnMove(CallbackContext cc)
         {
             if(characterManager != null)
-            {
                 characterManager.OnMove(cc.ReadValue<Vector2>());
-            }
+            
         }
 
         public void NorthAction()
         {
             Debug.Log(this.ToString());
+            if (characterManager != null)
+                characterManager.NorthButtonAction();
         }
 
         public void EastAction()
         {
             Debug.Log(this.ToString());
+            if (characterManager != null)
+                characterManager.EastButtonAction();
         }
 
         public void SouthAction()
         {
             Debug.Log(this.ToString());
+            if (characterManager != null)
+                characterManager.SouthButtonAction();
         }
 
         public void WestAction()
         {
-            Debug.Log(this.ToString());
+            if (characterManager != null)
+                characterManager.WestButtonAction();
         }
 
         public void R1Action()
         {
             Debug.Log(this.ToString());
+            if (characterManager != null)
+                characterManager.R1ButtonAction();
         }
 
         public void L1Action()
         {
             Debug.Log(this.ToString());
+            if (characterManager != null)
+                characterManager.L1ButtonAction();
         }
 
         public void StartButtonAction()

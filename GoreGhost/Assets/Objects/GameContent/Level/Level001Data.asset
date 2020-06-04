@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
   m_Name: Level001Data
   m_EditorClassIdentifier: 
-  levelName: Player HUD Test Scene
+  levelName: Falkos Test Levle <3
   sceneName: Level_001
   isUnlocked: 0

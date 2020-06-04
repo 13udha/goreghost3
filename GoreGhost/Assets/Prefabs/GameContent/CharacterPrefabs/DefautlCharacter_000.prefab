@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &523076053742067301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5205825706491697932}
+  m_Layer: 13
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5205825706491697932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523076053742067301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.56, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8119182509981697742}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8119182509760390643
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +41,7 @@ GameObject:
   - component: {fileID: 8119182509760390641}
   - component: {fileID: 8119182509760390640}
   - component: {fileID: 8119182509760390654}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: badblobber1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,8 +144,8 @@ GameObject:
   - component: {fileID: 8119182509981697743}
   - component: {fileID: 6829161037833641590}
   - component: {fileID: 2545103649637710264}
-  m_Layer: 0
-  m_Name: DefautlCharacter
+  m_Layer: 13
+  m_Name: DefautlCharacter_000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,6 +163,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8119182509760390641}
+  - {fileID: 5205825706491697932}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -150,6 +181,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 7307cc5ae181b544ea44cadf38bcaaad, type: 2}
   rb: {fileID: 6829161037833641590}
+  status: {fileID: 0}
+  attackPoint: {fileID: 5205825706491697932}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 16384
 --- !u!50 &6829161037833641590
 Rigidbody2D:
   serializedVersion: 4

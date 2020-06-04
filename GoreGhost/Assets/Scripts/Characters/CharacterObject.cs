@@ -13,6 +13,10 @@ namespace Com.UCI307.GOREGHOST3
         public string characterName;
         public float health;
         public float energy;
+        public float movementSpeed;
+
+        [Header("Attacks")]
+        public float fastAttackRange;
 
         [Header("Additional Attributes")]
         public Sprite profileImage;

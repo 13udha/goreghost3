@@ -12,7 +12,9 @@ namespace Com.UCI307.GOREGHOST3
         public CharacterObject character;
         public Rigidbody2D rb;
         public PlayerCharacterStatus status;
-        
+        public Transform attackPoint;
+        public LayerMask enemyLayers;
+
         #endregion
 
         #region Private Fields
@@ -50,7 +52,59 @@ namespace Com.UCI307.GOREGHOST3
 
         private void Movement()
         {
-            moveVelocity = moveVector.normalized * 10;
+            moveVelocity = moveVector.normalized * character.movementSpeed;
+        }
+
+        private void FastAttack()
+        {
+            Debug.Log("FAST ATTACK!!!");
+            Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, character.fastAttackRange, enemyLayers);
+            foreach(Collider2D enemy in hitEnemys)
+            {
+                Debug.Log("We hit " + enemy.name);
+            }
+        }
+        #endregion
+
+        #region ButtonPrompts
+
+        public void NorthButtonAction()
+        {
+
+        }
+
+        public void EastButtonAction()
+        {
+
+        }
+
+        public void WestButtonAction()
+        {
+            FastAttack();
+        }
+
+        public void SouthButtonAction()
+        {
+
+        }
+
+        public void L1ButtonAction()
+        {
+
+        }
+
+        public void R1ButtonAction()
+        {
+
+        }
+
+        #endregion
+
+        #region Debug
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.DrawWireSphere(attackPoint.position, character.fastAttackRange);
         }
 
         #endregion
