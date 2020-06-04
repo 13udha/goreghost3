@@ -1,6 +1,9 @@
 # goreghost3-maybethistime
 This time with unity and Github ♥
 
+# Wiki
+[Player](MDWiki/Player.md) Spieler Eigenschaften
+
 # TODO
 
 ## Spieler
@@ -38,5 +41,4 @@ This time with unity and Github ♥
 - Musik
 - Title Screens
 
-# Wiki
-[Player](MDWiki/Player.md) Spieler Eigenschaften
+
