@@ -6,22 +6,32 @@ This time with unity and Github ♥
 ## Spieler
 - Grafik
 - Equip
-- Level
-- Jump
+- Level System
+- Movement
 
 ## Level
 - Border
 - Kamera
 - Gegner Platzierung
+- Umgebungsobjekte
+-- Fallen
+-- Hindernisse
+-- PickUps
 
 ## Gegner
 - Grafik
 - Pathfinding
+- Boss Gegner
 
 ## Combat System
 - Gegner
 - Spieler
 - Interaktion
+- Magie ??
+
+## Menüs
+- Levelen
+- Shop
 
 # Wiki
 [Player](MDWiki/Player.md) Spieler Eigenschaften
