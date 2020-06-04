@@ -3,23 +3,19 @@ This time with unity and Github ♥
 
 # TODO
 
-Spieler
-------
-
+## Spieler
 - Grafik
 - Attacken
 - Equip
 - Level
 - Jump
 
-Level
-------
+## Level
 - Border
 - Kamera
 - Gegner Platzierung
 
-Gegner
-------
+## Gegner
 - Grafik
 - Pathfinding
 
