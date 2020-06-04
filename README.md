@@ -34,7 +34,7 @@ This time with unity and Github ♥
 - Magie ??
 
 ## Menüs
-- Levelen
+- Level Screen
 - Shop
 
 ## Extra
