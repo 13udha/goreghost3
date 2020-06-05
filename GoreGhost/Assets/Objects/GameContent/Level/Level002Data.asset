@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
   m_Name: Level002Data
   m_EditorClassIdentifier: 
-  levelName: 002 in YOut butts
+  levelName: Pablos Test Level
   sceneName: Level_002
   isUnlocked: 0
