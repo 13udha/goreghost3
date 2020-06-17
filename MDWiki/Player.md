@@ -34,7 +34,7 @@ Benötigte Animationen (10):
 * Hit Stun
 * Death
 
-Benötigte Canvas Size Minimum: 600x1200 px
+Benötigte Canvas Size Minimum: 4000x6000 px
 
 ### Art
 * Profile Picture 100x100 px
