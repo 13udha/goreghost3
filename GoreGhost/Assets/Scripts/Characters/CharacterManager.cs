@@ -20,12 +20,15 @@ namespace Com.UCI307.GOREGHOST3
         #region Private Fields
         private Vector2 moveVector;
         private Vector2 moveVelocity;
+
+        private Animator animator;
         #endregion
 
         #region Monobehaviour Callbacks
         // Start is called before the first frame update
         void Start()
         {
+            this.animator = GetComponentInChildren<Animator>();
             moveVector = Vector2.zero;
         }
 
@@ -45,6 +48,7 @@ namespace Com.UCI307.GOREGHOST3
         public void OnMove(Vector2 vec)
         {
             moveVector = vec;
+            
         }
         #endregion
 
@@ -53,10 +57,19 @@ namespace Com.UCI307.GOREGHOST3
         private void Movement()
         {
             moveVelocity = moveVector.normalized * character.movementSpeed;
+            if (moveVelocity != Vector2.zero)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Running", false);
+            }
         }
 
         private void FastAttack()
         {
+            animator.SetTrigger("Punch");
             Debug.Log("FAST ATTACK!!!");
             Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, character.fastAttackRange, enemyLayers);
             foreach(Collider2D enemy in hitEnemys)
