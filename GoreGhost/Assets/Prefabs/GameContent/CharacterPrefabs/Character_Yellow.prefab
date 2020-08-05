@@ -184,7 +184,7 @@ MonoBehaviour:
   attackPoint: {fileID: 4746187180296036814}
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16384
 --- !u!50 &4746187181707978855
 Rigidbody2D:
   serializedVersion: 4

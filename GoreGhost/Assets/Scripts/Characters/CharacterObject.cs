@@ -11,6 +11,7 @@ namespace Com.UCI307.GOREGHOST3
         #region PublicFields
         [Header("Attributes")]
         public string characterName;
+        public float experience;
         public float health;
         public float energy;
         public float movementSpeed;
@@ -26,6 +27,15 @@ namespace Com.UCI307.GOREGHOST3
         [Header("Configuratio")]
         public bool isUnlocked;
         public GameObject prefab;
+        #endregion
+
+        #region PublicMethods
+
+        public float GetLevel()
+        {
+            return (Mathf.Round(experience / 1000))+1;
+        }
+
         #endregion
     }
 }
