@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 0e213cfba5c3b2141873398fccee3cd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1695812344396398148
+    second: stickman_blue_0
+  - first:
+      213: -5519518585798117392
+    second: stickman_blue_1
+  - first:
+      213: 1604325084648246205
+    second: stickman_blue_2
+  - first:
+      213: 81075420516169727
+    second: stickman_blue_3
+  - first:
+      213: -4809836389964191209
+    second: stickman_blue_4
+  - first:
+      213: 5372331383100463352
+    second: stickman_blue_5
+  - first:
+      213: -4792450190524988372
+    second: stickman_blue_6
+  - first:
+      213: -5057858197990937064
+    second: stickman_blue_7
+  - first:
+      213: -5476613285943489088
+    second: stickman_blue_8
+  - first:
+      213: 5965915308789012469
+    second: stickman_blue_9
+  - first:
+      213: 3233895054464196988
+    second: stickman_blue_10
+  - first:
+      213: -7706041696080948318
+    second: stickman_blue_11
+  - first:
+      213: 7908817510310204193
+    second: stickman_blue_12
+  - first:
+      213: -5155404075570660668
+    second: stickman_blue_13
+  - first:
+      213: -6491411702273257859
+    second: stickman_blue_14
+  - first:
+      213: -3187159113155351052
+    second: stickman_blue_15
+  - first:
+      213: -856657394660492687
+    second: stickman_blue_16
+  - first:
+      213: -2287994379004250514
+    second: stickman_blue_17
+  - first:
+      213: 2764313638450073016
+    second: stickman_blue_18
+  - first:
+      213: -1291190518068317891
+    second: stickman_blue_19
+  - first:
+      213: -8820654043266311182
+    second: stickman_blue_20
+  - first:
+      213: -8641198522557202050
+    second: stickman_blue_21
+  - first:
+      213: 2724676840269307751
+    second: stickman_blue_22
+  - first:
+      213: 4150156465863145864
+    second: stickman_blue_23
+  - first:
+      213: -3169154641948085095
+    second: stickman_blue_24
+  - first:
+      213: 9190865229121017226
+    second: stickman_blue_25
+  - first:
+      213: 3386430345399861415
+    second: stickman_blue_26
+  - first:
+      213: 6219108772100210904
+    second: stickman_blue_27
+  - first:
+      213: 7662522536342604236
+    second: stickman_blue_28
+  - first:
+      213: 151955212446116798
+    second: stickman_blue_29
+  - first:
+      213: 362708692534931852
+    second: stickman_blue_30
+  - first:
+      213: -3166936702286494204
+    second: stickman_blue_31
+  - first:
+      213: 2437599599596133186
+    second: stickman_blue_32
+  - first:
+      213: -5521829196448897555
+    second: stickman_blue_33
+  - first:
+      213: 5552753843711888532
+    second: stickman_blue_34
+  - first:
+      213: -2453966655868583771
+    second: stickman_blue_35
+  - first:
+      213: -3258881234654189579
+    second: stickman_blue_36
+  - first:
+      213: -8084496751521110145
+    second: stickman_blue_37
+  - first:
+      213: 2771539747792835582
+    second: stickman_blue_38
+  - first:
+      213: 3183657928398965835
+    second: stickman_blue_39
+  - first:
+      213: 8984204379948533152
+    second: stickman_blue_40
+  - first:
+      213: -5579032168719722997
+    second: stickman_blue_41
+  - first:
+      213: -7153882895499897699
+    second: stickman_blue_42
+  - first:
+      213: 4388175350679496810
+    second: stickman_blue_43
+  - first:
+      213: 1324063510694532072
+    second: stickman_blue_44
+  - first:
+      213: -2598332177196694023
+    second: stickman_blue_45
+  - first:
+      213: 5240086511769432592
+    second: stickman_blue_46
+  - first:
+      213: -7104642732666300082
+    second: stickman_blue_47
+  - first:
+      213: 8932221598102066394
+    second: stickman_blue_48
+  - first:
+      213: -8963396594709929966
+    second: stickman_blue_49
+  - first:
+      213: 5503529418980603824
+    second: stickman_blue_50
+  - first:
+      213: 8678768117144047430
+    second: stickman_blue_51
+  - first:
+      213: 8653035182601446233
+    second: stickman_blue_52
+  - first:
+      213: -3167752761742608328
+    second: stickman_blue_53
+  - first:
+      213: 8037804045199062539
+    second: stickman_blue_54
+  - first:
+      213: 6497371282419818046
+    second: stickman_blue_55
+  - first:
+      213: -2778526519914135517
+    second: stickman_blue_56
+  - first:
+      213: -2166681272396384092
+    second: stickman_blue_57
+  - first:
+      213: 291398266315574452
+    second: stickman_blue_58
+  - first:
+      213: 8906400039583956299
+    second: stickman_blue_59
+  - first:
+      213: 4762685380229080799
+    second: stickman_blue_0
+  - first:
+      213: -2404179704077529530
+    second: stickman_blue_1
+  - first:
+      213: 6255969424690261252
+    second: stickman_blue_2
+  - first:
+      213: 851642066767667766
+    second: stickman_blue_3
+  - first:
+      213: 8292629211303000986
+    second: stickman_blue_4
+  - first:
+      213: -359734961156888701
+    second: stickman_blue_5
+  - first:
+      213: 6734180978398257223
+    second: stickman_blue_6
+  - first:
+      213: -3136795617182390610
+    second: stickman_blue_7
+  - first:
+      213: 1439134157273045041
+    second: stickman_blue_8
+  - first:
+      213: -2590266542430389724
+    second: stickman_blue_9
+  - first:
+      213: 3695067261202259467
+    second: stickman_blue_10
+  - first:
+      213: -3089732929003548035
+    second: stickman_blue_11
+  - first:
+      213: -2006757473790214810
+    second: stickman_blue_12
+  - first:
+      213: 1809757411167506299
+    second: stickman_blue_13
+  - first:
+      213: 8153172781694254493
+    second: stickman_blue_14
+  - first:
+      213: 758410743656632104
+    second: stickman_blue_15
+  - first:
+      213: -2082461478801865240
+    second: stickman_blue_16
+  - first:
+      213: -1813167187907180271
+    second: stickman_blue_17
+  - first:
+      213: -3866798555785090488
+    second: stickman_blue_18
+  - first:
+      213: 413689225538347598
+    second: stickman_blue_19
+  - first:
+      213: 9090277851557712864
+    second: stickman_blue_20
+  - first:
+      213: 1937644113591139668
+    second: stickman_blue_21
+  - first:
+      213: -793931623185806600
+    second: stickman_blue_22
+  - first:
+      213: 588394230079785444
+    second: stickman_blue_23
+  - first:
+      213: -4368175852806753880
+    second: stickman_blue_24
+  - first:
+      213: -7124717858947767749
+    second: stickman_blue_25
+  - first:
+      213: 1466264297876492444
+    second: stickman_blue_26
+  - first:
+      213: -3089995556892147162
+    second: stickman_blue_27
+  - first:
+      213: -3753358334677046212
+    second: stickman_blue_28
+  - first:
+      213: 4990155916891512895
+    second: stickman_blue_29
+  - first:
+      213: -3485930292782615302
+    second: stickman_blue_30
+  - first:
+      213: -7407696638840515820
+    second: stickman_blue_31
+  - first:
+      213: 2508283332384323601
+    second: stickman_blue_32
+  - first:
+      213: -693183415672024125
+    second: stickman_blue_33
+  - first:
+      213: 8294863854663363411
+    second: stickman_blue_34
+  - first:
+      213: -3467754576733038277
+    second: stickman_blue_35
+  - first:
+      213: -5795733434762332728
+    second: stickman_blue_36
+  - first:
+      213: 6872133196332950928
+    second: stickman_blue_37
+  - first:
+      213: 6079383074292575398
+    second: stickman_blue_38
+  - first:
+      213: -2402099162560882707
+    second: stickman_blue_39
+  - first:
+      213: 3047610584135082943
+    second: stickman_blue_40
+  - first:
+      213: 3530991112798050101
+    second: stickman_blue_41
+  - first:
+      213: -4786059547063760014
+    second: stickman_blue_42
+  - first:
+      213: -8825193406793302651
+    second: stickman_blue_43
+  - first:
+      213: 1627531239664867755
+    second: stickman_blue_44
+  - first:
+      213: 444199057394409745
+    second: stickman_blue_45
+  - first:
+      213: 2534015532481449028
+    second: stickman_blue_46
+  - first:
+      213: -8550263030597173113
+    second: stickman_blue_47
+  - first:
+      213: 3938377786938038125
+    second: stickman_blue_48
+  - first:
+      213: -3743576144740870945
+    second: stickman_blue_49
+  - first:
+      213: -8170211838317016147
+    second: stickman_blue_50
+  - first:
+      213: -8220032963284906086
+    second: stickman_blue_51
+  - first:
+      213: -3895079124849492705
+    second: stickman_blue_52
+  - first:
+      213: 698943368828388015
+    second: stickman_blue_53
+  - first:
+      213: 4756387972091765106
+    second: stickman_blue_54
+  - first:
+      213: 8920754909739660274
+    second: stickman_blue_55
+  - first:
+      213: 4972528722058055444
+    second: stickman_blue_56
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stickman_blue_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5454
+        width: 310
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd620899e15781240800000000000000
+      internalID: 4762685380229080799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 5445
+        width: 295
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e414a0c43a2aed0800000000000000
+      internalID: -2404179704077529530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 5442
+        width: 293
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d2e54db0ba1d650800000000000000
+      internalID: 6255969424690261252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 5445
+        width: 290
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632677192f3a1db00800000000000000
+      internalID: 851642066767667766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4818
+        width: 278
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b3eb9d456551370800000000000000
+      internalID: 8292629211303000986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4824
+        width: 273
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38764f275f6f10bf0800000000000000
+      internalID: -359734961156888701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740ee9eabed947d50800000000000000
+      internalID: 6734180978398257223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea667d0710dd774d0800000000000000
+      internalID: -3136795617182390610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_8
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 4821
+        width: 283
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138146424e4d8f310800000000000000
+      internalID: 1439134157273045041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_9
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 4818
+        width: 272
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a7bd0bd468d0cd0800000000000000
+      internalID: -2590266542430389724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4214
+        width: 360
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ed225c814874330800000000000000
+      internalID: 3695067261202259467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4264
+        width: 290
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d729aeb65401f15d0800000000000000
+      internalID: -3089732929003548035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 4364
+        width: 264
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dbf58b5b09624e0800000000000000
+      internalID: -2006757473790214810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_13
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4425
+        width: 263
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f0546e6cc8d1910800000000000000
+      internalID: 1809757411167506299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_14
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 4324
+        width: 284
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9df4459273e52170800000000000000
+      internalID: 8153172781694254493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_15
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 4235
+        width: 304
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f4e799d8a668a00800000000000000
+      internalID: 758410743656632104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_16
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 4264
+        width: 316
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e58491815c9913e0800000000000000
+      internalID: -2082461478801865240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3647
+        width: 310
+        height: 444
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11906669c0656d6e0800000000000000
+      internalID: -1813167187907180271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3649
+        width: 343
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aaf60633f565ac0800000000000000
+      internalID: -3866798555785090488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3658
+        width: 501
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42ae97a828bdb500800000000000000
+      internalID: 413689225538347598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_20
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3658
+        width: 481
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3d2bb2b87272e70800000000000000
+      internalID: 9090277851557712864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3037
+        width: 337
+        height: 377
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45df9b32e05e3ea10800000000000000
+      internalID: 1937644113591139668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3040
+        width: 323
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa8f0825636bf4f0800000000000000
+      internalID: -793931623185806600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_23
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3021
+        width: 246
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e98bcf4f656a2800800000000000000
+      internalID: 588394230079785444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_24
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 3028
+        width: 249
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1b309943f1163c0800000000000000
+      internalID: -4368175852806753880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_25
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 3019
+        width: 232
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32698c0bdaef1d90800000000000000
+      internalID: -7124717858947767749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_26
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 3040
+        width: 276
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9014cd3c97395410800000000000000
+      internalID: 1466264297876492444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_27
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 3051
+        width: 299
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62288e999612e15d0800000000000000
+      internalID: -3089995556892147162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2967
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca2d21b7469ebc0800000000000000
+      internalID: -3753358334677046212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_29
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2935
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30e1201e58904540800000000000000
+      internalID: 4990155916891512895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_30
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2934
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af43be23edc7f9fc0800000000000000
+      internalID: -3485930292782615302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2430
+        width: 342
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4135e069723923990800000000000000
+      internalID: -7407696638840515820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_32
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 2903
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118fcceb6663fc220800000000000000
+      internalID: 2508283332384323601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2430
+        width: 343
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c35da82b515166f0800000000000000
+      internalID: -693183415672024125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_34
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2427
+        width: 340
+        height: 437
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bef6d4ab64d1370800000000000000
+      internalID: 8294863854663363411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_35
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2430
+        width: 340
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39979dd59f00efc0800000000000000
+      internalID: -3467754576733038277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1836
+        width: 310
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5f220f52b619fa0800000000000000
+      internalID: -5795733434762332728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1830
+        width: 333
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09568906bb8be5f50800000000000000
+      internalID: 6872133196332950928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_38
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1841
+        width: 524
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac2bb432be4e5450800000000000000
+      internalID: 6079383074292575398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_39
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1853
+        width: 486
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de79b4cd9870aaed0800000000000000
+      internalID: -2402099162560882707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_40
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1868
+        width: 440
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3a719eda94b4a20800000000000000
+      internalID: 3047610584135082943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1255
+        width: 293
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537936785b9900130800000000000000
+      internalID: 3530991112798050101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_42
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1258
+        width: 372
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bc5671330849db0800000000000000
+      internalID: -4786059547063760014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_43
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1241
+        width: 419
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d37f9ba5d968580800000000000000
+      internalID: -8825193406793302651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_44
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1252
+        width: 419
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba953191a07269610800000000000000
+      internalID: 1627531239664867755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 649
+        width: 337
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ae8170bc1a2600800000000000000
+      internalID: 444199057394409745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_46
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1059
+        width: 12
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c01e473b1aa2320800000000000000
+      internalID: 2534015532481449028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_47
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 655
+        width: 311
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780c91d231d575980800000000000000
+      internalID: -8550263030597173113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_48
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 640
+        width: 305
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d671bb51bbde7a630800000000000000
+      internalID: 3938377786938038125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_49
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 640
+        width: 319
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd41817a4552c0cc0800000000000000
+      internalID: -3743576144740870945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 348
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab4c65ee939d9e80800000000000000
+      internalID: -8170211838317016147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 125
+        width: 313
+        height: 357
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fc66d42939ced80800000000000000
+      internalID: -8220032963284906086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_52
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 81
+        width: 284
+        height: 395
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7e474c26e1f9c0800000000000000
+      internalID: -3895079124849492705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_53
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 87
+        width: 381
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa281217a4523b900800000000000000
+      internalID: 698943368828388015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_54
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 84
+        width: 386
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271687209a5120240800000000000000
+      internalID: 4756387972091765106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_55
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 89
+        width: 398
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ba538353eccb70800000000000000
+      internalID: 8920754909739660274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_blue_56
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 101
+        width: 446
+        height: 188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f82b1f688f10540800000000000000
+      internalID: 4972528722058055444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

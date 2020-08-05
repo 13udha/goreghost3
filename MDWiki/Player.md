@@ -17,25 +17,5 @@ R1 = Schnelle Magie
 
 L1 = Starke Magie
 
-### Advanced
+### Advanced 
 ??? = Dash
-
-### Animation
-Baseline für die Frames: 400x600 px
-Benötigte Animationen (10):
-* Idle
-* Walk
-* Jump
-* Fast Attack
-* Strong Attack
-* Block
-* Fast Magic
-* Strong Magic
-* Hit Stun
-* Death
-
-Benötigte Canvas Size Minimum: 600x1200 px
-
-### Art
-* Profile Picture 100x100 px
-* Backdrop CharSlection ??

@@ -22,7 +22,16 @@ namespace Com.UCI307.GOREGHOST3
         private Vector2 moveVelocity;
 
         private Animator animator;
-        #endregion
+        private static string animWalking = "Walking";
+        private static string animFastAttack  = "fast-attack";
+        private static string animStrongAttack = "strong-attack";
+        private static string animFastMagic = "fast-magic";
+        private static string animStrongMagic = "strong-magic";
+        private static string animJump = "jump";
+        private static string animBlock = "block";
+        private static string animHitStun = "hit-stun";
+        private static string animDeath = "died";
+        #endregion;
 
         #region Monobehaviour Callbacks
         // Start is called before the first frame update
@@ -59,23 +68,47 @@ namespace Com.UCI307.GOREGHOST3
             moveVelocity = moveVector.normalized * character.movementSpeed;
             if (moveVelocity != Vector2.zero)
             {
-                animator.SetBool("Running", true);
+                animator.SetBool(animWalking, true);
             }
             else
             {
-                animator.SetBool("Running", false);
+                animator.SetBool(animWalking, false);
             }
         }
 
         private void FastAttack()
         {
-            animator.SetTrigger("Punch");
-            Debug.Log("FAST ATTACK!!!");
+            animator.SetTrigger(animFastAttack);
             Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, character.fastAttackRange, enemyLayers);
             foreach(Collider2D enemy in hitEnemys)
             {
                 Debug.Log("We hit " + enemy.name);
             }
+        }
+
+        private void StrongAttack()
+        {
+            animator.SetTrigger(animStrongAttack);
+        }
+
+        private void FastMagic()
+        {
+            animator.SetTrigger(animFastMagic);
+        }
+
+        private void StrongMagic()
+        {
+            animator.SetTrigger(animStrongMagic);
+        }
+
+        private void Jump()
+        {
+            animator.SetTrigger(animJump);
+        }
+
+        private void Block()
+        {
+            animator.SetTrigger(animBlock);
         }
         #endregion
 
@@ -83,12 +116,12 @@ namespace Com.UCI307.GOREGHOST3
 
         public void NorthButtonAction()
         {
-
+            StrongAttack();
         }
 
         public void EastButtonAction()
         {
-
+            Block();
         }
 
         public void WestButtonAction()
@@ -98,17 +131,17 @@ namespace Com.UCI307.GOREGHOST3
 
         public void SouthButtonAction()
         {
-
+            Jump();
         }
 
         public void L1ButtonAction()
         {
-
+            StrongMagic();
         }
 
         public void R1ButtonAction()
         {
-
+            FastMagic();
         }
 
         #endregion

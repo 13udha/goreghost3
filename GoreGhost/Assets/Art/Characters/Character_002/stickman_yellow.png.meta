@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: 749e48e05d3db8f40b95ab5774f4061f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 471163207197322054
+    second: stickman_yellow_0
+  - first:
+      213: -3740245071680127481
+    second: stickman_yellow_1
+  - first:
+      213: 4768638180125670285
+    second: stickman_yellow_2
+  - first:
+      213: -1908329351542240140
+    second: stickman_yellow_3
+  - first:
+      213: -3032632008215661571
+    second: stickman_yellow_4
+  - first:
+      213: 9194310463777334120
+    second: stickman_yellow_5
+  - first:
+      213: -2435207567185069969
+    second: stickman_yellow_6
+  - first:
+      213: -8278285512794898493
+    second: stickman_yellow_7
+  - first:
+      213: -4329628037361863082
+    second: stickman_yellow_8
+  - first:
+      213: 7023181359707881341
+    second: stickman_yellow_9
+  - first:
+      213: 3908165859474171961
+    second: stickman_yellow_10
+  - first:
+      213: 3415303284738555249
+    second: stickman_yellow_11
+  - first:
+      213: 4646132176769880870
+    second: stickman_yellow_12
+  - first:
+      213: -3647824058278809649
+    second: stickman_yellow_13
+  - first:
+      213: -896634218717406407
+    second: stickman_yellow_14
+  - first:
+      213: 8860273220189904239
+    second: stickman_yellow_15
+  - first:
+      213: 9027607098693214071
+    second: stickman_yellow_16
+  - first:
+      213: -1404396615112661789
+    second: stickman_yellow_17
+  - first:
+      213: -6633284683291961658
+    second: stickman_yellow_18
+  - first:
+      213: 2057418418285651564
+    second: stickman_yellow_19
+  - first:
+      213: -1327347185036219274
+    second: stickman_yellow_20
+  - first:
+      213: 3799753460546186949
+    second: stickman_yellow_21
+  - first:
+      213: 7076041358802638864
+    second: stickman_yellow_22
+  - first:
+      213: -416230356083517776
+    second: stickman_yellow_23
+  - first:
+      213: -3846924333375374318
+    second: stickman_yellow_24
+  - first:
+      213: 918131430999156402
+    second: stickman_yellow_25
+  - first:
+      213: 1524569044950066008
+    second: stickman_yellow_26
+  - first:
+      213: -4923254081303231168
+    second: stickman_yellow_27
+  - first:
+      213: -6292161696719156033
+    second: stickman_yellow_28
+  - first:
+      213: -565457549925513798
+    second: stickman_yellow_29
+  - first:
+      213: -8730868799082835559
+    second: stickman_yellow_30
+  - first:
+      213: 3777468050355849688
+    second: stickman_yellow_31
+  - first:
+      213: 6625859871650160604
+    second: stickman_yellow_32
+  - first:
+      213: 5315913458383991087
+    second: stickman_yellow_33
+  - first:
+      213: -4923076500592581020
+    second: stickman_yellow_34
+  - first:
+      213: -709807085147616591
+    second: stickman_yellow_35
+  - first:
+      213: 4591560866558771448
+    second: stickman_yellow_36
+  - first:
+      213: 8304020864548825883
+    second: stickman_yellow_37
+  - first:
+      213: -769546729450565414
+    second: stickman_yellow_38
+  - first:
+      213: -7479936561213682726
+    second: stickman_yellow_39
+  - first:
+      213: 7587744601823962080
+    second: stickman_yellow_40
+  - first:
+      213: -4564500471587491579
+    second: stickman_yellow_41
+  - first:
+      213: -2409780358468148856
+    second: stickman_yellow_42
+  - first:
+      213: -1301702799902197485
+    second: stickman_yellow_43
+  - first:
+      213: 1948274528642770503
+    second: stickman_yellow_44
+  - first:
+      213: -1435205330077365419
+    second: stickman_yellow_45
+  - first:
+      213: 108728737302180727
+    second: stickman_yellow_46
+  - first:
+      213: -329359171039945861
+    second: stickman_yellow_47
+  - first:
+      213: 7661913195264205568
+    second: stickman_yellow_48
+  - first:
+      213: 2385013639143213184
+    second: stickman_yellow_49
+  - first:
+      213: 9191305412938755811
+    second: stickman_yellow_50
+  - first:
+      213: 8774547528317397933
+    second: stickman_yellow_51
+  - first:
+      213: -1845541309895254000
+    second: stickman_yellow_52
+  - first:
+      213: -3974881263200204189
+    second: stickman_yellow_53
+  - first:
+      213: -8361422233594908061
+    second: stickman_yellow_54
+  - first:
+      213: -4226734965747544692
+    second: stickman_yellow_55
+  - first:
+      213: 8121384835819754553
+    second: stickman_yellow_56
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stickman_yellow_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5454
+        width: 310
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bea3cc078e98600800000000000000
+      internalID: 471163207197322054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 5445
+        width: 295
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eb9998ceaf71cc0800000000000000
+      internalID: -3740245071680127481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 5442
+        width: 293
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b71c4d82b9d2240800000000000000
+      internalID: 4768638180125670285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 5445
+        width: 290
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8fd6c0904485e0800000000000000
+      internalID: -1908329351542240140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4818
+        width: 278
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df373df814de9e5d0800000000000000
+      internalID: -3032632008215661571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4824
+        width: 273
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ea1c37a0c89f70800000000000000
+      internalID: 9194310463777334120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f683793be97643ed0800000000000000
+      internalID: -2435207567185069969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cff894bf2f9d1d80800000000000000
+      internalID: -8278285512794898493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_8
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 4821
+        width: 283
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65679774d321ae3c0800000000000000
+      internalID: -4329628037361863082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_9
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 4818
+        width: 272
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f788a7c3a577160800000000000000
+      internalID: 7023181359707881341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4214
+        width: 360
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938644194289c3630800000000000000
+      internalID: 3908165859474171961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4264
+        width: 290
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17df01f0e38956f20800000000000000
+      internalID: 3415303284738555249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 4364
+        width: 264
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62391e739906a7040800000000000000
+      internalID: 4646132176769880870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_13
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4425
+        width: 263
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfea239853506dc0800000000000000
+      internalID: -3647824058278809649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_14
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 4324
+        width: 284
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b93ebbde38e83f0800000000000000
+      internalID: -896634218717406407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_15
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 4235
+        width: 304
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d535ecc8306fa70800000000000000
+      internalID: 8860273220189904239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_16
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 4264
+        width: 316
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f576173d0884d70800000000000000
+      internalID: 9027607098693214071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3647
+        width: 310
+        height: 444
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4e27828b4928ce0800000000000000
+      internalID: -1404396615112661789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3649
+        width: 343
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6d756a9b6d1f3a0800000000000000
+      internalID: -6633284683291961658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3658
+        width: 501
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662348962b6d8c10800000000000000
+      internalID: 2057418418285651564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_20
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3658
+        width: 481
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c2d4e84c0549de0800000000000000
+      internalID: -1327347185036219274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3037
+        width: 337
+        height: 377
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceaae1f3af6bb430800000000000000
+      internalID: 3799753460546186949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3040
+        width: 323
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01857671026233260800000000000000
+      internalID: 7076041358802638864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_23
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3021
+        width: 246
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b658e842b0493af0800000000000000
+      internalID: -416230356083517776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_24
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 3028
+        width: 249
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cba5f53bafc9ac0800000000000000
+      internalID: -3846924333375374318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_25
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 3019
+        width: 232
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b663d90cabddbc00800000000000000
+      internalID: 918131430999156402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_26
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 3040
+        width: 276
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8532ec7087b582510800000000000000
+      internalID: 1524569044950066008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_27
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 3051
+        width: 299
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045cde06f761dabb0800000000000000
+      internalID: -4923254081303231168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2967
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc4cbd2640cda8a0800000000000000
+      internalID: -6292161696719156033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_29
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2935
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab58021ba571728f0800000000000000
+      internalID: -565457549925513798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_30
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2934
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991502ad519b5d680800000000000000
+      internalID: -8730868799082835559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2430
+        width: 342
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d909db8d234c6430800000000000000
+      internalID: 3777468050355849688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_32
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 2903
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf193da278c3fb50800000000000000
+      internalID: 6625859871650160604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2430
+        width: 343
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2132bf102be5c940800000000000000
+      internalID: 5315913458383991087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_34
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2427
+        width: 340
+        height: 437
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4662b1c9108bdabb0800000000000000
+      internalID: -4923076500592581020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_35
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2430
+        width: 340
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba88be77324626f0800000000000000
+      internalID: -709807085147616591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1836
+        width: 310
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f002dfe74088bf30800000000000000
+      internalID: 4591560866558771448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1830
+        width: 333
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b6ddecafecd3370800000000000000
+      internalID: 8304020864548825883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_38
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1841
+        width: 524
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad01909a3550255f0800000000000000
+      internalID: -769546729450565414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_39
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1853
+        width: 486
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc666f35de13890800000000000000
+      internalID: -7479936561213682726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_40
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1868
+        width: 440
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3ea1683851d4960800000000000000
+      internalID: 7587744601823962080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1255
+        width: 293
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501bced3103a7a0c0800000000000000
+      internalID: -4564500471587491579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_42
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1258
+        width: 372
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881eac2188dbe8ed0800000000000000
+      internalID: -2409780358468148856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_43
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1241
+        width: 419
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b2b0433c6fede0800000000000000
+      internalID: -1301702799902197485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_44
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1252
+        width: 419
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746a1b48c59a90b10800000000000000
+      internalID: 1948274528642770503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 649
+        width: 337
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcdf83b50251ce0800000000000000
+      internalID: -1435205330077365419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_46
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1059
+        width: 12
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773f5c3e538428100800000000000000
+      internalID: 108728737302180727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_47
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 655
+        width: 311
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b95a63491ed6bf0800000000000000
+      internalID: -329359171039945861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_48
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 640
+        width: 305
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003e99fd475945a60800000000000000
+      internalID: 7661913195264205568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_49
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 640
+        width: 319
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088c799b445491120800000000000000
+      internalID: 2385013639143213184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 348
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eee65053931e8f70800000000000000
+      internalID: 9191305412938755811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 125
+        width: 313
+        height: 357
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabe32acc7475c970800000000000000
+      internalID: 8774547528317397933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_52
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 81
+        width: 284
+        height: 395
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010626de4f15366e0800000000000000
+      internalID: -1845541309895254000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_53
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 87
+        width: 381
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a889a0d8266d8c0800000000000000
+      internalID: -3974881263200204189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_54
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 84
+        width: 386
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b58d77c246fb80800000000000000
+      internalID: -8361422233594908061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_55
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 89
+        width: 398
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d05ee51fe9755c0800000000000000
+      internalID: -4226734965747544692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_yellow_56
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 101
+        width: 446
+        height: 188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934d74faa74f4b070800000000000000
+      internalID: 8121384835819754553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

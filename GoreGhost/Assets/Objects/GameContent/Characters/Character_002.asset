@@ -20,4 +20,4 @@ MonoBehaviour:
   profileImage: {fileID: 21300000, guid: bb4a30de37e625846986983d18367fe4, type: 3}
   description: cannon carl the cannon ball is actualy just a bullet
   isUnlocked: 1
-  prefab: {fileID: 582826303824010751, guid: 799cd2618eb185b4f92112100e356303, type: 3}
+  prefab: {fileID: 4746187181707978852, guid: 30c2d2a04bec3874894c337bf7318746, type: 3}

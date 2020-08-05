@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: 1816a1601149d184cb7a4de43a3be396
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -803262355548700616
+    second: stickman_green_0
+  - first:
+      213: -6899970250650148890
+    second: stickman_green_1
+  - first:
+      213: -7088150743805754784
+    second: stickman_green_2
+  - first:
+      213: -5851396269120223719
+    second: stickman_green_3
+  - first:
+      213: -1232809541975319697
+    second: stickman_green_4
+  - first:
+      213: -2867489543007127202
+    second: stickman_green_5
+  - first:
+      213: -2117328175283515940
+    second: stickman_green_6
+  - first:
+      213: -5758963472933386259
+    second: stickman_green_7
+  - first:
+      213: -1794459261594541139
+    second: stickman_green_8
+  - first:
+      213: -1302399947686780795
+    second: stickman_green_9
+  - first:
+      213: 8579179091446716710
+    second: stickman_green_10
+  - first:
+      213: 461511415488827409
+    second: stickman_green_11
+  - first:
+      213: -675015445978543282
+    second: stickman_green_12
+  - first:
+      213: -4405260917337532431
+    second: stickman_green_13
+  - first:
+      213: -6978576090240809606
+    second: stickman_green_14
+  - first:
+      213: -1095122505709928458
+    second: stickman_green_15
+  - first:
+      213: 2467902061089120750
+    second: stickman_green_16
+  - first:
+      213: -2985520950768486981
+    second: stickman_green_17
+  - first:
+      213: 8788661146967306325
+    second: stickman_green_18
+  - first:
+      213: 8206628678171811647
+    second: stickman_green_19
+  - first:
+      213: -1948071381036652167
+    second: stickman_green_20
+  - first:
+      213: 5103999451565098731
+    second: stickman_green_21
+  - first:
+      213: 3307365099712717746
+    second: stickman_green_22
+  - first:
+      213: 1618339045139397053
+    second: stickman_green_23
+  - first:
+      213: 6337004500248013506
+    second: stickman_green_24
+  - first:
+      213: 9132431418013030899
+    second: stickman_green_25
+  - first:
+      213: 1205407118546368146
+    second: stickman_green_26
+  - first:
+      213: -597150565788011696
+    second: stickman_green_27
+  - first:
+      213: 77757926400443439
+    second: stickman_green_28
+  - first:
+      213: -6401277944989260885
+    second: stickman_green_29
+  - first:
+      213: 4241898243319430076
+    second: stickman_green_30
+  - first:
+      213: -6203310689051473494
+    second: stickman_green_31
+  - first:
+      213: 8235918706280775735
+    second: stickman_green_32
+  - first:
+      213: -1250255907835286125
+    second: stickman_green_33
+  - first:
+      213: 6165824021523903404
+    second: stickman_green_34
+  - first:
+      213: 8505246207046381997
+    second: stickman_green_35
+  - first:
+      213: 7224595803908466361
+    second: stickman_green_36
+  - first:
+      213: -1374968316399173729
+    second: stickman_green_37
+  - first:
+      213: 9139206703534921531
+    second: stickman_green_38
+  - first:
+      213: 7868057215086653607
+    second: stickman_green_39
+  - first:
+      213: -8866493577407582384
+    second: stickman_green_40
+  - first:
+      213: -6963842469188547245
+    second: stickman_green_41
+  - first:
+      213: 8235392493140507993
+    second: stickman_green_42
+  - first:
+      213: 2123435649027063618
+    second: stickman_green_43
+  - first:
+      213: 8150809139103910006
+    second: stickman_green_44
+  - first:
+      213: -5616098345512178750
+    second: stickman_green_45
+  - first:
+      213: -854675633977193451
+    second: stickman_green_46
+  - first:
+      213: 2273754323528710688
+    second: stickman_green_47
+  - first:
+      213: -5343399706189552045
+    second: stickman_green_48
+  - first:
+      213: 1500739728413009859
+    second: stickman_green_49
+  - first:
+      213: -2706777194890637082
+    second: stickman_green_50
+  - first:
+      213: -6339375646127765363
+    second: stickman_green_51
+  - first:
+      213: 7609339645659141959
+    second: stickman_green_52
+  - first:
+      213: 6871663088166555386
+    second: stickman_green_53
+  - first:
+      213: 4417156078114382310
+    second: stickman_green_54
+  - first:
+      213: -3277927886934628836
+    second: stickman_green_55
+  - first:
+      213: -6027164524386592853
+    second: stickman_green_56
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stickman_green_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5454
+        width: 310
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830831cb42d3ad4f0800000000000000
+      internalID: -803262355548700616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 5445
+        width: 295
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef1c395d916e30a0800000000000000
+      internalID: -6899970250650148890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 5442
+        width: 293
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06289010474d1ad90800000000000000
+      internalID: -7088150743805754784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 5445
+        width: 290
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9160b03681aabcea0800000000000000
+      internalID: -5851396269120223719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4818
+        width: 278
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b59d6d04e24eee0800000000000000
+      internalID: -1232809541975319697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4824
+        width: 273
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59b9e70471a438d0800000000000000
+      internalID: -2867489543007127202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddcc4f1e3dbd92e0800000000000000
+      internalID: -2117328175283515940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70b51db3d0410b0800000000000000
+      internalID: -5758963472933386259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_8
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 4821
+        width: 283
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da36fbc1fccc817e0800000000000000
+      internalID: -1794459261594541139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_9
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 4818
+        width: 272
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58064a2e522fcede0800000000000000
+      internalID: -1302399947686780795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4214
+        width: 360
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629d322eded5f0770800000000000000
+      internalID: 8579179091446716710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4264
+        width: 290
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110dffbef2e976600800000000000000
+      internalID: 461511415488827409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 4364
+        width: 264
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b0c8c370dd1a6f0800000000000000
+      internalID: -675015445978543282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_13
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4425
+        width: 263
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f75f27298e5dd2c0800000000000000
+      internalID: -4405260917337532431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_14
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 4324
+        width: 284
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75892f150e172f90800000000000000
+      internalID: -6978576090240809606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_15
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 4235
+        width: 304
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffbf9d12e75dc0f0800000000000000
+      internalID: -1095122505709928458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_16
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 4264
+        width: 316
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1ebab59dfbf3220800000000000000
+      internalID: 2467902061089120750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3647
+        width: 310
+        height: 444
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb535f3638c4196d0800000000000000
+      internalID: -2985520950768486981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3649
+        width: 343
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5507344bfb897f970800000000000000
+      internalID: 8788661146967306325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3658
+        width: 501
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fd6fd5d4dc3e170800000000000000
+      internalID: 8206628678171811647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_20
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3658
+        width: 481
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a438766f07f4e0800000000000000
+      internalID: -1948071381036652167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3037
+        width: 337
+        height: 377
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be68354857c05d640800000000000000
+      internalID: 5103999451565098731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3040
+        width: 323
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a6e6f80f16ed20800000000000000
+      internalID: 3307365099712717746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_23
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3021
+        width: 246
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9bda789ce757610800000000000000
+      internalID: 1618339045139397053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_24
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 3028
+        width: 249
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa551a40091f750800000000000000
+      internalID: 6337004500248013506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_25
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 3019
+        width: 232
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9984e2df9ecbe70800000000000000
+      internalID: 9132431418013030899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_26
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 3040
+        width: 276
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296fea643677ab010800000000000000
+      internalID: 1205407118546368146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_27
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 3051
+        width: 299
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05338c869be76b7f0800000000000000
+      internalID: -597150565788011696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2967
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c19d0c60441100800000000000000
+      internalID: 77757926400443439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_29
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2935
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba36f5cdf971a27a0800000000000000
+      internalID: -6401277944989260885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_30
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2934
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb786e4aff3eda30800000000000000
+      internalID: 4241898243319430076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2430
+        width: 342
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa904bb7bc969e9a0800000000000000
+      internalID: -6203310689051473494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_32
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 2903
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7304cd67d6cdb4270800000000000000
+      internalID: 8235918706280775735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2430
+        width: 343
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39de42f30e236aee0800000000000000
+      internalID: -1250255907835286125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_34
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2427
+        width: 340
+        height: 437
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3b0869748619550800000000000000
+      internalID: 6165824021523903404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_35
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2430
+        width: 340
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1fc32dc54b80670800000000000000
+      internalID: 8505246207046381997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1836
+        width: 310
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6edb92b9be24460800000000000000
+      internalID: 7224595803908466361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1830
+        width: 333
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f3c93e9912bece0800000000000000
+      internalID: -1374968316399173729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_38
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1841
+        width: 524
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375115431cf4de70800000000000000
+      internalID: 9139206703534921531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_39
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1853
+        width: 486
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a070b1b954f03d60800000000000000
+      internalID: 7868057215086653607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_40
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1868
+        width: 440
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fa65b6113e3f480800000000000000
+      internalID: -8866493577407582384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1255
+        width: 293
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dcc389b267b5f90800000000000000
+      internalID: -6963842469188547245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_42
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1258
+        width: 372
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dfe8be6ddf94270800000000000000
+      internalID: 8235392493140507993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_43
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1241
+        width: 419
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fb8abe875f77d10800000000000000
+      internalID: 2123435649027063618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_44
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1252
+        width: 419
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678cb482abd7d1170800000000000000
+      internalID: 8150809139103910006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 649
+        width: 337
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb66146f4c9f02b0800000000000000
+      internalID: -5616098345512178750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_46
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1059
+        width: 12
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c8b960a059324f0800000000000000
+      internalID: -854675633977193451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_47
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 655
+        width: 311
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aff68a28ffd8f10800000000000000
+      internalID: 2273754323528710688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_48
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 640
+        width: 305
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35625ab174e68d5b0800000000000000
+      internalID: -5343399706189552045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_49
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 640
+        width: 319
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7af5ce4d2b3d410800000000000000
+      internalID: 1500739728413009859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 348
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e05a6c7b789f6ad0800000000000000
+      internalID: -2706777194890637082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 125
+        width: 313
+        height: 357
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88cac2ff630608a0800000000000000
+      internalID: -6339375646127765363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_52
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 81
+        width: 284
+        height: 395
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7475fca771ec99960800000000000000
+      internalID: 7609339645659141959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_53
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 87
+        width: 381
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afec45acb2d0d5f50800000000000000
+      internalID: 6871663088166555386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_54
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 84
+        width: 386
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e12779cc04ec4d30800000000000000
+      internalID: 4417156078114382310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_55
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 89
+        width: 398
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162aeb34f57282d0800000000000000
+      internalID: -3277927886934628836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_green_56
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 101
+        width: 446
+        height: 188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7d9116cc53b5ca0800000000000000
+      internalID: -6027164524386592853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

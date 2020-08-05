@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: b856b00fd25ea944498c25c3d51a3911
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7712953686868195284
+    second: stickman_red_0
+  - first:
+      213: -49519518539271081
+    second: stickman_red_1
+  - first:
+      213: -2941763596464849550
+    second: stickman_red_2
+  - first:
+      213: 6100521632703735449
+    second: stickman_red_3
+  - first:
+      213: -2521340342395603850
+    second: stickman_red_4
+  - first:
+      213: 6554167381511041976
+    second: stickman_red_5
+  - first:
+      213: 8515847298632477724
+    second: stickman_red_6
+  - first:
+      213: 3142268611764725911
+    second: stickman_red_7
+  - first:
+      213: 4949664464724347210
+    second: stickman_red_8
+  - first:
+      213: -8541188355729689073
+    second: stickman_red_9
+  - first:
+      213: -8321572125317966578
+    second: stickman_red_10
+  - first:
+      213: -1036013212161352127
+    second: stickman_red_11
+  - first:
+      213: -6767487887687554375
+    second: stickman_red_12
+  - first:
+      213: -8888628043540537779
+    second: stickman_red_13
+  - first:
+      213: 5963294722124136133
+    second: stickman_red_14
+  - first:
+      213: 8756677616176994389
+    second: stickman_red_15
+  - first:
+      213: -5227217639750829191
+    second: stickman_red_16
+  - first:
+      213: 8674182425343516878
+    second: stickman_red_17
+  - first:
+      213: 2934337803978627846
+    second: stickman_red_18
+  - first:
+      213: -5085242742615806739
+    second: stickman_red_19
+  - first:
+      213: 1357343782931791198
+    second: stickman_red_20
+  - first:
+      213: -2448895985306765449
+    second: stickman_red_21
+  - first:
+      213: 8737086803168971868
+    second: stickman_red_22
+  - first:
+      213: 582775392800545547
+    second: stickman_red_23
+  - first:
+      213: -1170287973081668816
+    second: stickman_red_24
+  - first:
+      213: -7115838477378083314
+    second: stickman_red_25
+  - first:
+      213: 244664863099461645
+    second: stickman_red_26
+  - first:
+      213: -6021725151654077628
+    second: stickman_red_27
+  - first:
+      213: 4338818466922574969
+    second: stickman_red_28
+  - first:
+      213: -3000606651114343346
+    second: stickman_red_29
+  - first:
+      213: 4696148443322365160
+    second: stickman_red_30
+  - first:
+      213: 1045354815740877487
+    second: stickman_red_31
+  - first:
+      213: -6827074132577001831
+    second: stickman_red_32
+  - first:
+      213: 3371814861153213040
+    second: stickman_red_33
+  - first:
+      213: 4056347097427711059
+    second: stickman_red_34
+  - first:
+      213: 9154539895702042027
+    second: stickman_red_35
+  - first:
+      213: -7963947568603843441
+    second: stickman_red_36
+  - first:
+      213: 1088034622576946355
+    second: stickman_red_37
+  - first:
+      213: 5422180497811840054
+    second: stickman_red_38
+  - first:
+      213: -5147222398385219828
+    second: stickman_red_39
+  - first:
+      213: 6925892097609977190
+    second: stickman_red_40
+  - first:
+      213: 448637115492664037
+    second: stickman_red_41
+  - first:
+      213: -8140153221003836288
+    second: stickman_red_42
+  - first:
+      213: 2786902790504030147
+    second: stickman_red_43
+  - first:
+      213: -1194846414922272390
+    second: stickman_red_44
+  - first:
+      213: 3287461566441298438
+    second: stickman_red_45
+  - first:
+      213: -7544097885064171600
+    second: stickman_red_46
+  - first:
+      213: -3979232751324707846
+    second: stickman_red_47
+  - first:
+      213: -7090063126929988157
+    second: stickman_red_48
+  - first:
+      213: 2587347490720139129
+    second: stickman_red_49
+  - first:
+      213: 1162636691921090092
+    second: stickman_red_50
+  - first:
+      213: 8204907911457256688
+    second: stickman_red_51
+  - first:
+      213: 6595891727047138315
+    second: stickman_red_52
+  - first:
+      213: -2612734450354932753
+    second: stickman_red_53
+  - first:
+      213: 6297493038633095869
+    second: stickman_red_54
+  - first:
+      213: -374838540431485975
+    second: stickman_red_55
+  - first:
+      213: -812859637777194836
+    second: stickman_red_56
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stickman_red_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5454
+        width: 310
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c288e2d9c7516f490800000000000000
+      internalID: -7712953686868195284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 5445
+        width: 295
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754b400a242105ff0800000000000000
+      internalID: -49519518539271081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 5442
+        width: 293
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d798b5891cc27d0800000000000000
+      internalID: -2941763596464849550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 5445
+        width: 290
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99664ed5a1869a450800000000000000
+      internalID: 6100521632703735449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4818
+        width: 278
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674f5a53156620dd0800000000000000
+      internalID: -2521340342395603850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4824
+        width: 273
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3fa6d028415fa50800000000000000
+      internalID: 6554167381511041976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c657ccffd5e2670800000000000000
+      internalID: 8515847298632477724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4833
+        width: 284
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a81967a49b9b20800000000000000
+      internalID: 3142268611764725911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_8
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 4821
+        width: 283
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c4413b9db0b440800000000000000
+      internalID: 4949664464724347210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_9
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 4818
+        width: 272
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f067701917a977980800000000000000
+      internalID: -8541188355729689073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4214
+        width: 360
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0551a9dd36d38c80800000000000000
+      internalID: -8321572125317966578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4264
+        width: 290
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ed28af8775f91f0800000000000000
+      internalID: -1036013212161352127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 4364
+        width: 264
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baef903f9d0512a0800000000000000
+      internalID: -6767487887687554375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_13
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4425
+        width: 263
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ed03c63ef35a480800000000000000
+      internalID: -8888628043540537779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_14
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 4324
+        width: 284
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cebb2374f0e1c250800000000000000
+      internalID: 5963294722124136133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_15
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 4235
+        width: 304
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55818d4a5e7f58970800000000000000
+      internalID: 8756677616176994389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_16
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 4264
+        width: 316
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bfefa60413577b0800000000000000
+      internalID: -5227217639750829191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3647
+        width: 310
+        height: 444
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0698345f2e06870800000000000000
+      internalID: 8674182425343516878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3649
+        width: 343
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b55299facd8b820800000000000000
+      internalID: 2934337803978627846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3658
+        width: 501
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec60c91ba69d69b0800000000000000
+      internalID: -5085242742615806739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_20
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3658
+        width: 481
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dfbb3aaf046d210800000000000000
+      internalID: 1357343782931791198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3037
+        width: 337
+        height: 377
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777f8ef7316c30ed0800000000000000
+      internalID: -2448895985306765449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3040
+        width: 323
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc3aa082e504970800000000000000
+      internalID: 8737086803168971868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_23
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3021
+        width: 246
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b17bfc12f661800800000000000000
+      internalID: 582775392800545547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_24
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 3028
+        width: 249
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0332e87f94d42cfe0800000000000000
+      internalID: -1170287973081668816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_25
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 3019
+        width: 232
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06a2dc2b967f3d90800000000000000
+      internalID: -7115838477378083314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_26
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 3040
+        width: 276
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00201e8569356300800000000000000
+      internalID: 244664863099461645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_27
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 3051
+        width: 299
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b9f9801e88e6ca0800000000000000
+      internalID: -6021725151654077628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2967
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97433d95864963c30800000000000000
+      internalID: 4338818466922574969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_29
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2935
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44b7a11624bb56d0800000000000000
+      internalID: -3000606651114343346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_30
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2934
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4bbb0c0221c2140800000000000000
+      internalID: 4696148443322365160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2430
+        width: 342
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa9a789aa8d18e00800000000000000
+      internalID: 1045354815740877487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_32
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 2903
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e5d707f3c5141a0800000000000000
+      internalID: -6827074132577001831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2430
+        width: 343
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a9b6760c71bce20800000000000000
+      internalID: 3371814861153213040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_34
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2427
+        width: 340
+        height: 437
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3549dd3913a0b4830800000000000000
+      internalID: 4056347097427711059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_35
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2430
+        width: 340
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5367548857b0f70800000000000000
+      internalID: 9154539895702042027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1836
+        width: 310
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84388391ef5a7190800000000000000
+      internalID: -7963947568603843441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1830
+        width: 333
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc660e79b9791f00800000000000000
+      internalID: 1088034622576946355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_38
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1841
+        width: 524
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c10205f647f3b40800000000000000
+      internalID: 5422180497811840054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_39
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1853
+        width: 486
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c079054ff746198b0800000000000000
+      internalID: -5147222398385219828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_40
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1868
+        width: 440
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d4ab6fa26bd1060800000000000000
+      internalID: 6925892097609977190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1255
+        width: 293
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e20ffd5411e93600800000000000000
+      internalID: 448637115492664037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_42
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1258
+        width: 372
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08480dc16cd580f80800000000000000
+      internalID: -8140153221003836288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_43
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1241
+        width: 419
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf998382511da620800000000000000
+      internalID: 2786902790504030147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_44
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1252
+        width: 419
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71b865248d0b6fe0800000000000000
+      internalID: -1194846414922272390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 649
+        width: 337
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a9b7080e86f9d20800000000000000
+      internalID: 3287461566441298438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_46
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1059
+        width: 12
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf69f1a1fafd4790800000000000000
+      internalID: -7544097885064171600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_47
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 655
+        width: 311
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3c0b245ece6c8c0800000000000000
+      internalID: -3979232751324707846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_48
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 640
+        width: 305
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c52e3c96290b9d90800000000000000
+      internalID: -7090063126929988157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_49
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 640
+        width: 319
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9774fde95da18e320800000000000000
+      internalID: 2587347490720139129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 348
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26bac059e3822010800000000000000
+      internalID: 1162636691921090092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 125
+        width: 313
+        height: 357
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4b3352640bdd170800000000000000
+      internalID: 8204907911457256688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_52
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 81
+        width: 284
+        height: 395
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c15974490598b50800000000000000
+      internalID: 6595891727047138315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_53
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 87
+        width: 381
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe33b2a3cd3bdbbd0800000000000000
+      internalID: -2612734450354932753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_54
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 84
+        width: 386
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db298379d80356750800000000000000
+      internalID: 6297493038633095869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_55
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 89
+        width: 398
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3947d555e4ccaf0800000000000000
+      internalID: -374838540431485975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_red_56
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 101
+        width: 446
+        height: 188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0a906577428b4f0800000000000000
+      internalID: -812859637777194836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
