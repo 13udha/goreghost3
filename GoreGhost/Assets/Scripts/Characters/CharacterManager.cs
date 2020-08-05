@@ -68,6 +68,16 @@ namespace Com.UCI307.GOREGHOST3
             moveVelocity = moveVector.normalized * character.movementSpeed;
             if (moveVelocity != Vector2.zero)
             {
+                //Debug.Log("MOOOOOOOOOOOOOOOOOVVVVVVVVEEEEEEEEE: " + moveVelocity.x);  
+                if(moveVelocity.x < 0)
+                {
+                    transform.rotation = Quaternion.Euler(0, -180, 0);
+                    Debug.Log("yeeeeeeeeeeeeeeeeeeeeeeeeee");
+                }
+                else
+                {
+                    transform.rotation = Quaternion.Euler(0, 0, 0);
+                }
                 animator.SetBool(animWalking, true);
             }
             else
