@@ -31,6 +31,7 @@ namespace Com.UCI307.GOREGHOST3
         public void EndCurrentLevel()
         {
             levelEnded.Raise();
+            Time.timeScale = 1;
             SceneManager.LoadScene("MainMenu");
         }
 

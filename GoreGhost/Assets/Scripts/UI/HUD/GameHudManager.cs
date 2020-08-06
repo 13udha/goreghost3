@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Com.UCI307.UCINGEN;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +8,12 @@ namespace Com.UCI307.GOREGHOST3
     public class GameHudManager : MonoBehaviour
     {
         #region Public Fields
+        [Header("Dependencies")]
         public GameObject pauseMenu;
+
+        [Header("Events")]
+        public GameEvent levelEnded;
+        public GameEvent exitButton;
         #endregion
 
         #region Private Fields
@@ -37,12 +43,17 @@ namespace Com.UCI307.GOREGHOST3
 
         public void OnExit()
         {
-
+            levelEnded.Raise();
         }
 
         #endregion
 
         #region Event Responses
+
+        public void ExitLevelFromMenu()
+        {
+            exitButton.Raise();
+        }
 
         public void OnGamePaused()
         {
