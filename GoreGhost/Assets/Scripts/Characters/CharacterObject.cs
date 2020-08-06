@@ -68,6 +68,17 @@ namespace Com.UCI307.GOREGHOST3
                 return true;
             }
         }
+
+        public CharacterSavedState ToSave()
+        {
+            return new CharacterSavedState(level, experience);
+        }
+
+        public void FromSave(CharacterSavedState cs)
+        {
+            this.level = cs.lvl;
+            this.experience = cs.exp;
+        }
         #endregion
 
         #region Serialitation Callbacks

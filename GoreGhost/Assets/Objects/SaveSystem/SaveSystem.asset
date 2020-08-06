@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SaveSystem
   m_EditorClassIdentifier: 
   player: {fileID: 11400000, guid: 09e318ec44a5135488aebfbdfb7b5162, type: 2}
+  charCollec: {fileID: 11400000, guid: bd134ed41828599439a9525fe1efd1b8, type: 2}
   filePath: /
   fileName: savefile
   fileEnding: uci

@@ -1,4 +1,5 @@
-﻿
+﻿using System.Collections.Generic;
+
 namespace Com.UCI307.GOREGHOST3
 {
     [System.Serializable]
@@ -8,5 +9,6 @@ namespace Com.UCI307.GOREGHOST3
         public string startDate;
         public string lastSave;
         public int gameState;
+        public List<CharacterSavedState> chars;
     }
 }

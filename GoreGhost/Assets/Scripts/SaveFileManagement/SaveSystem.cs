@@ -13,7 +13,7 @@ namespace Com.UCI307.GOREGHOST3
         #region Public Fields
         [Header("Dependencys")]
         public PlayerData player;
-        public CharacterCollection chars;
+        public CharacterCollection charCollec;
 
         [Header("Save File Configuration")]
         [Tooltip("Defines where the save file will be placed")]
@@ -65,14 +65,24 @@ namespace Com.UCI307.GOREGHOST3
 
         #region Private Methods
 
-        private void CharactersToSave()
+        private List<CharacterSavedState> CharactersToSave()
         {
+            List<CharacterSavedState> lst = new List<CharacterSavedState>();
 
+            foreach(CharacterObject co in charCollec.chars)
+            {
+                lst.Add(co.ToSave());
+            }
+
+            return lst;
         }
 
-        private void CharactersFromSave()
+        private void CharactersFromSave(List<CharacterSavedState> lst)
         {
-
+            for(int i  = 0; i < charCollec.chars.Count; i++)
+            {
+                charCollec.chars[i].FromSave(lst[i]);
+            }
         }
 
         private void PlayerFromSave(SaveFile save)
@@ -82,6 +92,7 @@ namespace Com.UCI307.GOREGHOST3
             player.startDate = save.startDate;
             player.lastSave = save.lastSave;
             player.gameState = save.gameState;
+            CharactersFromSave(save.chars);
         }
 
         private SaveFile PlayerToSave()
@@ -93,6 +104,7 @@ namespace Com.UCI307.GOREGHOST3
             save.startDate = player.startDate;
             save.lastSave = DateTime.Now.ToLongTimeString();
             save.gameState = player.gameState;
+            save.chars = CharactersToSave();
 
             //return
             return save;
