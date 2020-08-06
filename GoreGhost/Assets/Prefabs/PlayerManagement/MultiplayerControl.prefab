@@ -185,9 +185,10 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Com.UCI307.GOREGHOST3.MultiplayerControlManager,
+          Assembly-CSharp
         m_MethodName: StartButtonAction
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

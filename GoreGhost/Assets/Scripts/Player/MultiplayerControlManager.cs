@@ -77,9 +77,12 @@ namespace Com.UCI307.GOREGHOST3
                 characterManager.L1ButtonAction();
         }
 
-        public void StartButtonAction()
+        public void StartButtonAction(CallbackContext cc)
         {
-            gamePaused.Raise();
+            if (cc.performed)
+            { 
+                gamePaused.Raise();
+            }
         }
         #endregion
 

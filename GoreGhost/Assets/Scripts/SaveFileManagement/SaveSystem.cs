@@ -13,6 +13,7 @@ namespace Com.UCI307.GOREGHOST3
         #region Public Fields
         [Header("Dependencys")]
         public PlayerData player;
+        public CharacterCollection chars;
 
         [Header("Save File Configuration")]
         [Tooltip("Defines where the save file will be placed")]
@@ -63,6 +64,16 @@ namespace Com.UCI307.GOREGHOST3
         #endregion
 
         #region Private Methods
+
+        private void CharactersToSave()
+        {
+
+        }
+
+        private void CharactersFromSave()
+        {
+
+        }
 
         private void PlayerFromSave(SaveFile save)
         {
