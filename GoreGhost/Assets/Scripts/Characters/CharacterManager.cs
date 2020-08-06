@@ -14,6 +14,7 @@ namespace Com.UCI307.GOREGHOST3
         public PlayerCharacterStatus status;
         public Transform attackPoint;
         public LayerMask enemyLayers;
+        public SortingLayer pickUpLayer;
 
         #endregion
 
@@ -51,6 +52,20 @@ namespace Com.UCI307.GOREGHOST3
         {
             rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
         }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            switch (collision.gameObject.layer)
+            {
+                case 15:
+                    PickUpManager pum = collision.gameObject.GetComponent<PickUpManager>();
+                    HandlePickUp(pum.GetData());
+                    pum.Consumed();
+                    break;
+                default:
+                    break;
+            }
+        }
         #endregion
 
         #region Public Methods
@@ -72,7 +87,6 @@ namespace Com.UCI307.GOREGHOST3
                 if(moveVelocity.x < 0)
                 {
                     transform.rotation = Quaternion.Euler(0, -180, 0);
-                    Debug.Log("yeeeeeeeeeeeeeeeeeeeeeeeeee");
                 }
                 else
                 {
@@ -119,6 +133,27 @@ namespace Com.UCI307.GOREGHOST3
         private void Block()
         {
             animator.SetTrigger(animBlock);
+        }
+
+        private void HandlePickUp(PickUpObject pu)
+        {
+            switch (pu.pickUpType)
+            {
+                case PickUpObject.PickUpType.Health:
+                    status.RecoverHP(pu.pickUpValue);
+                    break;
+                case PickUpObject.PickUpType.Energy:
+                    status.RecoverEnergy(pu.pickUpValue);
+                    break;
+                case PickUpObject.PickUpType.Experience:
+                    if (character.ExperienceGain(pu.pickUpValue))
+                    {
+                        Debug.Log("Level Up!!");
+                    }
+                    break;
+                default:
+                    break;
+            }
         }
         #endregion
 

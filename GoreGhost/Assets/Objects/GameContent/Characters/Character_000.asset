@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: Character_000
   m_EditorClassIdentifier: 
   characterName: Steve the Slime
-  health: 100
-  energy: 75
-  movementSpeed: 3
+  iLevel: 1
+  iExperience: 0
+  iHealth: 100
+  iEnergy: 100
+  iMovementSpeed: 3
   fastAttackRange: 0.5
   profileImage: {fileID: 21300000, guid: baf38b3b413b05e4fac9a2983f6a1651, type: 3}
   description: he ssteve the slime. was once a mime
   isUnlocked: 1
   prefab: {fileID: 9196331158758248414, guid: 3e7815b7c76278f4d8a7f9f253d556cc, type: 3}
+  values: {fileID: 11400000, guid: acb591b9b382a62468d0c5d08fc98a63, type: 2}
+  levelUp: {fileID: 11400000, guid: 49e4fc9ca592b8547b2d86a63e37b979, type: 2}

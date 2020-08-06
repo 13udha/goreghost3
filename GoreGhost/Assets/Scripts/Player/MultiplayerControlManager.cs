@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Com.UCI307.UCINGEN;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -12,8 +13,12 @@ namespace Com.UCI307.GOREGHOST3
     public class MultiplayerControlManager : MonoBehaviour
     {
         #region Public Fields
+        [Header("Config")]
         public PlayerInput playerInput;
         public CharacterManager characterManager;
+
+        [Header("Events")]
+        public GameEvent gamePaused;
         #endregion
 
         // Start is called before the first frame update
@@ -38,21 +43,18 @@ namespace Com.UCI307.GOREGHOST3
 
         public void NorthAction()
         {
-            Debug.Log(this.ToString());
             if (characterManager != null)
                 characterManager.NorthButtonAction();
         }
 
         public void EastAction()
         {
-            Debug.Log(this.ToString());
             if (characterManager != null)
                 characterManager.EastButtonAction();
         }
 
         public void SouthAction()
         {
-            Debug.Log(this.ToString());
             if (characterManager != null)
                 characterManager.SouthButtonAction();
         }
@@ -65,21 +67,19 @@ namespace Com.UCI307.GOREGHOST3
 
         public void R1Action()
         {
-            Debug.Log(this.ToString());
             if (characterManager != null)
                 characterManager.R1ButtonAction();
         }
 
         public void L1Action()
         {
-            Debug.Log(this.ToString());
             if (characterManager != null)
                 characterManager.L1ButtonAction();
         }
 
         public void StartButtonAction()
         {
-            Debug.Log(this.ToString());
+            gamePaused.Raise();
         }
         #endregion
 

@@ -37,7 +37,7 @@ namespace Com.UCI307.GOREGHOST3
                 status = player.status;
                 characterIcon.sprite = player.GetCharacter().profileImage;
                 nameDisplay.text = player.GetCharacter().characterName;
-                levelDisplay.text = player.GetCharacter().GetLevel().ToString();
+                levelDisplay.text = player.GetCharacter().level.ToString();     
                 nameDisplay.color = player.playerColo;
                 healthBar.value = status.GetHealthPerc();
                 energyBar.value = status.GetEnergyPerc();
@@ -52,6 +52,17 @@ namespace Com.UCI307.GOREGHOST3
             healthBar.value = status.GetHealthPerc();
             energyBar.value = status.GetEnergyPerc();
         }
+        #endregion
+
+        #region Event Responses
+
+        public void OnLevelUp()
+        {
+            levelDisplay.text = player.GetCharacter().level.ToString();
+            healthBar.value = status.GetHealthPerc();
+            energyBar.value = status.GetEnergyPerc();
+        }
+
         #endregion
     }
 }

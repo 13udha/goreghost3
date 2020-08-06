@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Com.UCI307.UCINGEN;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,15 +8,16 @@ using UnityEngine.UI;
 namespace Com.UCI307.GOREGHOST3
 {
     [CreateAssetMenu(fileName = "New CharacterData", menuName = "GoreGhost3/GameContent/CharacterData")]
-    public class CharacterObject : ScriptableObject
+    public class CharacterObject : ScriptableObject, ISerializationCallbackReceiver
     {
         #region PublicFields
         [Header("Attributes")]
         public string characterName;
-        public float experience;
-        public float health;
-        public float energy;
-        public float movementSpeed;
+        public float iLevel;
+        public float iExperience;
+        public float iHealth;
+        public float iEnergy;
+        public float iMovementSpeed;
 
         [Header("Attacks")]
         public float fastAttackRange;
@@ -27,15 +30,59 @@ namespace Com.UCI307.GOREGHOST3
         [Header("Configuratio")]
         public bool isUnlocked;
         public GameObject prefab;
+        public CharacterValues values;
+
+        [Header("Events")]
+        public GameEvent levelUp;
+        #endregion
+
+        #region Non Seriaized
+        [NonSerialized]
+        public float level;
+        [NonSerialized]
+        public float experience;
+        [NonSerialized]
+        public float health;
+        [NonSerialized]
+        public float energy;
+        [NonSerialized]
+        public float movementSpeed;
         #endregion
 
         #region PublicMethods
 
-        public float GetLevel()
+        public bool ExperienceGain(float exp)
         {
-            return (Mathf.Round(experience / 1000))+1;
+            float x = experience + exp;
+            float remainingExp = x % values.ExpToLevelUp;
+            if(x == remainingExp)
+            {
+                experience = x;
+                return false;
+            }
+            else
+            {
+                experience = remainingExp;
+                level += (x - remainingExp) / values.ExpToLevelUp;
+                levelUp.Raise();
+                return true;
+            }
+        }
+        #endregion
+
+        #region Serialitation Callbacks
+        public void OnBeforeSerialize()
+        {
         }
 
+        public void OnAfterDeserialize()
+        {
+            level = iLevel;
+            experience = iExperience;
+            health = iHealth;
+            energy = iEnergy;
+            movementSpeed = iMovementSpeed;
+        }
         #endregion
     }
 }

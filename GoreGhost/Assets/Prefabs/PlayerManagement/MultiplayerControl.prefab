@@ -61,6 +61,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: OnMove
         m_Mode: 0
         m_Arguments:
@@ -88,6 +89,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: NorthAction
         m_Mode: 1
         m_Arguments:
@@ -103,6 +105,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: EastAction
         m_Mode: 1
         m_Arguments:
@@ -118,6 +121,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: SouthAction
         m_Mode: 1
         m_Arguments:
@@ -133,6 +137,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: WestAction
         m_Mode: 1
         m_Arguments:
@@ -148,6 +153,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: R1Action
         m_Mode: 1
         m_Arguments:
@@ -163,6 +169,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: L1Action
         m_Mode: 1
         m_Arguments:
@@ -178,6 +185,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1620889919}
+        m_TargetAssemblyTypeName: 
         m_MethodName: StartButtonAction
         m_Mode: 1
         m_Arguments:
@@ -209,3 +217,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInput: {fileID: 9070749682123426897}
   characterManager: {fileID: 0}
+  gamePaused: {fileID: 11400000, guid: da3ec1e37106f6643bff489265cb1b29, type: 2}

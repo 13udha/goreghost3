@@ -45,6 +45,26 @@ namespace Com.UCI307.GOREGHOST3
         {
             return CurrentEnergy / MaxEnergy;
         }
+
+        public void RecoverHP(float value)
+        {
+            float x = value + CurrentHP;
+            if(x > MaxHP)
+            {
+                x = MaxHP;
+            }
+            CurrentHP = x;
+        }
+
+        public void RecoverEnergy(float value)
+        {
+            float x = value + CurrentEnergy;
+            if(x > MaxEnergy)
+            {
+                x = MaxEnergy;
+            }
+            CurrentEnergy = x;
+        }
         #endregion
     }
 }
