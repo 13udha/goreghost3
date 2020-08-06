@@ -1,7 +1,16 @@
 # Player
 
+## Stats
+
+Max Health
+
+Max Energy
+
+Experience
+
 ## Controls
 Action Buttons benannt nach den Himmelsrichtungen. i.E. auf dem Playstation Controller wäre Dreieck Norden, Kreis Osten etc. etc.
+
 ### Basic
 4 Richtungs Knöpfe, dreidimensionales Movement
 
@@ -17,10 +26,8 @@ R1 = Schnelle Magie
 
 L1 = Starke Magie
 
-### Advanced 
+### Advanced
 ??? = Dash
-<<<<<<< HEAD
-=======
 
 ### Animation
 Baseline für die Frames: 400x600 px
@@ -41,4 +48,3 @@ Benötigte Canvas Size Minimum: 4000x6000 px
 ### Art
 * Profile Picture 100x100 px
 * Backdrop CharSlection ??
->>>>>>> b372481d53a6c36087d5259dff1d1e28d2f366c2

@@ -1,6 +1,9 @@
 # goreghost3-maybethistime
 This time with unity and Github ♥
 
+# News
+**06.08.2020** - Unity Version Upgrade zu 2020.1.1f1
+
 # Wiki
 [Player](MDWiki/Player.md) Spieler Eigenschaften
 
@@ -22,12 +25,12 @@ This time with unity and Github ♥
     - Hindernisse
     - PickUps
 
-## Gegner
+## Gegner (Falko)
 - GrafikSprites/Aniamtion
 - Pathfinding
 - Boss Gegner
 
-## Combat System
+## Combat System (Falko)
 - Gegner
 - Spieler
 - Interaktion
@@ -41,5 +44,3 @@ This time with unity and Github ♥
 ## Extra
 - Musik
 - Title Screens
-
-
