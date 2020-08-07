@@ -71,13 +71,14 @@ namespace Com.UCI307.GOREGHOST3
 
         public CharacterSavedState ToSave()
         {
-            return new CharacterSavedState(level, experience);
+            return new CharacterSavedState(level, experience, isUnlocked);
         }
 
         public void FromSave(CharacterSavedState cs)
         {
             this.level = cs.lvl;
             this.experience = cs.exp;
+            this.isUnlocked = cs.unlocked;
         }
         #endregion
 

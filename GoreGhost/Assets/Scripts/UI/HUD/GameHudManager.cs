@@ -17,7 +17,6 @@ namespace Com.UCI307.GOREGHOST3
         #endregion
 
         #region Private Fields
-        private bool gamePaused = false;
         #endregion
 
         #region Monobehaviour Callbacks
@@ -59,14 +58,12 @@ namespace Com.UCI307.GOREGHOST3
         {
             Time.timeScale = 0;
             pauseMenu.SetActive(true);
-            gamePaused = true;
         }
 
         public void OnGameUnpaused()
         {
             Time.timeScale = 1;
             pauseMenu.SetActive(false);
-            gamePaused = false;
         }
 
         #endregion

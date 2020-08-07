@@ -9,11 +9,13 @@ namespace Com.UCI307.GOREGHOST3
     {
         public float lvl;
         public float exp;
+        public bool unlocked;
 
-        public CharacterSavedState(float l, float e)
+        public CharacterSavedState(float l, float e, bool u)
         {
             lvl = l;
             exp = e;
+            unlocked = u;
         }
     }
 }
