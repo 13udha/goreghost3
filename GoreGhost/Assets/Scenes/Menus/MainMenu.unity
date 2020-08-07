@@ -562,7 +562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &373417680
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1289,7 +1289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &597666672
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1320,6 +1320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 609413028}
+  - component: {fileID: 609413029}
   m_Layer: 5
   m_Name: SkillTree
   m_TagString: Untagged
@@ -1346,6 +1347,18 @@ RectTransform:
   m_AnchoredPosition: {x: -15, y: 155}
   m_SizeDelta: {x: 600, y: 200}
   m_Pivot: {x: 1, y: 0}
+--- !u!114 &609413029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609413027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be15524c6e8cf4e4488e821d8551d571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &650618421
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,9 +36,9 @@ namespace Com.UCI307.GOREGHOST3
 
             s += "LEVEL: " + co.level + "\n";
             s += "EXPERIENCE POINTS: " + co.experience + "\n";
-            s += "HEALTH" + co.health + "\n";
-            s += "ENERGY" + co.energy + "\n";
-            s += "MOVEMENT SPEED" + co.movementSpeed + "\n";
+            s += "HEALTH: " + co.health + "\n";
+            s += "ENERGY: " + co.energy + "\n";
+            s += "MOVEMENT SPEED: " + co.movementSpeed + "\n";
 
             display.text = s;
         }
