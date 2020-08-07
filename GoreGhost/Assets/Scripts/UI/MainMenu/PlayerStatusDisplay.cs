@@ -24,6 +24,11 @@ namespace Com.UCI307.GOREGHOST3
             SetUpDisplay();
         }
 
+        private void Awake()
+        {
+            SetUpDisplay();
+        }
+
         // Update is called once per frame
         void Update()
         {

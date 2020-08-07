@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
+
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -14,9 +14,6 @@ namespace Com.UCI307.GOREGHOST3
         public string pickUpName;
         public PickUpType pickUpType;
         public float pickUpValue;
-        public AnimatorController animator;
-
         #endregion
-
     }
 }

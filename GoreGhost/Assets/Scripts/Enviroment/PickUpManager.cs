@@ -51,7 +51,6 @@ namespace Com.UCI307.GOREGHOST3
         public void SetData(PickUpObject newData)
         {
             this.data = newData;
-            animator.runtimeAnimatorController = data.animator;
         }
 
         public PickUpObject GetData()

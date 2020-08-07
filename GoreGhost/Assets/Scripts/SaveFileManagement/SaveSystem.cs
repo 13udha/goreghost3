@@ -37,6 +37,7 @@ namespace Com.UCI307.GOREGHOST3
             FileStream stream = new FileStream(path, FileMode.Create);
             formatter.Serialize(stream, save);
             stream.Close();
+            Debug.Log("Saved Player: " + save.playerName + " - " + save.lastSave);
         }
 
         public void LoadGameState()
@@ -51,7 +52,7 @@ namespace Com.UCI307.GOREGHOST3
                 data = formatter.Deserialize(stream) as SaveFile;
                 stream.Close();
                 PlayerFromSave(data);
-                Debug.Log(data.playerName + " - " + data.startDate);
+                Debug.Log("Loaded Player: " + data.playerName + " - " + data.startDate);
             }
             else
             {
