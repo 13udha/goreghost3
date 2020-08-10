@@ -7,7 +7,9 @@ namespace Com.UCI307.UCINGEN
     public abstract class RuntimeSet<T> : ScriptableObject, ISerializationCallbackReceiver
     {
         #region Private Fields
+        
         protected List<T> Items = new List<T>();
+
         #endregion
 
         #region Serialization Callbacks

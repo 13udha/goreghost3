@@ -81,6 +81,7 @@ namespace Com.UCI307.GOREGHOST3
                 experience = remainingExp;
                 level += (x - remainingExp) / values.ExpToLevelUp;
                 levelUp.Raise();
+                skillPoints++;
                 return true;
             }
         }

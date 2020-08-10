@@ -15,6 +15,7 @@ namespace Com.UCI307.GOREGHOST3
         public Transform attackPoint;
         public LayerMask enemyLayers;
         public SortingLayer pickUpLayer;
+        public CharacterRuntimeSet activeCharacters;
 
         #endregion
 
@@ -65,6 +66,16 @@ namespace Com.UCI307.GOREGHOST3
                 default:
                     break;
             }
+        }
+
+        private void OnEnable()
+        {
+            activeCharacters.Add(this);
+        }
+
+        private void OnDisable()
+        {
+            activeCharacters.Remove(this);
         }
         #endregion
 

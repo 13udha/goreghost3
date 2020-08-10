@@ -54,6 +54,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 16384
+  activeCharacters: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
 --- !u!50 &5093513226634786773
 Rigidbody2D:
   serializedVersion: 4

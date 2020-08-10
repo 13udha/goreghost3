@@ -11,10 +11,14 @@ namespace Com.UCI307.GOREGHOST3
 
         [Header("Dependencies")]
         public CharacterValues vals;
+        public SkillTreeSpecManager man;
         public Text skillPointDisplay;
         public Image bgImage;
         public Text skillTreeNameText;
         public Text skillTreeDescText;
+
+        public Button increaseButton;
+        public Button decreaseButton;
 
         #endregion
 
@@ -39,9 +43,16 @@ namespace Com.UCI307.GOREGHOST3
             skillTreeDescText.text = skillTreeDesc;
         }
 
+        
+
         #endregion
 
         #region Public Methods
+
+        public void UpdateDisplay()
+        {
+
+        }
 
         public void SetUpDisplay(CharacterObject co)
         {
