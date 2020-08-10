@@ -33,7 +33,6 @@ namespace Com.UCI307.GOREGHOST3
 
         public void Start()
         {
-            Debug.Log("DDDDDDDDDDDDDDD");
             LoadConfigFromVals();
             bgImage.color = skillTreeColor;
             skillTreeNameText.text = skillTreeName;
