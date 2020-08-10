@@ -30,7 +30,7 @@ namespace Com.UCI307.GOREGHOST3
 
         protected override void LoadConfigFromChar()
         {
-            this.skillPointsSpend = co.defenseSkill;
+            this.skillPointsSpend = co.skillTree2;
         }
         #endregion
 

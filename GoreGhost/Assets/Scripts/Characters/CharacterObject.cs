@@ -23,9 +23,9 @@ namespace Com.UCI307.GOREGHOST3
 
         [Header("SkillTree")]
         public int iSkillPoints;
-        public int iPowerSkill;
-        public int iDefenseSkill;
-        public int iMagicSkills;
+        public int iSkillTree1;
+        public int iSkillTree2;
+        public int iSkillTree3;
 
         [Header("Attacks")]
         public float fastAttackRange;
@@ -58,11 +58,11 @@ namespace Com.UCI307.GOREGHOST3
         [NonSerialized]
         public int skillPoints;
         [NonSerialized]
-        public int powerSkill;
+        public int skillTree1;
         [NonSerialized]
-        public int defenseSkill;
+        public int skillTree2;
         [NonSerialized]
-        public int magicSkills;
+        public int skillTree3;
         #endregion
 
         #region PublicMethods
@@ -88,7 +88,13 @@ namespace Com.UCI307.GOREGHOST3
 
         public CharacterSavedState ToSave()
         {
-            return new CharacterSavedState(level, experience, isUnlocked);
+            return new CharacterSavedState(level, 
+                experience, 
+                isUnlocked,
+                skillPoints,
+                skillTree1,
+                skillTree2,
+                skillTree3);
         }
 
         public void FromSave(CharacterSavedState cs)
@@ -96,6 +102,10 @@ namespace Com.UCI307.GOREGHOST3
             this.level = cs.lvl;
             this.experience = cs.exp;
             this.isUnlocked = cs.unlocked;
+            skillPoints = cs.skillPoints;
+            skillTree1 = cs.skillTree1;
+            skillTree2 = cs.skillTree2;
+            skillTree3 = cs.skillTree3;
         }
         #endregion
 
