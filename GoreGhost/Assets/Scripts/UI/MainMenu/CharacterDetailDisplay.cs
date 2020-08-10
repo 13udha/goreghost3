@@ -14,7 +14,7 @@ namespace Com.UCI307.GOREGHOST3
         public Text nameDisplay;
         public Image charImageDisplay;
         public StatBlockManager statBlock;
-        public GameObject skillTree;
+        public SkillTreeDisplayManager skillTree;
         public Text description;
 
         #endregion
@@ -52,7 +52,7 @@ namespace Com.UCI307.GOREGHOST3
             description.text = co.description;
             charImageDisplay.sprite = co.prefab.GetComponentInChildren<SpriteRenderer>().sprite;
             statBlock.SetUpDisplay(co);
-
+            skillTree.SetUpDisplay(co);
         }
 
         #endregion

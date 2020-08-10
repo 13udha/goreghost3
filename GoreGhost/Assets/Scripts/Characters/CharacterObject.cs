@@ -18,6 +18,14 @@ namespace Com.UCI307.GOREGHOST3
         public float iHealth;
         public float iEnergy;
         public float iMovementSpeed;
+        public float iDamage;
+        public float iArmor;
+
+        [Header("SkillTree")]
+        public int iSkillPoints;
+        public int iPowerSkill;
+        public int iDefenseSkill;
+        public int iMagicSkills;
 
         [Header("Attacks")]
         public float fastAttackRange;
@@ -47,6 +55,14 @@ namespace Com.UCI307.GOREGHOST3
         public float energy;
         [NonSerialized]
         public float movementSpeed;
+        [NonSerialized]
+        public int skillPoints;
+        [NonSerialized]
+        public int powerSkill;
+        [NonSerialized]
+        public int defenseSkill;
+        [NonSerialized]
+        public int magicSkills;
         #endregion
 
         #region PublicMethods

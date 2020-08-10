@@ -13,3 +13,13 @@ MonoBehaviour:
   m_Name: CharacterValues
   m_EditorClassIdentifier: 
   ExpToLevelUp: 1000
+  MaximumLevel: 100
+  skillTree1Name: POWER
+  skillTree1Color: {r: 1, g: 0, b: 0, a: 1}
+  SkillTree1Description: 'power! power! power! power! power! power! power! power! '
+  skillTree2Name: DEFENSE
+  skillTree2Color: {r: 1, g: 0.9880786, b: 0, a: 1}
+  SkillTree2Description: 'defense! defense! defense! defense! defense! defense! defense! '
+  skillTree3Name: MAGIC
+  skillTree3Color: {r: 0, g: 0, b: 1, a: 1}
+  SkillTree3Description: 'magic! magic! magic! magic! magic! magic! magic! magic! '
