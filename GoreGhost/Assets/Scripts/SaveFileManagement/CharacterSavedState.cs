@@ -10,12 +10,20 @@ namespace Com.UCI307.GOREGHOST3
         public float lvl;
         public float exp;
         public bool unlocked;
+        public int skillPoints;
+        public int skillTree1;
+        public int skillTree2;
+        public int skillTree3;
 
-        public CharacterSavedState(float l, float e, bool u)
+        public CharacterSavedState(float lvl, float exp, bool unlocked, int skillPoints, int skillTree1, int skillTree2, int skillTree3)
         {
-            lvl = l;
-            exp = e;
-            unlocked = u;
+            this.lvl = lvl;
+            this.exp = exp;
+            this.unlocked = unlocked;
+            this.skillPoints = skillPoints;
+            this.skillTree1 = skillTree1;
+            this.skillTree2 = skillTree2;
+            this.skillTree3 = skillTree3;
         }
     }
 }

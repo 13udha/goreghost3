@@ -47,6 +47,7 @@ namespace Com.UCI307.GOREGHOST3
         public void SetUpDisplay(CharacterObject co)
         {
             this.co = co;
+            UpdateSkilltree();
         }
 
 
