@@ -15,15 +15,15 @@ namespace Com.UCI307.GOREGHOST3
 
         [Header("Dependencies")]
         public CharacterValues charVals;
-        public Text powerSkillsSpend;
-        public Text defenseSkillsSpend;
-        public Text magicSkillsSpend;
+        public Text skillSpend1;
+        public Text skillsSpend2;
+        public Text skillsSpend3;
         public Text skillPoints;
         public SkillTreeSpecManager skillTreeMenu;
 
-        public Image powerBG;
-        public Image defenseBG;
-        public Image magicBG;
+        public Image skillBG1;
+        public Image skillBG2;
+        public Image skillBG3;
 
         #endregion
 
@@ -38,9 +38,10 @@ namespace Com.UCI307.GOREGHOST3
         void Start()
         {
             skillTreeMenu.gameObject.SetActive(false);
-            powerBG.color = charVals.skillTree1Color;
-            defenseBG.color = charVals.skillTree2Color;
-            magicBG.color = charVals.skillTree3Color;
+            skillBG1.color = charVals.skillTree1Color;
+            skillBG2.color = charVals.skillTree2Color;
+            skillBG3.color = charVals.skillTree3Color;
+            
             
         }
 
@@ -48,6 +49,12 @@ namespace Com.UCI307.GOREGHOST3
         void Update()
         {
         
+        }
+
+        private void OnEnable()
+        {
+            if(co != null)
+                UpdateDisplay();
         }
         #endregion
 
@@ -62,6 +69,24 @@ namespace Com.UCI307.GOREGHOST3
         internal void SetUpDisplay(CharacterObject co)
         {
             this.co = co;
+            skillTreeMenu.gameObject.SetActive(false);
+            UpdateDisplay();
+        }
+
+        #endregion
+
+        #region Private Methods
+        
+        private void UpdateDisplay()
+        {
+            if(co != null)
+            {
+                skillPoints.text = co.skillPoints.ToString();
+                skillSpend1.text = co.skillTree1.ToString();
+                skillsSpend2.text = co.skillTree2.ToString();
+                skillsSpend3.text = co.skillTree3.ToString();
+            }
+
         }
 
         #endregion

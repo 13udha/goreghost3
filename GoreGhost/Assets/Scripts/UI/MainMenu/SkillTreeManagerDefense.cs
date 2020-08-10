@@ -32,6 +32,20 @@ namespace Com.UCI307.GOREGHOST3
         {
             this.skillPointsSpend = co.skillTree2;
         }
+
+        protected override void AdjustSkill(bool b)
+        {
+            if (b)
+            {
+                co.skillPoints--;
+                co.skillTree2++;
+            }
+            else
+            {
+                co.skillPoints++;
+                co.skillTree2--;
+            }
+        }
         #endregion
 
     }

@@ -49,26 +49,46 @@ namespace Com.UCI307.GOREGHOST3
 
         #region Public Methods
 
+
+
         public void UpdateDisplay()
         {
-
+            LoadConfigFromChar();
+            skillPointDisplay.text = skillPointsSpend.ToString();
+            if (!man.SkillPointsAvailable())
+            {
+                increaseButton.interactable = false;
+            }
+            else
+            {
+                increaseButton.interactable = true;
+            }
+            if(skillPointsSpend == 0)
+            {
+                decreaseButton.interactable = false;
+            }
+            else
+            {
+                decreaseButton.interactable = true;
+            }
         }
 
         public void SetUpDisplay(CharacterObject co)
         {
             this.co = co;
-            LoadConfigFromChar();
-
+            UpdateDisplay();
         }
 
         public void OnIncreaseButton()
         {
-
+            AdjustSkill(true);
+            man.UpdateSkilltree();
         }
 
         public void OnDecreaseButton()
         {
-
+            AdjustSkill(false);
+            man.UpdateSkilltree();
         }
         #endregion
 
@@ -85,6 +105,10 @@ namespace Com.UCI307.GOREGHOST3
         /// </summary>
         protected abstract void LoadConfigFromChar();
 
+        /// <summary>
+        /// increase this skill
+        /// </summary>
+        protected abstract void AdjustSkill(bool b);
         #endregion
 
     }

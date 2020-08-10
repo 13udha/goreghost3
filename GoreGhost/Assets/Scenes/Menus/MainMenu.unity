@@ -256,6 +256,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 15675712}
     m_Modifications:
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1382761498}
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Com.UCI307.GOREGHOST3.SkillTreeSpecManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ConfirmButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6673449109763765598, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -369,7 +404,7 @@ PrefabInstance:
     - target: {fileID: 7361330531230583882, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
       propertyPath: m_Name
-      value: CommitChangesButton
+      value: ConfirmButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52caf2940622e584fa543eabf4e6e6d1, type: 3}
@@ -2121,7 +2156,7 @@ PrefabInstance:
     - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
@@ -2132,16 +2167,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1382761496}
+      objectReference: {fileID: 1382761498}
     - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Com.UCI307.GOREGHOST3.SkillTreeSpecManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: CancelButton
       objectReference: {fileID: 0}
     - target: {fileID: 71591431159742030, guid: 52caf2940622e584fa543eabf4e6e6d1,
         type: 3}
@@ -3012,14 +3047,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charVals: {fileID: 11400000, guid: acb591b9b382a62468d0c5d08fc98a63, type: 2}
-  powerSkillsSpend: {fileID: 1329332547}
-  defenseSkillsSpend: {fileID: 193536907}
-  magicSkillsSpend: {fileID: 1525878331}
+  skillSpend1: {fileID: 1329332547}
+  skillsSpend2: {fileID: 193536907}
+  skillsSpend3: {fileID: 1525878331}
   skillPoints: {fileID: 1980165091}
   skillTreeMenu: {fileID: 1382761498}
-  powerBG: {fileID: 394849493}
-  defenseBG: {fileID: 261280383}
-  magicBG: {fileID: 1444196429}
+  skillBG1: {fileID: 394849493}
+  skillBG2: {fileID: 261280383}
+  skillBG3: {fileID: 1444196429}
 --- !u!1 &650618421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,6 +3245,8 @@ MonoBehaviour:
   bgImage: {fileID: 519054342}
   skillTreeNameText: {fileID: 1056523560}
   skillTreeDescText: {fileID: 1859811256}
+  increaseButton: {fileID: 435536114}
+  decreaseButton: {fileID: 339052932}
 --- !u!1001 &725870024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4173,6 +4210,8 @@ MonoBehaviour:
   bgImage: {fileID: 766774163}
   skillTreeNameText: {fileID: 960817472}
   skillTreeDescText: {fileID: 1566978752}
+  increaseButton: {fileID: 1988615241}
+  decreaseButton: {fileID: 1089910071}
 --- !u!1 &935991597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,7 +5212,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1099582172}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1244961452}
+        m_TargetAssemblyTypeName: Com.UCI307.GOREGHOST3.ASkillTreeManager, Assembly-CSharp
+        m_MethodName: OnIncreaseButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1099582172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5574,6 +5625,8 @@ MonoBehaviour:
   bgImage: {fileID: 89203491}
   skillTreeNameText: {fileID: 113948036}
   skillTreeDescText: {fileID: 447061365}
+  increaseButton: {fileID: 1099582171}
+  decreaseButton: {fileID: 1603058443}
 --- !u!1 &1249273662
 GameObject:
   m_ObjectHideFlags: 0
@@ -6405,7 +6458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1382761497
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7239,7 +7292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1603058444}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1244961452}
+        m_TargetAssemblyTypeName: Com.UCI307.GOREGHOST3.ASkillTreeManager, Assembly-CSharp
+        m_MethodName: OnDecreaseButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1603058444
 MonoBehaviour:
   m_ObjectHideFlags: 0
