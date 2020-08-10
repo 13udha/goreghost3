@@ -30,6 +30,7 @@ public class CompleteCameraController : MonoBehaviour
             //transform.position = player.transform.position + offset;
             Vector3 playerpos = player.position;
             playerpos.z = transform.position.z;
+            playerpos.y = transform.position.y;
             transform.position = playerpos;
         }
     }
