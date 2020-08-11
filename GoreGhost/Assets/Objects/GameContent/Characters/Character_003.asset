@@ -18,7 +18,16 @@ MonoBehaviour:
   iHealth: 100
   iEnergy: 100
   iMovementSpeed: 3
-  fastAttackRange: 0.5
+  iDamage: 5
+  iArmor: 0
+  iSkillPoints: 0
+  iSkillTree1: 0
+  iSkillTree2: 0
+  iSkillTree3: 0
+  iFastAttackRange: 2
+  iFastAttackRate: 1
+  iStrongAttackRange: 2
+  iStrongAttackRate: 1
   profileImage: {fileID: 21300000, guid: 36c79259025a4ee41aef51d230b8d8d8, type: 3}
   description: Spagettizord the mega dork
   isUnlocked: 1

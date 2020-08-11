@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 608c382f9f5102d46b957bb73327c6ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 7e4bb3de8f8f6bd4494b7ba08fd5e6ec, type: 2}
+  data: {fileID: 11400000, guid: 7e4bb3de8f8f6bd4494b7ba08fd5e6ec, type: 2}
   rb: {fileID: 4758107914318300518}
   status: {fileID: 0}
   attackPoint: {fileID: 4758107913291968387}

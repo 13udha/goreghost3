@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa03fb63475b764f8b051f91cb2b1dc, type: 3}
+  m_Name: Enemy_0000
+  m_EditorClassIdentifier: 
+  enemyName: TestEnemy
+  description: This is the Enemy Description for TestEnemy.
+  health: 50
+  prefab: {fileID: 5030974299378121181, guid: 90f6bf50a3b18c4479a074a060a9abaf, type: 3}

@@ -28,7 +28,12 @@ namespace Com.UCI307.GOREGHOST3
         public int iSkillTree3;
 
         [Header("Attacks")]
-        public float fastAttackRange;
+        public float iFastAttackRange;
+        [Tooltip("in Attacks Per Second")]
+        public float iFastAttackRate;
+        public float iStrongAttackRange;
+        [Tooltip("in Attacks Per Second")]
+        public float iStrongAttackRate;
 
         [Header("Additional Attributes")]
         public Sprite profileImage;
@@ -56,6 +61,10 @@ namespace Com.UCI307.GOREGHOST3
         [NonSerialized]
         public float movementSpeed;
         [NonSerialized]
+        public float damage;
+        [NonSerialized]
+        public float armor;
+        [NonSerialized]
         public int skillPoints;
         [NonSerialized]
         public int skillTree1;
@@ -63,6 +72,14 @@ namespace Com.UCI307.GOREGHOST3
         public int skillTree2;
         [NonSerialized]
         public int skillTree3;
+        [NonSerialized]
+        public float fastAttackRange;
+        [NonSerialized]
+        public float fastAttackRate;
+        [NonSerialized]
+        public float strongAttackRange;
+        [NonSerialized]
+        public float strongAttackRate;
         #endregion
 
         #region PublicMethods
@@ -121,7 +138,18 @@ namespace Com.UCI307.GOREGHOST3
             health = iHealth;
             energy = iEnergy;
             movementSpeed = iMovementSpeed;
-        }
+            damage = iDamage;
+            armor = iArmor;
+            skillPoints = iSkillPoints;
+            skillTree1 = iSkillTree1;
+            skillTree2 = iSkillTree2;
+            skillTree3 = iSkillTree3;
+
+            fastAttackRange = iFastAttackRange;
+            fastAttackRate = iFastAttackRate;
+            strongAttackRange = iStrongAttackRange;
+            strongAttackRate = iStrongAttackRate;
+    }
         #endregion
     }
 }

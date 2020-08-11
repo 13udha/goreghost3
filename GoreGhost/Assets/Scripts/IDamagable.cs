@@ -14,7 +14,7 @@ namespace Com.UCI307.GOREGHOST3
         /// This Method will be called upon being attacked.
         /// </summary>
         /// <param name="damage"> The Damage this Object is supposed to take</param>
-        void TakeDamage(int damage);
+        void TakeDamage(float damage);
     }
 
 }

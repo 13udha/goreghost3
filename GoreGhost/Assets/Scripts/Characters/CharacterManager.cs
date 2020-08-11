@@ -9,7 +9,7 @@ namespace Com.UCI307.GOREGHOST3
         #region Public Fields
 
         [Header("Dependencies")]
-        public CharacterObject character;
+        public CharacterObject data;
         public Rigidbody2D rb;
         public PlayerCharacterStatus status;
         public Transform attackPoint;
@@ -22,6 +22,7 @@ namespace Com.UCI307.GOREGHOST3
         #region Private Fields
         private Vector2 moveVector;
         private Vector2 moveVelocity;
+        private float attackCD = 0f;
 
         private Animator animator;
         private static string animWalking = "Walking";
@@ -34,6 +35,7 @@ namespace Com.UCI307.GOREGHOST3
         private static string animHitStun = "hit-stun";
         private static string animDeath = "died";
         #endregion;
+
 
         #region Monobehaviour Callbacks
         // Start is called before the first frame update
@@ -91,10 +93,9 @@ namespace Com.UCI307.GOREGHOST3
 
         private void Movement()
         {
-            moveVelocity = moveVector.normalized * character.movementSpeed;
+            moveVelocity = moveVector.normalized * data.movementSpeed;
             if (moveVelocity != Vector2.zero)
             {
-                //Debug.Log("MOOOOOOOOOOOOOOOOOVVVVVVVVEEEEEEEEE: " + moveVelocity.x);  
                 if(moveVelocity.x < 0)
                 {
                     transform.rotation = Quaternion.Euler(0, -180, 0);
@@ -113,17 +114,32 @@ namespace Com.UCI307.GOREGHOST3
 
         private void FastAttack()
         {
-            animator.SetTrigger(animFastAttack);
-            Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, character.fastAttackRange, enemyLayers);
-            foreach(Collider2D enemy in hitEnemys)
+            if(Time.time >= attackCD)
             {
-                Debug.Log("We hit " + enemy.name);
+                animator.SetTrigger(animFastAttack);
+                Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, data.fastAttackRange, enemyLayers);
+                foreach(Collider2D enemy in hitEnemys)
+                {
+                    Debug.Log("We hit " + enemy.name);
+                    enemy.GetComponent<IDamagable>().TakeDamage(data.damage);
+                }
+                attackCD = Time.time + 1f / data.fastAttackRate;
             }
         }
 
         private void StrongAttack()
         {
-            animator.SetTrigger(animStrongAttack);
+            if(Time.time >= attackCD)
+            {
+                animator.SetTrigger(animStrongAttack);
+                Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, data.strongAttackRange, enemyLayers);
+                foreach (Collider2D enemy in hitEnemys)
+                {
+                    Debug.Log("We hit " + enemy.name);
+                    enemy.GetComponent<IDamagable>().TakeDamage(data.damage);
+                }
+                attackCD = Time.time + 1f / data.strongAttackRate;
+            }
         }
 
         private void FastMagic()
@@ -157,7 +173,7 @@ namespace Com.UCI307.GOREGHOST3
                     status.RecoverEnergy(pu.pickUpValue);
                     break;
                 case PickUpObject.PickUpType.Experience:
-                    if (character.ExperienceGain(pu.pickUpValue))
+                    if (data.ExperienceGain(pu.pickUpValue))
                     {
                         Debug.Log("Level Up!!");
                     }
@@ -206,7 +222,7 @@ namespace Com.UCI307.GOREGHOST3
 
         private void OnDrawGizmosSelected()
         {
-            Gizmos.DrawWireSphere(attackPoint.position, character.fastAttackRange);
+            Gizmos.DrawWireSphere(attackPoint.position, data.fastAttackRange);
         }
 
         #endregion
