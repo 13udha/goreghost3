@@ -144,6 +144,8 @@ GameObject:
   - component: {fileID: 5030974299378121180}
   - component: {fileID: 7314554637971151623}
   - component: {fileID: -6918065677414812127}
+  - component: {fileID: 8308915947931337504}
+  - component: {fileID: 5043905511801849474}
   m_Layer: 14
   m_Name: TestEnemy
   m_TagString: Untagged
@@ -208,5 +210,56 @@ MonoBehaviour:
   values: {fileID: 11400000, guid: 9abef765b4d1d6146b9660dd575fa1cd, type: 2}
   data: {fileID: 11400000, guid: 6ba48a420eccd8841bdc73b1d926a25d, type: 2}
   anim: {fileID: 5030974298716750107}
+  rb: {fileID: 8308915947931337504}
   players: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
   attackPoint: {fileID: 5341717845873684761}
+  attackLayers:
+    serializedVersion: 2
+    m_Bits: 8192
+--- !u!50 &8308915947931337504
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5030974299378121181}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &5043905511801849474
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5030974299378121181}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.07}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 2}
+  m_EdgeRadius: 0

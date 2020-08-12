@@ -11,5 +11,6 @@ namespace Com.UCI307.GOREGHOST3
         public float retargetingTime;
         public float startupDelay;
         public float corpseTimer;
+        public float hitStunDuration;
     }
 }

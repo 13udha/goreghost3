@@ -16,6 +16,7 @@ namespace Com.UCI307.GOREGHOST3
 
         [Header("Attributes")]
         public float health;
+        public float movementSpeed;
 
         [Header("Dependencies")]
         public GameObject prefab;

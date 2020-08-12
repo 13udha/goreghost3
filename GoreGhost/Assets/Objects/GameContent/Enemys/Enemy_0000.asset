@@ -15,4 +15,5 @@ MonoBehaviour:
   enemyName: TestEnemy
   description: This is the Enemy Description for TestEnemy.
   health: 50
+  movementSpeed: 2
   prefab: {fileID: 5030974299378121181, guid: 90f6bf50a3b18c4479a074a060a9abaf, type: 3}
