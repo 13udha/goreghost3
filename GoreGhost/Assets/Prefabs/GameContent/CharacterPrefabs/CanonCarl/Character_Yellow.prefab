@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdab62632926e164dbe8b31c0f8e0360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: bf48332d1ad93094bb960c15f0d64942, type: 2}
+  data: {fileID: 11400000, guid: 9cb322e587fa9d84c9cc75c02f31f479, type: 2}
   rb: {fileID: 4746187181707978855}
   status: {fileID: 0}
   attackPoint: {fileID: 4746187180296036814}
@@ -247,3 +247,5 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16384
   activeCharacters: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
+  projectile: {fileID: 8584560382123234489, guid: cd5316b85f0e5ae4d91b714399b41f98,
+    type: 3}

@@ -15,7 +15,17 @@ namespace Com.UCI307.GOREGHOST3
 
         protected override void FastMagicCS()
         {
-            Debug.Log("yeet");
+            GameObject go = Instantiate(projectile);
+            CanonCarl_Projectile ccp = go.GetComponent<CanonCarl_Projectile>();
+            ccp.transform.position = new Vector2(attackPoint.position.x, attackPoint.position.y);
+            if(this.transform.rotation.y == 0)
+            {
+                ccp.SetDirection(Vector2.right);
+            }
+            else
+            {
+                ccp.SetDirection(Vector2.left);
+            }
         }
 
         #endregion
