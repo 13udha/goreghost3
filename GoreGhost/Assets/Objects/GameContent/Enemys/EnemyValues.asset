@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: EnemyValues
   m_EditorClassIdentifier: 
   retargetingTime: 100
+  chaseTime: 0
   startupDelay: 1
   corpseTimer: 5
+  hitStunDuration: 0.5

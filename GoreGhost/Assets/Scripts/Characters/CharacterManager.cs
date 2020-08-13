@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Com.UCI307.GOREGHOST3
 {
-    public class CharacterManager : MonoBehaviour, IDamagable
+    public abstract class CharacterManager : MonoBehaviour, IDamagable
     {
         #region Public Fields
 
@@ -142,9 +142,14 @@ namespace Com.UCI307.GOREGHOST3
             }
         }
 
+        //Fast Magic
         private void FastMagic()
         {
             animator.SetTrigger(animFastMagic);
+        }
+        public void FastMagicCall()
+        {
+            //FastMagicCS();
         }
 
         private void StrongMagic()
@@ -227,6 +232,10 @@ namespace Com.UCI307.GOREGHOST3
 
         #endregion
 
+        #region Virtual Methods
+        protected abstract void FastMagicCS();
+        #endregion
+
         #region Debug
 
         private void OnDrawGizmosSelected()
@@ -234,7 +243,7 @@ namespace Com.UCI307.GOREGHOST3
             Gizmos.DrawWireSphere(attackPoint.position, data.fastAttackRange);
         }
 
-
+        
         #endregion
     }
 }

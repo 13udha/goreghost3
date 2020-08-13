@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: TestEnemy
   description: This is the Enemy Description for TestEnemy.
-  health: 10
+  health: 100
   movementSpeed: 2
   attackDamage: 10
   attackRange: 1.3

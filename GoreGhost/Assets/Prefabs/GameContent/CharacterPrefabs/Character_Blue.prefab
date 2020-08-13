@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 4758107914032896589}
   - component: {fileID: 4758107914032896590}
   - component: {fileID: 4758107914032896591}
+  - component: {fileID: 4365892295422311149}
   m_Layer: 13
   m_Name: stickman_blue_0
   m_TagString: Untagged
@@ -133,6 +134,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4365892295422311149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758107914032896576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1341486dbe74de0488f167d21a966493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4758107914318300537
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,9 +155,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4758107914318300536}
-  - component: {fileID: 4758107914318300517}
   - component: {fileID: 4758107914318300518}
   - component: {fileID: 4758107914318300519}
+  - component: {fileID: 5139414442167986585}
   m_Layer: 13
   m_Name: Character_Blue
   m_TagString: Untagged
@@ -168,26 +181,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4758107914318300517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4758107914318300537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608c382f9f5102d46b957bb73327c6ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 7e4bb3de8f8f6bd4494b7ba08fd5e6ec, type: 2}
-  rb: {fileID: 4758107914318300518}
-  status: {fileID: 0}
-  attackPoint: {fileID: 4758107913291968387}
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 16384
-  activeCharacters: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
 --- !u!50 &4758107914318300518
 Rigidbody2D:
   serializedVersion: 4
@@ -235,3 +228,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5139414442167986585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758107914318300537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcb6529eb8081a49b852a229f0b53c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 7e4bb3de8f8f6bd4494b7ba08fd5e6ec, type: 2}
+  rb: {fileID: 4758107914318300518}
+  status: {fileID: 0}
+  attackPoint: {fileID: 4758107913291968387}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  activeCharacters: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
