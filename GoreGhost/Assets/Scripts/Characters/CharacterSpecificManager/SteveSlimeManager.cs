@@ -10,7 +10,7 @@ namespace Com.UCI307.GOREGHOST3
 
         protected override void FastMagicCS()
         {
-            throw new System.NotImplementedException();
+            Debug.Log("yeet");
         }
 
         #endregion

@@ -149,7 +149,7 @@ namespace Com.UCI307.GOREGHOST3
         }
         public void FastMagicCall()
         {
-            //FastMagicCS();
+            FastMagicCS();
         }
 
         private void StrongMagic()
