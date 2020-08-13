@@ -219,6 +219,12 @@ namespace Com.UCI307.GOREGHOST3
                 {
                     enemy.GetComponent<IDamagable>().TakeDamage(data.attackDamage);
                 }
+                //retarget if miss
+                if(hitEnemys.Length == 0)
+                {
+                    maxConsecAttacks = 0;
+                    mode = AI_MODE.FIND;
+                }
 
                 //set new timer
                 nextAttack = Time.time + (Random.Range(data.minAttackTime, data.maxAttackTime));
