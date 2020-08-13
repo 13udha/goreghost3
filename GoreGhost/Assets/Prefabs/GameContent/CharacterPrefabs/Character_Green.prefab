@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5093513226634786762}
   - component: {fileID: 5093513226634786773}
   - component: {fileID: 5093513226634786772}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Character_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 5093513228043852893}
   - component: {fileID: 5093513228043852892}
   - component: {fileID: 5093513228043852895}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: stickman_green_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5093513228431702190}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

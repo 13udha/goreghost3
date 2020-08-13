@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Com.UCI307.GOREGHOST3
 {
-    public class CharacterManager : MonoBehaviour
+    public class CharacterManager : MonoBehaviour, IDamagable
     {
         #region Public Fields
 
@@ -218,12 +218,22 @@ namespace Com.UCI307.GOREGHOST3
 
         #endregion
 
+        #region Interface Implementations
+
+        public void TakeDamage(float damage)
+        {
+            status.CurrentHP -= damage;
+        }
+
+        #endregion
+
         #region Debug
 
         private void OnDrawGizmosSelected()
         {
             Gizmos.DrawWireSphere(attackPoint.position, data.fastAttackRange);
         }
+
 
         #endregion
     }

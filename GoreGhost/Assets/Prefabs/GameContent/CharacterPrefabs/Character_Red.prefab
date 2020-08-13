@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9196331158455652957}
   - component: {fileID: 9196331158455652956}
   - component: {fileID: 9196331158455652959}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: stickman_red_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9196331158662518317}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: 'AttackPoint '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 9196331158758248410}
   - component: {fileID: 9196331158758248413}
   - component: {fileID: 9196331158758248412}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Character_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -18,6 +18,15 @@ namespace Com.UCI307.GOREGHOST3
         public float health;
         public float movementSpeed;
 
+        [Header("Attacking")]
+        public float attackDamage;
+        public float attackRange;
+        public float minAttackTime;
+        public float maxAttackTime;
+        public int maxConsecutiveAttacks;
+
+
+
         [Header("Dependencies")]
         public GameObject prefab;
 

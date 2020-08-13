@@ -9,6 +9,7 @@ namespace Com.UCI307.GOREGHOST3
     {
         [Header("Behaviour")]
         public float retargetingTime;
+        public float chaseTime;
         public float startupDelay;
         public float corpseTimer;
         public float hitStunDuration;

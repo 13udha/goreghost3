@@ -8,7 +8,7 @@ namespace Com.UCI307.GOREGHOST3
     {
         #region Public Fields
 
-        public enum AI_MODE { WALK, ATTACK, WAIT};
+        public enum AI_MODE { WALK, ATTACK, WAIT, FIND, STUNNED, DEAD};
 
         [Header("Dependencies")]
         public EnemyValues values;
@@ -17,12 +17,14 @@ namespace Com.UCI307.GOREGHOST3
         public Rigidbody2D rb;
         public CharacterRuntimeSet players;
         public Transform attackPoint;
+        public Transform attackPosition;
         public LayerMask attackLayers;
 
+        [Header("Conifg")]
+        public AI_MODE mode;
         #endregion
 
         #region Private Fields
-        private AI_MODE mode;
 
         //Target
         private CharacterManager target;
@@ -32,7 +34,7 @@ namespace Com.UCI307.GOREGHOST3
         //Local Vars
         private string enemyName;
         private float health;
-        private bool dead;
+        private bool stunned;
 
         //ANIM
         private static string ANIM_WALKING = "walking";
@@ -44,15 +46,21 @@ namespace Com.UCI307.GOREGHOST3
 
         //Movement
         private Vector2 moveVelocity;
-        
+
+        //Attacking
+        private float nextAttack;
+        private int currentConsecAttacks;
+        private int maxConsecAttacks;
+
+        //Stunned
+        private float stunnedTimer;
         #endregion
 
         #region Monobehaviour Callbacks
         // Start is called before the first frame update
         void Start()
         {
-            mode = AI_MODE.WAIT;
-            dead = false;
+            mode = AI_MODE.FIND;
             retargetingTime = Time.time + values.startupDelay;
             ReadFromData();
         }
@@ -65,22 +73,27 @@ namespace Com.UCI307.GOREGHOST3
 
         private void FixedUpdate()
         {
-            rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+            if(mode == AI_MODE.WALK)
+                rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
         }
         #endregion
 
         #region Damagable Implementation
         public void TakeDamage(float damage)
         {
-            if (!dead)
+            if (mode == AI_MODE.DEAD)
+                return;
+
+            anim.SetTrigger(ANIM_HITSTUN);
+            health -= damage;
+            mode = AI_MODE.STUNNED;
+            if(0 >= health)
             {
-                anim.SetTrigger(ANIM_HITSTUN);
-                health -= damage;
-                if(0 >= health)
-                {
-                    Die();
-                }
+                Die();
+                return;
             }
+            stunnedTimer = Time.time + values.hitStunDuration;
+            
         }
         #endregion
 
@@ -95,17 +108,11 @@ namespace Com.UCI307.GOREGHOST3
             health = data.health;
         }
 
-        private void GetTarget()
-        {
-            int x = Random.Range(0, (players.Get().Count));
-            target = players.Get()[x];
-            targetCords = target.gameObject.transform;
-            mode = AI_MODE.WALK;
-        }
+        
 
         private void Die()
         {
-            dead = true;
+            mode = AI_MODE.DEAD;
             anim.SetTrigger(ANIM_DEATH);
             corpseTimer = Time.time + values.corpseTimer;
         }
@@ -115,11 +122,7 @@ namespace Com.UCI307.GOREGHOST3
 
         private void Behaviour()
         {
-            //targeting
-            if (Time.time >= retargetingTime)
-            {
-                GetTarget();
-            }
+
 
             //corpseTime
             if (corpseTimer != 0 && Time.time >= corpseTimer)
@@ -130,22 +133,42 @@ namespace Com.UCI307.GOREGHOST3
             switch (mode)
             {
                 case AI_MODE.ATTACK:
+                    Attacking();
                     break;
                 case AI_MODE.WALK:
-                        Movement();
+                    //movement
+                    Movement();
                     break;
                 case AI_MODE.WAIT:
+                    break;
+                case AI_MODE.FIND:
+                    if (Time.time >= retargetingTime)
+                    {
+                        GetTarget();
+                    }
+                    break;
+                case AI_MODE.STUNNED:
+                    Stunned();
+                    break;
+                case AI_MODE.DEAD:
                     break;
             }
 
                 
         }
 
+        private void GetTarget()
+        {
+            int x = Random.Range(0, (players.Get().Count));
+            target = players.Get()[x];
+            targetCords = target.gameObject.transform;
+            mode = AI_MODE.WALK;
+        }
 
         private void Movement()
         {
             //Aiming
-            Vector2 direction = targetCords.position - attackPoint.position;
+            Vector2 direction = targetCords.position - attackPosition.position;
 
             //Moving
             moveVelocity = direction.normalized * data.movementSpeed;
@@ -167,12 +190,66 @@ namespace Com.UCI307.GOREGHOST3
             }
 
             //Progressing
-            if(targetCords.position == attackPoint.position)
+
+ 
+
+            if(Vector3.Distance(attackPoint.position, targetCords.position) < data.attackRange)
             {
+                anim.SetBool(ANIM_WALKING, false);
                 mode = AI_MODE.ATTACK;
+                nextAttack = Time.time + (Random.Range(data.minAttackTime, data.maxAttackTime));
             }
         }
 
+        private void Attacking()
+        {
+            //setup
+            if(maxConsecAttacks == 0)
+            {
+                maxConsecAttacks = Random.Range(1, data.maxConsecutiveAttacks);
+                currentConsecAttacks = 0;
+            }
+            //behaviour
+            if(Time.time > nextAttack)
+            {
+                //attack
+                anim.SetTrigger(ANIM_ATTACK);
+                Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, data.attackRange, attackLayers);
+                foreach (Collider2D enemy in hitEnemys)
+                {
+                    enemy.GetComponent<IDamagable>().TakeDamage(data.attackDamage);
+                }
+
+                //set new timer
+                nextAttack = Time.time + (Random.Range(data.minAttackTime, data.maxAttackTime));
+                currentConsecAttacks++;
+            }
+
+            //progression
+            if (maxConsecAttacks == currentConsecAttacks)
+            {
+                maxConsecAttacks = 0;
+                mode = AI_MODE.FIND;
+            }
+        }
+
+        private void Stunned()
+        {
+            //setup
+            if(stunnedTimer == 0)
+            {
+                stunnedTimer = Time.time + values.hitStunDuration;
+            }
+            
+            //behaviour
+
+            //progression
+            if(Time.time > stunnedTimer)
+            {
+                stunnedTimer = 0;
+                mode = AI_MODE.FIND;
+            }
+        }
         #endregion
     }
 }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4758107913291968387}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4758107914032896589}
   - component: {fileID: 4758107914032896590}
   - component: {fileID: 4758107914032896591}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: stickman_blue_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 4758107914318300517}
   - component: {fileID: 4758107914318300518}
   - component: {fileID: 4758107914318300519}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Character_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}

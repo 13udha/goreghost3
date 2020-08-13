@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: TestEnemy
   description: This is the Enemy Description for TestEnemy.
-  health: 50
+  health: 10
   movementSpeed: 2
+  attackDamage: 10
+  attackRange: 1.3
+  minAttackTime: 0.5
+  maxAttackTime: 3
+  maxConsecutiveAttacks: 3
   prefab: {fileID: 5030974299378121181, guid: 90f6bf50a3b18c4479a074a060a9abaf, type: 3}
