@@ -15,7 +15,7 @@ This time with unity and Github ♥
 - :heavy_check_mark: Upgrade System
 - :heavy_check_mark: Movement
 
-## [Player](MDWiki/Level.md) (Pablo)
+## [Level](MDWiki/Level.md) (Pablo)
 - Level Flow
 - Border
 - Kamera
