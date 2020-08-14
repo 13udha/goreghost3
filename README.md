@@ -10,10 +10,10 @@ This time with unity and Github ♥
 # TODO
 
 ## Spieler (Falko)
-- Sprites/Aniamtion
+- :heavy_check_mark: Sprites/Aniamtion
 - Equip
-- Upgrade System
-- Movement
+- :heavy_check_mark: Upgrade System
+- :heavy_check_mark: Movement
 
 ## Level (Pablo)
 - Level Flow
@@ -26,21 +26,21 @@ This time with unity and Github ♥
     - PickUps
 
 ## Gegner (Falko)
-- GrafikSprites/Aniamtion
-- Pathfinding
+- :heavy_check_mark: GrafikSprites/Aniamtion
+- :heavy_check_mark: Pathfinding
 - Boss Gegner
 
 ## Combat System (Falko)
-- Gegner
-- Spieler
-- Interaktion
-- Magie ??
+- :heavy_check_mark: Gegner
+- :heavy_check_mark: Spieler
+- :heavy_check_mark: Interaktion
+- :heavy_check_mark: Magie ??
 
 ## UI
-- Character Upgrade Screen
+- :heavy_check_mark: Character Upgrade Screen
 - Shop
-- HUD
+- :heavy_check_mark: HUD
 
 ## Extra
 - Musik
-- Title Screens
+- :heavy_check_mark: Title Screens
