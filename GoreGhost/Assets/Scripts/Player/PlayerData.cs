@@ -12,8 +12,11 @@ namespace Com.UCI307.GOREGHOST3
         public string playerName;
         public string startDate;
         public string lastSave;
+
+        [Header("Game Progression")]
         [Tooltip("Tracks how far the Player is in the game \n ______________\n 0 = Its a new game! \n 1 = Completed the tutorial")]
-        public int gameState; 
+        public int gameState;
+        public int money;
         #endregion
     }
 }

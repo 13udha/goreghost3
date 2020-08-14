@@ -10,11 +10,9 @@ namespace Com.UCI307.GOREGHOST3
         #region Public Fields
         [Header("Depnedencys")]
         public PlayerData player;
+        public Text textDisplay;
 
-        [Header("UI Components")]
-        public Text nameDisplay;
-        public Text creationDate;
-        public Text lastSave;
+        
         #endregion
 
         #region Monobehaviour Callbacks
@@ -25,6 +23,11 @@ namespace Com.UCI307.GOREGHOST3
         }
 
         private void Awake()
+        {
+            SetUpDisplay();
+        }
+
+        private void OnEnable()
         {
             SetUpDisplay();
         }
@@ -40,9 +43,10 @@ namespace Com.UCI307.GOREGHOST3
 
         public void SetUpDisplay()
         {
-            nameDisplay.text = player.playerName;
-            creationDate.text = player.startDate;
-            lastSave.text = player.lastSave;
+            textDisplay.text = "PLAYER STATUS";
+            textDisplay.text += "\n Name: " + player.playerName;
+            textDisplay.text += "\n Startin Date: " + player.startDate;
+            textDisplay.text += "\n Last Save: " + player.lastSave;
         }
 
         #endregion

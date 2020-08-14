@@ -28,6 +28,8 @@ MonoBehaviour:
   iFastAttackRate: 1
   iStrongAttackRange: 2
   iStrongAttackRate: 1
+  fastMagicCost: 25
+  strongMagicCost: 75
   profileImage: {fileID: 21300000, guid: bb4a30de37e625846986983d18367fe4, type: 3}
   description: cannon carl the cannon ball is actualy just a bullet
   isUnlocked: 1

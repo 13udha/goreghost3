@@ -35,6 +35,10 @@ namespace Com.UCI307.GOREGHOST3
         [Tooltip("in Attacks Per Second")]
         public float iStrongAttackRate;
 
+        [Header("Abilitys")]
+        public float fastMagicCost;
+        public float strongMagicCost;
+
         [Header("Additional Attributes")]
         public Sprite profileImage;
         [TextArea]

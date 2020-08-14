@@ -10,7 +10,7 @@ namespace Com.UCI307.GOREGHOST3
     {
         #region Public Fields
 
-        public enum PickUpType { Health, Energy, Experience }
+        public enum PickUpType { HEALTH, ENERGY, MONEY, EXP}
         public string pickUpName;
         public PickUpType pickUpType;
         public float pickUpValue;

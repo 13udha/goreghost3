@@ -26,6 +26,7 @@ namespace Com.UCI307.GOREGHOST3
             {
                 ccp.SetDirection(Vector2.left);
             }
+            
         }
 
         #endregion

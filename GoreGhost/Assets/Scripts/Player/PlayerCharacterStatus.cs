@@ -65,6 +65,18 @@ namespace Com.UCI307.GOREGHOST3
             }
             CurrentEnergy = x;
         }
+
+        public void SpendEnergy(float value)
+        {
+            if(CurrentEnergy >= value)
+            {
+                CurrentEnergy -= value;
+            }
+            else
+            {
+                throw new System.ArgumentException("Player " + index + " treid to spend " + value + " energy but only had " + CurrentEnergy + "left!!" , "original");
+            }
+        }
         #endregion
     }
 }

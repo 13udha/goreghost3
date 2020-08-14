@@ -145,7 +145,15 @@ namespace Com.UCI307.GOREGHOST3
         //Fast Magic
         private void FastMagic()
         {
-            animator.SetTrigger(animFastMagic);
+            if(data.fastMagicCost < status.CurrentEnergy)
+            {
+                animator.SetTrigger(animFastMagic);
+                status.SpendEnergy(data.fastMagicCost);
+            }
+            else
+            {
+                Debug.Log("Not Enough Energy!");
+            }
         }
         public void FastMagicCall()
         {
@@ -171,13 +179,13 @@ namespace Com.UCI307.GOREGHOST3
         {
             switch (pu.pickUpType)
             {
-                case PickUpObject.PickUpType.Health:
+                case PickUpObject.PickUpType.HEALTH:
                     status.RecoverHP(pu.pickUpValue);
                     break;
-                case PickUpObject.PickUpType.Energy:
+                case PickUpObject.PickUpType.ENERGY:
                     status.RecoverEnergy(pu.pickUpValue);
                     break;
-                case PickUpObject.PickUpType.Experience:
+                case PickUpObject.PickUpType.EXP:
                     if (data.ExperienceGain(pu.pickUpValue))
                     {
                         Debug.Log("Level Up!!");

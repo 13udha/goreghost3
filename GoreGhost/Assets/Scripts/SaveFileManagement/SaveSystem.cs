@@ -93,6 +93,7 @@ namespace Com.UCI307.GOREGHOST3
             player.startDate = save.startDate;
             player.lastSave = save.lastSave;
             player.gameState = save.gameState;
+            player.money = save.money;
             CharactersFromSave(save.chars);
         }
 
@@ -105,6 +106,7 @@ namespace Com.UCI307.GOREGHOST3
             save.startDate = player.startDate;
             save.lastSave = DateTime.Now.ToLongTimeString();
             save.gameState = player.gameState;
+            save.money = player.money;
             save.chars = CharactersToSave();
 
             //return

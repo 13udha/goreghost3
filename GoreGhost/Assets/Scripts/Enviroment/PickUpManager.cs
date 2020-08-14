@@ -10,16 +10,13 @@ namespace Com.UCI307.GOREGHOST3
 
         #region Public Fields
         [Header("Configuration")]
-        public Animator animator;
-
-        [Header("Debug")]
-        public PickUpObject debugData;
+        public PickUpObject data;
 
         #endregion
 
         #region Private Fields
 
-        private PickUpObject data;
+        private Animator anim;
 
         #endregion
 
@@ -27,11 +24,8 @@ namespace Com.UCI307.GOREGHOST3
         // Start is called before the first frame update
         void Start()
         {
-            if(debugData != null)
-            {
-                SetData(debugData);
-            }
-            
+            anim = GetComponentInChildren<Animator>();
+            SetData(data);
         }
 
         // Update is called once per frame
@@ -51,6 +45,7 @@ namespace Com.UCI307.GOREGHOST3
         public void SetData(PickUpObject newData)
         {
             this.data = newData;
+            anim.SetTrigger(data.pickUpType.ToString());
         }
 
         public PickUpObject GetData()

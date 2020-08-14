@@ -45,8 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e873bcf5e20618e4d8c5ac2df3af0a4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1108999813914416112}
-  debugData: {fileID: 11400000, guid: 96f2f48622f4da748b4a7d920e5759e2, type: 2}
+  data: {fileID: 11400000, guid: 96f2f48622f4da748b4a7d920e5759e2, type: 2}
 --- !u!61 &334539544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,7 +144,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 9187102280040788754, guid: a5f56464efa35554d84ce30f01b49df3,
+  m_Sprite: {fileID: 6669475725283904647, guid: ae4d3dacc476b004ea411587b8cb7bd7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -167,7 +166,7 @@ Animator:
   m_GameObject: {fileID: 1108999813914416114}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c054885a2f1f67d48bd276ac508ba94e, type: 2}
+  m_Controller: {fileID: 9100000, guid: b37da56f3b967cf46b77b74320dfba00, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

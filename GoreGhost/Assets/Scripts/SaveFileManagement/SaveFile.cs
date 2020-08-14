@@ -9,6 +9,7 @@ namespace Com.UCI307.GOREGHOST3
         public string startDate;
         public string lastSave;
         public int gameState;
+        public int money;
         public List<CharacterSavedState> chars;
     }
 }
