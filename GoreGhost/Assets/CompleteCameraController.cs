@@ -4,28 +4,37 @@ using UnityEngine;
 
 
 namespace Com.UCI307.GOREGHOST3 { 
-public class CompleteCameraController : MonoBehaviour
-{
+    public class CompleteCameraController : MonoBehaviour
+    {
+        #region Public Fields
 
-        private Transform player;        //Public variable to store a reference to the player game object
+        [Header("Dependencies")]
         public CharacterRuntimeSet characters;
+        public BoxCollider2D progressBorder;
+        #endregion
 
+        #region Private Fields
+
+        private bool setUp = false;
+        private Transform player;        //Public variable to store a reference to the player game object
         private Vector3 offset;            //Private variable to store the offset distance between the player and camera
+        
+        #endregion
 
+        #region MonoB Callbacks
         // Use this for initialization
         void Start()
         {
 
-            player = characters.Get()[0].gameObject.transform;
-                //GameObject.Find("Player").transform;
-        
-            //Calculate and store the offset value by getting the distance between the player's position and camera's position.
-            offset = transform.position - player.transform.position;
+            
         }
 
         // LateUpdate is called after Update each frame
         void LateUpdate()
         {
+            if (!setUp)
+                return;
+
             // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
             //transform.position = player.transform.position + offset;
             Vector3 playerpos = player.position;
@@ -33,5 +42,29 @@ public class CompleteCameraController : MonoBehaviour
             playerpos.y = transform.position.y;
             transform.position = playerpos;
         }
+        #endregion
+
+        #region Private Methods
+
+        private void SetupCamera()
+        {
+            player = characters.Get()[0].gameObject.transform;
+            //GameObject.Find("Player").transform;
+
+            //Calculate and store the offset value by getting the distance between the player's position and camera's position.
+            offset = transform.position - player.transform.position;
+            setUp = true;
+        }
+
+        #endregion
+
+        #region Event Responses
+
+        public void OnGameplayStarted()
+        {
+            SetupCamera();
+        }
+
+        #endregion
     }
 }

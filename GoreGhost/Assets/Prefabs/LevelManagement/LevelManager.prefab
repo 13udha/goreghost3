@@ -103,4 +103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac3d2de0624628d45ba556339504b068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelStarted: {fileID: 11400000, guid: c0842f98284f6194fb494d933afab6c8, type: 2}
+  introStarted: {fileID: 11400000, guid: 007196762ea20ff4cbd1e96230062c73, type: 2}
+  gameplayStarted: {fileID: 11400000, guid: daeb8d08920f0984f80b1a11b9601fb6, type: 2}
+  gameplayEnded: {fileID: 11400000, guid: db80a17f5ebb61b428658400a2dd22be, type: 2}
+  outroStarted: {fileID: 11400000, guid: 5f2fec4440794494f86fc26f9875b8e3, type: 2}
   levelEnded: {fileID: 11400000, guid: e0fd6da62c75cc042b34a8717c512f66, type: 2}

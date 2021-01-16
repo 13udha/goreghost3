@@ -25,6 +25,7 @@ namespace Com.UCI307.GOREGHOST3
         private float attackCD = 0f;
 
         private Animator animator;
+        private bool animLock;
         private static string animWalking = "Walking";
         private static string animFastAttack  = "fast-attack";
         private static string animStrongAttack = "strong-attack";
@@ -86,6 +87,11 @@ namespace Com.UCI307.GOREGHOST3
         {
             moveVector = vec;
             
+        }
+
+        public void AnimationLock(bool b)
+        {
+
         }
         #endregion
 

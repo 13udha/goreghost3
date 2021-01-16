@@ -8,10 +8,16 @@ namespace Com.UCI307.GOREGHOST3
     public class GameLevelData : ScriptableObject
     {
         #region Public Fields
+
         [Header("Info")]
         public string levelName;
         public string sceneName;
         public bool isUnlocked;
+
+        [Header("Configuration")]
+        public float spawnDelay;
+        public List<RoomConfig> rooms;
+
         #endregion
 
 

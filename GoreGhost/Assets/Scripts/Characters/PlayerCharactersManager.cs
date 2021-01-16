@@ -23,7 +23,7 @@ namespace Com.UCI307.GOREGHOST3
         // Start is called before the first frame update
         void Start()
         {
-            SpawnPlayers();
+            //SpawnPlayers();
         }
 
         // Update is called once per frame
@@ -62,7 +62,16 @@ namespace Com.UCI307.GOREGHOST3
             }
         }
 
+
+        #endregion
+
+        #region Event Responses
         
+        public void OnLevelLoaded()
+        {
+            SpawnPlayers();
+        }
+
         #endregion
     }
 }

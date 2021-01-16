@@ -248,6 +248,8 @@ MonoBehaviour:
   attackLayers:
     serializedVersion: 2
     m_Bits: 8192
+  activeEnemys: {fileID: 11400000, guid: 96898a264a3ca2e488c68d980a6bc914, type: 2}
+  mode: 0
 --- !u!50 &8308915947931337504
 Rigidbody2D:
   serializedVersion: 4

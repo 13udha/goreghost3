@@ -2,12 +2,12 @@
 This time with unity and Github ♥
 
 # News
-**06.08.2020** - Unity Version Upgrade zu 2020.1.1f1
+**16.01.2021** - Unity Version Upgrade zu 2020.2.1f1
 
 # Wiki
 [Player](MDWiki/Player.md) Spieler Eigenschaften
 
-# TODO
+# TODO Phase 1
 
 ## Spieler (Falko)
 - :heavy_check_mark: Sprites/Aniamtion

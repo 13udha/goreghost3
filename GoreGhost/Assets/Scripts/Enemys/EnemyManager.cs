@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Com.UCI307.UCINGEN;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +20,7 @@ namespace Com.UCI307.GOREGHOST3
         public Transform attackPoint;
         public Transform attackPosition;
         public LayerMask attackLayers;
+        public GameobjectTriggerSet activeEnemys;
 
         [Header("Conifg")]
         public AI_MODE mode;
@@ -75,6 +77,16 @@ namespace Com.UCI307.GOREGHOST3
         {
             if(mode == AI_MODE.WALK)
                 rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+        }
+
+        private void OnEnable()
+        {
+            activeEnemys.Add(this.gameObject);
+        }
+
+        private void OnDisable()
+        {
+            activeEnemys.Remove(this.gameObject);
         }
         #endregion
 

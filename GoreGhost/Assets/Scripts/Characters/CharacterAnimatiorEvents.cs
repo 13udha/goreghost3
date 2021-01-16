@@ -19,9 +19,18 @@ namespace Com.UCI307.GOREGHOST3
 
         #endregion
 
+        #region Public Methods
+
+        public void AnimationLock(bool b)
+        {
+            man.AnimationLock(b);
+        }
+
         public void FMagicCall()
         {
             man.FastMagicCall();
         }
+
+        #endregion
     }
 }

@@ -9,11 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
-  m_Name: Level000Data
+  m_Script: {fileID: 11500000, guid: 42ea79cd6ff9b30488a392983490cccd, type: 3}
+  m_Name: FirstEnemySpawned
   m_EditorClassIdentifier: 
-  levelName: The Beginigeru
-  sceneName: Level_000
-  isUnlocked: 1
-  spawnDelay: 0
-  rooms: []
