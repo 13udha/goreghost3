@@ -74,13 +74,10 @@ namespace Com.UCI307.GOREGHOST3
 
         private void InitialSetUpRooms()
         {
-
+            // TODO: is this neccesary?
         }
 
-        private void LoadCurrentRoom()
-        {
-            RoomConfig r = data.rooms[currentRoom];
-        }
+
         
         #endregion
     }

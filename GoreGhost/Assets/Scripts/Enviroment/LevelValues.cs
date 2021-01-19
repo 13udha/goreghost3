@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static Com.UCI307.GOREGHOST3.RoomConfig;
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -23,29 +22,13 @@ namespace Com.UCI307.GOREGHOST3
         public float roomMediumSize;
         public float roomLargeSize;
         public float roomExtraLargeSize;
-
-        public List<RoomConfig> listTest;
+        
 
         #endregion
 
         #region Public Methods
         
-        public float GetRoomSize(RoomSize s)
-        {
-            switch (s)
-            {
-                case RoomSize.Small:
-                    return roomSmallSize * defaultRoomSize;
-                case RoomSize.Medium:
-                    return roomMediumSize * defaultRoomSize;
-                case RoomSize.Large:
-                    return roomLargeSize * defaultRoomSize;
-                case RoomSize.ExtraLarge:
-                    return roomExtraLargeSize * defaultRoomSize;
-                default:
-                    return roomMinSize * defaultRoomSize;
-            }
-        }
+
         
         #endregion
     }

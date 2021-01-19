@@ -10,7 +10,6 @@ namespace Com.UCI307.GOREGHOST3 {
 
         [Header("Dependencies")]
         public CharacterRuntimeSet characters;
-        public BoxCollider2D progressBorder;
         #endregion
 
         #region Private Fields
@@ -25,7 +24,6 @@ namespace Com.UCI307.GOREGHOST3 {
         // Use this for initialization
         void Start()
         {
-
             
         }
 
@@ -50,6 +48,7 @@ namespace Com.UCI307.GOREGHOST3 {
         {
             player = characters.Get()[0].gameObject.transform;
             //GameObject.Find("Player").transform;
+            // TODO: find player
 
             //Calculate and store the offset value by getting the distance between the player's position and camera's position.
             offset = transform.position - player.transform.position;
