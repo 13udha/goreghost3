@@ -292,7 +292,8 @@ MonoBehaviour:
   - {fileID: 5030974299378121181, guid: 90f6bf50a3b18c4479a074a060a9abaf, type: 3}
   enemysToSpawn:
   - {x: 0, y: 10}
-  activeEnemys: {fileID: 0}
+  activeEnemys: {fileID: 11400000, guid: 96898a264a3ca2e488c68d980a6bc914, type: 2}
+  preBarrier: {fileID: 273808198600545460}
   spawnPoints:
   - {fileID: 8178824291594812757}
   - {fileID: 4186836086419161535}

@@ -25,14 +25,15 @@ namespace Com.UCI307.GOREGHOST3
         public List<Vector2> enemysToSpawn;
 
         [Header("Dependencies")]
-        public GameObjectSet activeEnemys;
+        public GameobjectTriggerSet activeEnemys;
+        public GameObject preBarrier;
         public List<Transform> spawnPoints;
 
         #endregion
 
         #region Private Fields
 
-        private bool isActiveRoom;
+        private bool isDormantRoom;
 
         private int currentSpawnPoint;
         private float respawnTimePoint;
@@ -45,7 +46,7 @@ namespace Com.UCI307.GOREGHOST3
         // Start is called before the first frame update
         void Start()
         {
-            isActiveRoom = false;
+            isDormantRoom = true;
             currentSpawnPoint = 0;
             respawnTimePoint = Time.time + respawnTimer;
         }
@@ -60,21 +61,12 @@ namespace Com.UCI307.GOREGHOST3
 
         #region Public Methods
 
-        public void ActivateRoom()
+        public void WakeUpRoom()
         {
             //Var initializiation
-            isActiveRoom = true;
+            isDormantRoom = false;
             
             currentSpawnPoint = 0;
-
-            
-
-            foreach(ARoomboundObject a in objs)
-            {
-                a.gameObject.SetActive(true);
-                a.OnRoomActivation();
-            }
-
             
             for(int i = 0; i < initialSpawn; i++)
             {
@@ -97,6 +89,12 @@ namespace Com.UCI307.GOREGHOST3
         {
 
         }
+
+        public void LayRoomDormant()
+        {
+            isDormantRoom = true;
+        }
+
         #endregion
 
         #region Private Methods

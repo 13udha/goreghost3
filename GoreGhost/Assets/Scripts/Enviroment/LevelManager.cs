@@ -41,11 +41,7 @@ namespace Com.UCI307.GOREGHOST3
             if (data == null)
                 throw new Exception("No Level Data Set on Level Manager");
 
-            //Collect All Rooms in Scene
-            rooms = FindObjectsOfType<RoomManager>();
-
-            cam = FindObjectOfType<CompleteCameraController>();
-            currentRoom = 0;
+            
             InitialSetUpRooms();
 
             gameplayStarted.Raise();
@@ -74,10 +70,17 @@ namespace Com.UCI307.GOREGHOST3
 
         private void InitialSetUpRooms()
         {
-            // TODO: is this neccesary?
+            //Collect All Rooms in Scene
+            rooms = FindObjectsOfType<RoomManager>();
+
+            cam = FindObjectOfType<CompleteCameraController>();
+            currentRoom = 0;
+
+            foreach ( RoomManager r in rooms)
+            {
+                r.LayRoomDormant();
+            }
         }
-
-
         
         #endregion
     }
