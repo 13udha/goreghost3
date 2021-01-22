@@ -7,6 +7,9 @@ namespace Com.UCI307.GOREGHOST3 {
     public class CompleteCameraController : MonoBehaviour
     {
         #region Public Fields
+        [Header("Configuration")]
+        public Vector2 minimumCameraPos;
+        public Vector2 maximumCameraPos;
 
         [Header("Dependencies")]
         public CharacterRuntimeSet characters;
@@ -37,8 +40,8 @@ namespace Com.UCI307.GOREGHOST3 {
             //transform.position = player.transform.position + offset;
             Vector3 playerpos = player.position;
             playerpos.z = transform.position.z;
-            playerpos.y = transform.position.y;
-            transform.position = playerpos;
+            //playerpos.y = transform.position.y;
+            transform.position = new Vector3(Mathf.Clamp(playerpos.x, minimumCameraPos.x, maximumCameraPos.x), Mathf.Clamp(playerpos.y, minimumCameraPos.y, maximumCameraPos.y), transform.position.z);
         }
         #endregion
 

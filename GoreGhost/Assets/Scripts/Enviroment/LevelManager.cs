@@ -74,14 +74,61 @@ namespace Com.UCI307.GOREGHOST3
             rooms = FindObjectsOfType<RoomManager>();
 
             cam = FindObjectOfType<CompleteCameraController>();
-            currentRoom = 0;
+            currentRoom = 1;
 
-            foreach ( RoomManager r in rooms)
+            foreach (RoomManager r in rooms)
             {
                 r.LayRoomDormant();
+                r.gameObject.SetActive(false);
             }
+
+            RoomSetup(currentRoom);
         }
         
+        private void RoomSetup(int x)
+        {
+            foreach (RoomManager r in rooms)
+            {
+                if(r.roomSeqNr == x)
+                {
+                    Debug.Log("room " + x + " activated");
+                    r.gameObject.SetActive(true);
+                    r.WakeUpRoom();
+                }
+            }
+        }
+
+        private void NextRoom()
+        {
+            if(currentRoom >= rooms.Length)
+            {
+                AllRoomsCleared();
+            }
+            else
+            {
+                Debug.Log(Time.time + "Next Room Called: Switching from Room " + currentRoom + " to Room " + currentRoom + 1 );
+                rooms[currentRoom].LayRoomDormant();
+                rooms[currentRoom].gameObject.SetActive(false);
+                currentRoom++;
+                RoomSetup(currentRoom);
+            }
+            
+        }
+
+        private void AllRoomsCleared()
+        {
+            gameplayEnded.Raise();
+            EndCurrentLevel();
+        }
+        #endregion
+
+        #region Event Responses
+
+        public void OnRoomClear()
+        {
+            NextRoom();
+        }
+
         #endregion
     }
 }

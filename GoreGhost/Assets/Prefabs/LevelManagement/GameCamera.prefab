@@ -97,8 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef400ecc2b412ae49a270ae78382f2c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumCameraPos: {x: 0, y: 0}
+  maximumCameraPos: {x: 86.86, y: 6.48}
   characters: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
-  progressBorder: {fileID: 0}
 --- !u!1 &7961116287064635819
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 456229296643506456}
+  - component: {fileID: 174576124}
   m_Layer: 0
   m_Name: GameEventListeners
   m_TagString: Untagged
@@ -129,3 +131,32 @@ Transform:
   m_Father: {fileID: 222956907360505988}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &174576124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7961116287064635819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f0124ed2968e64e86313b5b187a7f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: daeb8d08920f0984f80b1a11b9601fb6, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 222956907360505989}
+        m_TargetAssemblyTypeName: Com.UCI307.GOREGHOST3.CompleteCameraController,
+          Assembly-CSharp
+        m_MethodName: OnGameplayStarted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

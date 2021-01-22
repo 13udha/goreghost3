@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960104950}
   - component: {fileID: 1960104951}
+  - component: {fileID: 1764108670}
   m_Layer: 0
   m_Name: EventResponses
   m_TagString: Untagged
@@ -50,6 +51,34 @@ MonoBehaviour:
       - m_Target: {fileID: 2054761596}
         m_TargetAssemblyTypeName: Com.UCI307.GOREGHOST3.LevelManager, Assembly-CSharp
         m_MethodName: EndCurrentLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1764108670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960104949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f0124ed2968e64e86313b5b187a7f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 41c0b5f2dc6db8b42b8c56da1ebcea41, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2054761596}
+        m_TargetAssemblyTypeName: Com.UCI307.GOREGHOST3.LevelManager, Assembly-CSharp
+        m_MethodName: OnRoomClear
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -103,9 +132,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac3d2de0624628d45ba556339504b068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 6eb5672491644104788b2f116210f4b1, type: 2}
   levelStarted: {fileID: 11400000, guid: c0842f98284f6194fb494d933afab6c8, type: 2}
   introStarted: {fileID: 11400000, guid: 007196762ea20ff4cbd1e96230062c73, type: 2}
   gameplayStarted: {fileID: 11400000, guid: daeb8d08920f0984f80b1a11b9601fb6, type: 2}
   gameplayEnded: {fileID: 11400000, guid: db80a17f5ebb61b428658400a2dd22be, type: 2}
   outroStarted: {fileID: 11400000, guid: 5f2fec4440794494f86fc26f9875b8e3, type: 2}
   levelEnded: {fileID: 11400000, guid: e0fd6da62c75cc042b34a8717c512f66, type: 2}
+  rooms: []
