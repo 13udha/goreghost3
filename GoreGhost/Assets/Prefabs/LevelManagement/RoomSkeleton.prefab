@@ -360,10 +360,6 @@ MonoBehaviour:
   - {fileID: 4186836086419161535}
   - {fileID: 7444780878542543215}
   - {fileID: 2421812330658629958}
-  isDormantRoom: 0
-  currentSpawnPoint: 0
-  respawnTimePoint: 0
-  currentTime: 0
 --- !u!1 &7144429580479690732
 GameObject:
   m_ObjectHideFlags: 0

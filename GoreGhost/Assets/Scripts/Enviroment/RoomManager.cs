@@ -136,9 +136,9 @@ namespace Com.UCI307.GOREGHOST3
 
         public void OnLastEnemyKilled()
         {
-           if(enemysToSpawn.Count==0 && clearOn == RoomClearCondition.Enemys)
+           if(enemysToSpawn.Count==0 && clearOn == RoomClearCondition.Enemys && !isDormantRoom)
             {
-                Debug.Log("No ENemys anmyore!");
+                Debug.Log(Time.time + " - Room " + roomSeqNr + ": No Enemys anmyore!");
                 roomCleared.Raise();
             }
         }

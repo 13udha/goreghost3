@@ -106,9 +106,10 @@ namespace Com.UCI307.GOREGHOST3
             }
             else
             {
-                Debug.Log(Time.time + "Next Room Called: Switching from Room " + currentRoom + " to Room " + currentRoom + 1 );
+                Debug.Log(Time.time + "Next Room Called: Switching from Room " + currentRoom + " to Room " + (currentRoom + 1) );
                 rooms[currentRoom].LayRoomDormant();
-                rooms[currentRoom].gameObject.SetActive(false);
+                Debug.Log("----------------- SeqNr is:" + rooms[currentRoom].roomSeqNr + "----- N is" + (currentRoom+1));
+                GetRoom(currentRoom).gameObject.SetActive(false);
                 currentRoom++;
                 RoomSetup(currentRoom);
             }
@@ -119,6 +120,18 @@ namespace Com.UCI307.GOREGHOST3
         {
             gameplayEnded.Raise();
             EndCurrentLevel();
+        }
+
+        private RoomManager GetRoom(int n)
+        {
+            foreach ( RoomManager r in rooms)
+            {
+                if(r.roomSeqNr == n)
+                {
+                    return r;
+                }
+            }
+            throw new Exception();
         }
         #endregion
 
