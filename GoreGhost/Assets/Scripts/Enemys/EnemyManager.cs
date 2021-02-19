@@ -5,15 +5,13 @@ using UnityEngine;
 
 namespace Com.UCI307.GOREGHOST3
 {
-    public class EnemyManager : MonoBehaviour, IDamagable
+    public class EnemyManager : AEnemy, IDamagable
     {
         #region Public Fields
 
-        public enum AI_MODE { WALK, ATTACK, WAIT, FIND, STUNNED, DEAD};
-
         [Header("Dependencies")]
         public EnemyValues values;
-        public EnemyObject data;
+        public MinionObject data;
         public Animator anim;
         public Rigidbody2D rb;
         public CharacterRuntimeSet players;
@@ -22,8 +20,6 @@ namespace Com.UCI307.GOREGHOST3
         public LayerMask attackLayers;
         public GameobjectTriggerSet activeEnemys;
 
-        [Header("Conifg")]
-        public AI_MODE mode;
         #endregion
 
         #region Private Fields
@@ -31,11 +27,11 @@ namespace Com.UCI307.GOREGHOST3
         //Target
         private CharacterManager target;
         private Transform targetCords;
-        private float retargetingTime;
+        
 
         //Local Vars
         private string enemyName;
-        private float health;
+
         private bool stunned;
 
         //ANIM
@@ -43,8 +39,6 @@ namespace Com.UCI307.GOREGHOST3
         private static string ANIM_ATTACK = "attack";
         private static string ANIM_HITSTUN = "hitStun";
         private static string ANIM_DEATH = "death";
-
-        private float corpseTimer = 0;
 
         //Movement
         private Vector2 moveVelocity;
@@ -62,8 +56,8 @@ namespace Com.UCI307.GOREGHOST3
         // Start is called before the first frame update
         void Start()
         {
-            mode = AI_MODE.FIND;
-            retargetingTime = Time.time + values.startupDelay;
+            mode = AI_MODE.SETUP;
+            resetTime = Time.time + values.startupDelay;
             ReadFromData();
         }
 
@@ -91,14 +85,14 @@ namespace Com.UCI307.GOREGHOST3
         #endregion
 
         #region Damagable Implementation
-        public void TakeDamage(float damage)
+        public override void TakeDamage(float damage)
         {
             if (mode == AI_MODE.DEAD)
                 return;
 
             anim.SetTrigger(ANIM_HITSTUN);
             health -= damage;
-            mode = AI_MODE.STUNNED;
+            mode = AI_MODE.REACT;
             if(0 >= health)
             {
                 Die();
@@ -120,56 +114,21 @@ namespace Com.UCI307.GOREGHOST3
             health = data.health;
         }
 
-        
+
 
         private void Die()
         {
             mode = AI_MODE.DEAD;
             anim.SetTrigger(ANIM_DEATH);
-            corpseTimer = Time.time + values.corpseTimer;
+            despawnTimer = Time.time + values.corpseTimer;
         }
         #endregion
 
         #region Behaviour
 
-        private void Behaviour()
-        {
 
 
-            //corpseTime
-            if (corpseTimer != 0 && Time.time >= corpseTimer)
-            {
-                GameObject.Destroy(this.gameObject);
-            }
-
-            switch (mode)
-            {
-                case AI_MODE.ATTACK:
-                    Attacking();
-                    break;
-                case AI_MODE.WALK:
-                    //movement
-                    Movement();
-                    break;
-                case AI_MODE.WAIT:
-                    break;
-                case AI_MODE.FIND:
-                    if (Time.time >= retargetingTime)
-                    {
-                        GetTarget();
-                    }
-                    break;
-                case AI_MODE.STUNNED:
-                    Stunned();
-                    break;
-                case AI_MODE.DEAD:
-                    break;
-            }
-
-                
-        }
-
-        private void GetTarget()
+        protected override void SetUp()
         {
             int x = Random.Range(0, (players.Get().Count));
             target = players.Get()[x];
@@ -177,7 +136,7 @@ namespace Com.UCI307.GOREGHOST3
             mode = AI_MODE.WALK;
         }
 
-        private void Movement()
+        protected override void Movement()
         {
             //Aiming
             Vector2 direction = targetCords.position - attackPosition.position;
@@ -208,12 +167,12 @@ namespace Com.UCI307.GOREGHOST3
             if(Vector3.Distance(attackPoint.position, targetCords.position) < data.attackRange)
             {
                 anim.SetBool(ANIM_WALKING, false);
-                mode = AI_MODE.ATTACK;
+                mode = AI_MODE.ACT;
                 nextAttack = Time.time + (Random.Range(data.minAttackTime, data.maxAttackTime));
             }
         }
 
-        private void Attacking()
+        protected override void Acting()
         {
             //setup
             if(maxConsecAttacks == 0)
@@ -235,7 +194,7 @@ namespace Com.UCI307.GOREGHOST3
                 if(hitEnemys.Length == 0)
                 {
                     maxConsecAttacks = 0;
-                    mode = AI_MODE.FIND;
+                    mode = AI_MODE.SETUP;
                 }
 
                 //set new timer
@@ -247,11 +206,11 @@ namespace Com.UCI307.GOREGHOST3
             if (maxConsecAttacks == currentConsecAttacks)
             {
                 maxConsecAttacks = 0;
-                mode = AI_MODE.FIND;
+                mode = AI_MODE.SETUP;
             }
         }
 
-        private void Stunned()
+        protected override void Reacting()
         {
             //setup
             if(stunnedTimer == 0)
@@ -265,8 +224,14 @@ namespace Com.UCI307.GOREGHOST3
             if(Time.time > stunnedTimer)
             {
                 stunnedTimer = 0;
-                mode = AI_MODE.FIND;
+                mode = AI_MODE.SETUP;
             }
+        }
+
+        protected override void Dead()
+        {
+            //TODO: implement
+            //throw new System.NotImplementedException();
         }
         #endregion
     }

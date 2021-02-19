@@ -8,11 +8,14 @@ namespace Com.UCI307.GOREGHOST3 {
     public class LevelButton : MonoBehaviour
     {
         #region Public Fields
+
         [Header("Dependencys")]
         public GameLevelData data;
         public GameSetupMenuManager manager;
-        [Header("UI Components")]
+        public Button button;
         public Text levelNameDisplay;
+        public Image cleared;
+        
         #endregion
 
         #region MonoBehaviour Callbacks
@@ -40,7 +43,13 @@ namespace Com.UCI307.GOREGHOST3 {
 
         public void SetLevel()
         {
-            manager.nextLevel = data;
+            Debug.Log("-----------------------------------------");
+            manager.SetNextLevel(data);
+        }
+
+        public void OnLevelStatesUpdated()
+        {
+            SetUpButton();
         }
 
         #endregion
@@ -49,6 +58,24 @@ namespace Com.UCI307.GOREGHOST3 {
 
         private void SetUpButton()
         {
+            switch (data.levelState)
+            {
+                case 0: //lvl locked
+                    button.interactable = false;
+                    cleared.gameObject.SetActive(false);
+                    break;
+                case 1: //lvl unlocked
+                    button.interactable = true;
+                    cleared.gameObject.SetActive(false);
+                    break;
+                case 2: //lvl completed
+                    button.interactable = true;
+                    cleared.gameObject.SetActive(true);
+                    break;
+                default:
+                    break;
+            }
+
             levelNameDisplay.text = data.levelName;
         }
 

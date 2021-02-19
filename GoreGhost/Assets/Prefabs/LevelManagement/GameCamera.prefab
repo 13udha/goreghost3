@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minimumCameraPos: {x: 0, y: 0}
-  maximumCameraPos: {x: 86.86, y: 6.48}
+  maximumCameraPos: {x: 56.64, y: 6.48}
   characters: {fileID: 11400000, guid: baa43acb2225c2e4cb4603e920080ade, type: 2}
 --- !u!1 &7961116287064635819
 GameObject:

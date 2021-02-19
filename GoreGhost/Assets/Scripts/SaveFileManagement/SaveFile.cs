@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Com.UCI307.GOREGHOST3
 {
@@ -11,5 +12,6 @@ namespace Com.UCI307.GOREGHOST3
         public int gameState;
         public int money;
         public List<CharacterSavedState> chars;
+        public List<LevelSavedState> lvlStates;
     }
 }

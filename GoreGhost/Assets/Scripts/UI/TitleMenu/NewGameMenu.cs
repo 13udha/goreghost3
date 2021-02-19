@@ -13,6 +13,7 @@ namespace Com.UCI307.GOREGHOST3
         public PlayerData player;
         public SaveSystem savesys;
         public Text nameInput;
+        public GameLevelCollection levels;
 
         #endregion
 
@@ -43,6 +44,7 @@ namespace Com.UCI307.GOREGHOST3
             {
                 player.playerName = nameInput.text;
                 player.startDate = DateTime.Now.ToLongTimeString();
+                levels.ResetProgress();
                 player.lastSave = player.startDate;
                 savesys.SaveGameState();
             }

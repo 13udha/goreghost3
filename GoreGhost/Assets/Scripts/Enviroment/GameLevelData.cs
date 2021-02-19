@@ -4,15 +4,16 @@ using UnityEngine;
 
 namespace Com.UCI307.GOREGHOST3
 {
-    [CreateAssetMenu(fileName = "New LevelData", menuName = "GoreGhost3/GameLevelData")]
+    [CreateAssetMenu(fileName = "New LevelData", menuName = "GoreGhost3/GameContent/Level/GameLevelData")]
     public class GameLevelData : ScriptableObject
     {
         #region Public Fields
 
         [Header("Info")]
+        public float levelID;
         public string levelName;
         public string sceneName;
-        public bool isUnlocked;
+        public float levelState;
 
         [Header("Configuration")]
         public float spawnDelay;

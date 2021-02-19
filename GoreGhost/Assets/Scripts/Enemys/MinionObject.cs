@@ -5,16 +5,16 @@ using UnityEngine;
 namespace Com.UCI307.GOREGHOST3
 {
     [CreateAssetMenu(fileName = ("New Enemy Object"), menuName = ("GoreGhost3/GameContent/Enemy Data"))]
-    public class EnemyObject : ScriptableObject
+    public class MinionObject : AEnemyObject
     {
         #region Public Fields
 
-        [Header("Config")]
+        [Header("Enemy Config")]
         public string enemyName;
         [TextArea]
         public string description;
 
-        [Header("Attributes")]
+        [Header("Enemy Attributes")]
         public float health;
         public float movementSpeed;
 
@@ -24,8 +24,6 @@ namespace Com.UCI307.GOREGHOST3
         public float minAttackTime;
         public float maxAttackTime;
         public int maxConsecutiveAttacks;
-
-
 
         [Header("Dependencies")]
         public GameObject prefab;

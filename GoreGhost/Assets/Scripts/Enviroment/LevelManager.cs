@@ -118,6 +118,7 @@ namespace Com.UCI307.GOREGHOST3
 
         private void AllRoomsCleared()
         {
+            data.levelState = 2;
             gameplayEnded.Raise();
             EndCurrentLevel();
         }

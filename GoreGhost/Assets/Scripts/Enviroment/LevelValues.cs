@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Com.UCI307.GOREGHOST3
 {
-    [CreateAssetMenu(fileName = "New Level Values", menuName = "GoreGhost3/Configuration/Level Values")]
+    [CreateAssetMenu(fileName = "New Level Values", menuName = "GoreGhost3/GameContent/Level/Level Values")]
     public class LevelValues : ScriptableObject
     {
         #region Public Fields
@@ -14,15 +14,6 @@ namespace Com.UCI307.GOREGHOST3
         public float minScreenY;
         public float maxScreenY;
         public Vector3 initialScreenPos;
-
-        [Header("Room Configurations")]
-        public float defaultRoomSize;
-        public float roomMinSize;
-        public float roomSmallSize;
-        public float roomMediumSize;
-        public float roomLargeSize;
-        public float roomExtraLargeSize;
-        
 
         #endregion
 

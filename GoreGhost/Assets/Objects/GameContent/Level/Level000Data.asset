@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
   m_Name: Level000Data
   m_EditorClassIdentifier: 
+  levelID: 0
   levelName: The Beginigeru
   sceneName: Level_000
-  isUnlocked: 1
+  levelState: 0
   spawnDelay: 0
-  rooms: []

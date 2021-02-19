@@ -14,6 +14,7 @@ namespace Com.UCI307.GOREGHOST3
         [Header("Dependencys")]
         public PlayerData player;
         public CharacterCollection charCollec;
+        public GameLevelCollection lvlCollec;
 
         [Header("Save File Configuration")]
         [Tooltip("Defines where the save file will be placed")]
@@ -24,7 +25,6 @@ namespace Com.UCI307.GOREGHOST3
         public string fileEnding;
         #endregion
 
-        
         #region Public Methods
 
         public void SaveGameState()
@@ -65,6 +65,44 @@ namespace Com.UCI307.GOREGHOST3
         #endregion
 
         #region Private Methods
+        private void PlayerFromSave(SaveFile save)
+        {
+            //Straight Variable Transfers
+            Debug.Log(this.name + " -- Loading Player State...");
+            player.playerName = save.playerName;
+            player.startDate = save.startDate;
+            player.lastSave = save.lastSave;
+            player.gameState = save.gameState;
+            player.money = save.money;
+
+            Debug.Log(this.name + " -- Loading Character States...");
+            CharactersFromSave(save.chars);
+
+            Debug.Log(this.name + " -- Loading Level States...");
+            LevelStatesFromSave(save.lvlStates);
+        }
+
+        private SaveFile PlayerToSave()
+        {
+            SaveFile save = new SaveFile();
+
+            //Straight Variable Transfers
+            Debug.Log(this.name + " -- Saving Player State...");
+            save.playerName = player.playerName;
+            save.startDate = player.startDate;
+            save.lastSave = DateTime.Now.ToLongTimeString();
+            save.gameState = player.gameState;
+            save.money = player.money;
+
+            Debug.Log(this.name + " -- Saving Character States...");
+            save.chars = CharactersToSave();
+
+            Debug.Log(this.name + " -- Saving Level States...");
+            save.lvlStates = LevelStatesToSave();
+
+            //return
+            return save;
+        }
 
         private List<CharacterSavedState> CharactersToSave()
         {
@@ -86,33 +124,32 @@ namespace Com.UCI307.GOREGHOST3
             }
         }
 
-        private void PlayerFromSave(SaveFile save)
+        private List<LevelSavedState> LevelStatesToSave()
         {
-            //Straight Variable Transfers
-            player.playerName = save.playerName;
-            player.startDate = save.startDate;
-            player.lastSave = save.lastSave;
-            player.gameState = save.gameState;
-            player.money = save.money;
-            CharactersFromSave(save.chars);
+            List<LevelSavedState> ret = new List<LevelSavedState>();
+
+            for(int i = 0; i < lvlCollec.levels.Count; i++)
+            {
+                //Combining Level ID and State to one Vector2 for easy saving
+                ret.Add(new LevelSavedState(lvlCollec.levels[i].levelID, lvlCollec.levels[i].levelState));
+            }
+
+            return ret;
         }
 
-        private SaveFile PlayerToSave()
+        private void LevelStatesFromSave(List<LevelSavedState> lst)
         {
-            SaveFile save = new SaveFile();
-
-            //Straight Variable Transfers
-            save.playerName = player.playerName;
-            save.startDate = player.startDate;
-            save.lastSave = DateTime.Now.ToLongTimeString();
-            save.gameState = player.gameState;
-            save.money = player.money;
-            save.chars = CharactersToSave();
-
-            //return
-            return save;
+            foreach(LevelSavedState v in lst)
+            {
+                for(int i = 0; i < lvlCollec.levels.Count; i++)
+                {
+                    if(lvlCollec.levels[i].levelID == v.lvlID)
+                    {
+                        lvlCollec.levels[i].levelState = v.lvlState;
+                    }
+                }
+            }
         }
-
         #endregion
     }
 }

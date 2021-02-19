@@ -8,6 +8,6 @@ namespace Com.UCI307.GOREGHOST3
     public class EnemyCollection : ScriptableObject
     {
         [Header("Content")]
-        public List<EnemyObject> enemys;
+        public List<MinionObject> enemys;
     }
 }

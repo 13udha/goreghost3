@@ -67,7 +67,7 @@ namespace Com.UCI307.GOREGHOST3
         {
             //Var initializiation
             isDormantRoom = false;
-            preBarrier.SetActive(true);
+            preBarrier.SetActive(false);
             
             currentSpawnPoint = 0;
             
@@ -139,7 +139,8 @@ namespace Com.UCI307.GOREGHOST3
            if(enemysToSpawn.Count==0 && clearOn == RoomClearCondition.Enemys && !isDormantRoom)
             {
                 Debug.Log(Time.time + " - Room " + roomSeqNr + ": No Enemys anmyore!");
-                roomCleared.Raise();
+                //roomCleared.Raise();
+                preBarrier.gameObject.SetActive(true);
             }
         }
 
