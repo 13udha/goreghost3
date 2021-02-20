@@ -16,5 +16,4 @@ namespace Com.UCI307.GOREGHOST3
         /// <param name="damage"> The Damage this Object is supposed to take</param>
         void TakeDamage(float damage);
     }
-
 }

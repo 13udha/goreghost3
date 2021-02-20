@@ -15,5 +15,5 @@ MonoBehaviour:
   levelID: 0
   levelName: The Beginigeru
   sceneName: Level_000
-  levelState: 2
+  levelState: 0
   spawnDelay: 0
