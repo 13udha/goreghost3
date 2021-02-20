@@ -18,6 +18,9 @@ namespace Com.UCI307.GOREGHOST3
         [Header("Configuration")]
         public float spawnDelay;
 
+        
+        public AudioClip DefaultMusic;
+
         #endregion
 
 
