@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfa03fb63475b764f8b051f91cb2b1dc, type: 3}
   m_Name: Enemy_0000
   m_EditorClassIdentifier: 
+  ExpValue: 50
   enemyName: TestEnemy
   description: This is the Enemy Description for TestEnemy.
   health: 10

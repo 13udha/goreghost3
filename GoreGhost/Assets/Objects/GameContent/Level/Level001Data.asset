@@ -15,6 +15,6 @@ MonoBehaviour:
   levelID: 1
   levelName: Falkos Test Levle <3
   sceneName: Level_001
-  levelState: 1
+  levelState: 0
   spawnDelay: 0
   DefaultMusic: {fileID: 8300000, guid: e5acfc05047939f4589ebb171e5f90a4, type: 3}

@@ -15,6 +15,6 @@ MonoBehaviour:
   levelID: 0
   levelName: The Beginigeru
   sceneName: Level_000
-  levelState: 2
+  levelState: 0
   spawnDelay: 0
   DefaultMusic: {fileID: 8300000, guid: e5acfc05047939f4589ebb171e5f90a4, type: 3}

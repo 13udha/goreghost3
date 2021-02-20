@@ -28,7 +28,6 @@ namespace Com.UCI307.GOREGHOST3
         private CharacterManager target;
         private Transform targetCords;
         
-
         //Local Vars
         private string enemyName;
 
@@ -50,6 +49,8 @@ namespace Com.UCI307.GOREGHOST3
 
         //Stunned
         private float stunnedTimer;
+
+        protected string EnemyName { get => enemyName; set => enemyName = value; }
         #endregion
 
         #region Monobehaviour Callbacks
@@ -110,7 +111,7 @@ namespace Com.UCI307.GOREGHOST3
 
         private void ReadFromData()
         {
-            enemyName = data.enemyName;
+            EnemyName = data.enemyName;
             health = data.health;
         }
 
