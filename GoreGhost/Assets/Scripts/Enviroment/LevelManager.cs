@@ -13,6 +13,9 @@ namespace Com.UCI307.GOREGHOST3
 
         [Header("Dependencies")]
         public GameLevelData data;
+        public AudioSource audioPlayer;
+
+        public SoundSetting soundSettings;
 
         [Header("Events")]
         public GameEvent levelStarted;
@@ -37,7 +40,7 @@ namespace Com.UCI307.GOREGHOST3
         void Start()
         {
             levelStarted.Raise();
-
+            playMusic();
             if (data == null)
                 throw new Exception("No Level Data Set on Level Manager");
 
@@ -45,6 +48,14 @@ namespace Com.UCI307.GOREGHOST3
             InitialSetUpRooms();
 
             gameplayStarted.Raise();
+        }
+
+
+        void playMusic()
+        {
+            audioPlayer.clip = data.DefaultMusic; 
+            audioPlayer.Play();
+
         }
 
         // Update is called once per frame

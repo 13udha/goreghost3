@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57ba73e4a3851834e9afdaa7e8cf4601, type: 3}
-  m_Name: Level001Data
+  m_Script: {fileID: 11500000, guid: 6be5c88dfa28828448fb8eaa88c7c273, type: 3}
+  m_Name: SoundSettings
   m_EditorClassIdentifier: 
-  levelID: 1
-  levelName: Falkos Test Levle <3
-  sceneName: Level_001
-  levelState: 0
-  spawnDelay: 0
-  DefaultMusic: {fileID: 8300000, guid: e5acfc05047939f4589ebb171e5f90a4, type: 3}
+  AmbientSoundVolume: 69
+  EffektSoundVolume: 69
