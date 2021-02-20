@@ -15,5 +15,5 @@ MonoBehaviour:
   levelID: 1
   levelName: Falkos Test Levle <3
   sceneName: Level_001
-  levelState: 0
+  levelState: 1
   spawnDelay: 0
