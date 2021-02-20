@@ -10,8 +10,8 @@ namespace Com.UCI307.GOREGHOST3
         #region Public Fields
 
         [Header("Volume")]
-        public float AmbientSoundVolume = 30;
-        public float EffektSoundVolume = 50;
+        public float AmbientSoundVolume = 0.3f;
+        public float EffektSoundVolume = 0.5f;
 
 
         #endregion

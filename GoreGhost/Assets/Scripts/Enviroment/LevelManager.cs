@@ -54,6 +54,7 @@ namespace Com.UCI307.GOREGHOST3
         void playMusic()
         {
             audioPlayer.clip = data.DefaultMusic; 
+            audioPlayer.volume= soundSettings.AmbientSoundVolume;
             audioPlayer.Play();
 
         }

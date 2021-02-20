@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be5c88dfa28828448fb8eaa88c7c273, type: 3}
   m_Name: SoundSettings
   m_EditorClassIdentifier: 
-  AmbientSoundVolume: 69
-  EffektSoundVolume: 69
+  AmbientSoundVolume: 0.9
+  EffektSoundVolume: 0.9
