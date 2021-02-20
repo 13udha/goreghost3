@@ -2983,7 +2983,7 @@ MonoBehaviour:
   player: {fileID: 11400000, guid: 09e318ec44a5135488aebfbdfb7b5162, type: 2}
   savesys: {fileID: 11400000, guid: 4aec66d5d516d764ebe50a088979349c, type: 2}
   nameInput: {fileID: 3358801}
-  levels: {fileID: 0}
+  levels: {fileID: 11400000, guid: 787595b83065a4d41bfc5aaef62cb24a, type: 2}
 --- !u!1001 &6149143884323758140
 PrefabInstance:
   m_ObjectHideFlags: 0
