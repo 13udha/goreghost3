@@ -22,6 +22,17 @@ namespace Com.UCI307.GOREGHOST3
         protected float despawnTimer = 0;
 
         protected float resetTime;
+
+        #endregion
+
+        #region Monobehaviour Callbacks
+
+
+        void Update()
+        {
+            Behaviour();
+        }
+
         #endregion
 
         #region Behaviour

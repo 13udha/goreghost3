@@ -60,13 +60,11 @@ namespace Com.UCI307.GOREGHOST3
             mode = AI_MODE.SETUP;
             resetTime = Time.time + values.startupDelay;
             ReadFromData();
+            AudioSource x = new AudioSource();
         }
 
         // Update is called once per frame
-        void Update()
-        {
-            Behaviour();
-        }
+
 
         private void FixedUpdate()
         {
@@ -124,7 +122,7 @@ namespace Com.UCI307.GOREGHOST3
             despawnTimer = Time.time + values.corpseTimer;
         }
         #endregion
-
+       
         #region Behaviour
 
 
